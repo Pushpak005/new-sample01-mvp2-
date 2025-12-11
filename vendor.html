@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <title>Vendor Dashboard • Healthy Diet</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="bg">
+
+  <div class="phone">
+    
+    <!-- Login Screen -->
+    <div id="loginScreen">
+      <header class="topbar">
+        <div class="topbar-left">
+          <span style="font-weight: 700;">🏪 Vendor Login</span>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="panel">
+          <h3>Restaurant Login</h3>
+          <p style="color: var(--muted); font-size: 14px; margin-bottom: 16px;">
+            Select your restaurant and enter PIN to access orders.
+          </p>
+          
+          <form id="loginForm">
+            <div style="margin-bottom: 12px;">
+              <label style="display: block; margin-bottom: 6px; font-weight: 500;">Restaurant</label>
+              <select id="vendorSelect" style="
+                width: 100%;
+                padding: 10px 12px;
+                border: 1px solid var(--ring);
+                background: var(--bg);
+                color: var(--text);
+                border-radius: 8px;
+                font-size: 14px;
+              " required>
+                <option value="">Select your restaurant</option>
+                <option value="wakad-healthybee">Healthybee (Wakad)</option>
+                <option value="wakad-swad">Swad Gomantak (Wakad)</option>
+                <option value="wakad-shree-krishna">Shree Krishna Veg (Wakad)</option>
+              </select>
+            </div>
+            
+            <div style="margin-bottom: 16px;">
+              <label style="display: block; margin-bottom: 6px; font-weight: 500;">PIN</label>
+              <input type="password" id="vendorPin" placeholder="Enter 4-digit PIN" maxlength="4" pattern="[0-9]{4}" style="
+                width: 100%;
+                padding: 10px 12px;
+                border: 1px solid var(--ring);
+                background: var(--bg);
+                color: var(--text);
+                border-radius: 8px;
+                font-size: 14px;
+              " required/>
+              <div style="font-size: 12px; color: var(--muted); margin-top: 4px;">
+                Demo PIN: 1234 for all restaurants
+              </div>
+            </div>
+            
+            <button type="submit" class="pill w100">Login</button>
+            
+            <div id="loginError" style="display: none; margin-top: 12px; padding: 10px; background: rgba(239, 68, 68, 0.1); border-radius: 8px; color: #ef4444; font-size: 13px; text-align: center;">
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboardScreen" style="display: none;">
+      <header class="topbar">
+        <div class="topbar-left">
+          <span class="avatar">🏪</span>
+          <span class="uname" id="vendorName">Restaurant</span>
+        </div>
+        <div>
+          <button class="icon-btn" id="refreshBtn" title="Refresh">🔄</button>
+          <button class="linklike" id="logoutBtn">Logout</button>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="panel">
+          <div class="row-between">
+            <h3>Incoming Orders</h3>
+            <div id="orderCount" style="color: var(--muted); font-size: 14px;">0 orders</div>
+          </div>
+          
+          <div id="ordersLoading" style="text-align: center; padding: 20px; color: var(--muted);">
+            ⏳ Loading orders...
+          </div>
+          
+          <div id="ordersError" style="display: none; text-align: center; padding: 20px; color: #ef4444;">
+            ⚠️ Unable to load orders. 
+            <button class="linklike" id="retryBtn">Try again</button>
+          </div>
+          
+          <div id="ordersEmpty" style="display: none; text-align: center; padding: 20px; color: var(--muted);">
+            <div style="font-size: 48px; margin-bottom: 12px;">✨</div>
+            <div>No orders yet</div>
+            <div style="font-size: 13px; margin-top: 8px;">New orders will appear here</div>
+          </div>
+          
+          <ul id="ordersList" class="cards" style="display: none;"></ul>
+        </section>
+      </main>
+    </div>
+
+  </div>
+
+  <script>
+    (function() {
+      
+      // State
+      let currentVendor = null;
+      let vendorId = null;
+      
+      // DOM elements
+      const loginScreen = document.getElementById('loginScreen');
+      const dashboardScreen = document.getElementById('dashboardScreen');
+      const loginForm = document.getElementById('loginForm');
+      const loginError = document.getElementById('loginError');
+      const vendorNameEl = document.getElementById('vendorName');
+      const logoutBtn = document.getElementById('logoutBtn');
+      const refreshBtn = document.getElementById('refreshBtn');
+      const retryBtn = document.getElementById('retryBtn');
+      const ordersLoading = document.getElementById('ordersLoading');
+      const ordersError = document.getElementById('ordersError');
+      const ordersEmpty = document.getElementById('ordersEmpty');
+      const ordersList = document.getElementById('ordersList');
+      const orderCount = document.getElementById('orderCount');
+      
+      // Vendor configuration (in production, this would come from a secure backend)
+      const VENDOR_CONFIG = {
+        'wakad-healthybee': { name: 'Healthybee', pin: '1234' },
+        'wakad-swad': { name: 'Swad Gomantak', pin: '1234' },
+        'wakad-shree-krishna': { name: 'Shree Krishna Veg', pin: '1234' }
+      };
+      
+      // Login handler
+      loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const selectedVendor = document.getElementById('vendorSelect').value;
+        const enteredPin = document.getElementById('vendorPin').value;
+        
+        const config = VENDOR_CONFIG[selectedVendor];
+        
+        if (!config) {
+          showLoginError('Please select a restaurant');
+          return;
+        }
+        
+        if (enteredPin !== config.pin) {
+          showLoginError('Invalid PIN');
+          return;
+        }
+        
+        // Login successful
+        currentVendor = config.name;
+        vendorId = selectedVendor;
+        
+        // Save to session
+        sessionStorage.setItem('vendor_id', vendorId);
+        sessionStorage.setItem('vendor_name', currentVendor);
+        
+        // Show dashboard
+        showDashboard();
+      });
+      
+      function showLoginError(message) {
+        loginError.textContent = message;
+        loginError.style.display = 'block';
+        setTimeout(() => {
+          loginError.style.display = 'none';
+        }, 3000);
+      }
+      
+      function showDashboard() {
+        loginScreen.style.display = 'none';
+        dashboardScreen.style.display = 'block';
+        vendorNameEl.textContent = currentVendor;
+        loadOrders();
+      }
+      
+      // Logout
+      logoutBtn.addEventListener('click', () => {
+        sessionStorage.removeItem('vendor_id');
+        sessionStorage.removeItem('vendor_name');
+        currentVendor = null;
+        vendorId = null;
+        loginScreen.style.display = 'block';
+        dashboardScreen.style.display = 'none';
+        loginForm.reset();
+      });
+      
+      // Refresh
+      refreshBtn.addEventListener('click', loadOrders);
+      retryBtn.addEventListener('click', loadOrders);
+      
+      // Format status badge
+      function getStatusBadge(status) {
+        const statusConfig = {
+          'placed': { label: 'New', color: '#3b82f6', icon: '🔔' },
+          'accepted': { label: 'Accepted', color: '#10b981', icon: '✓' },
+          'preparing': { label: 'Preparing', color: '#f59e0b', icon: '👨‍🍳' },
+          'ready_for_pickup': { label: 'Ready', color: '#8b5cf6', icon: '📦' },
+          'out_for_delivery': { label: 'Out for Delivery', color: '#06b6d4', icon: '🏍️' },
+          'delivered': { label: 'Delivered', color: '#10b981', icon: '✓' },
+          'cancelled': { label: 'Cancelled', color: '#ef4444', icon: '✕' }
+        };
+        
+        const config = statusConfig[status] || { label: status, color: '#6b7280', icon: '' };
+        return `<span style="
+          display: inline-block;
+          background: ${config.color};
+          color: white;
+          padding: 6px 12px;
+          border-radius: 8px;
+          font-size: 13px;
+          font-weight: 600;
+        ">${config.icon} ${config.label}</span>`;
+      }
+      
+      // Format time
+      function formatTime(timestamp) {
+        const date = new Date(timestamp);
+        return date.toLocaleString('en-IN', { 
+          day: 'numeric',
+          month: 'short',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+      }
+      
+      // Escape HTML
+      function escapeHtml(s) {
+        return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+      
+      // Update order status
+      async function updateOrderStatus(orderId, newStatus) {
+        try {
+          const response = await fetch('/api/orders/status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              order_id: orderId,
+              status: newStatus
+            })
+          });
+          
+          if (!response.ok) {
+            throw new Error('Failed to update status');
+          }
+          
+          // Reload orders
+          loadOrders();
+          
+        } catch (error) {
+          console.error('Failed to update order status:', error);
+          alert('Failed to update order status. Please try again.');
+        }
+      }
+      
+      // Render orders
+      function renderOrders(orders) {
+        ordersLoading.style.display = 'none';
+        ordersError.style.display = 'none';
+        ordersEmpty.style.display = 'none';
+        ordersList.style.display = 'none';
+        
+        if (!orders || orders.length === 0) {
+          ordersEmpty.style.display = 'block';
+          orderCount.textContent = '0 orders';
+          return;
+        }
+        
+        // Sort by created time (newest first)
+        orders.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+        
+        // Update count
+        orderCount.textContent = `${orders.length} order${orders.length !== 1 ? 's' : ''}`;
+        
+        // Render order cards
+        ordersList.innerHTML = orders.map(order => {
+          const total = (order.price || 0) * (order.quantity || 1);
+          const canAccept = order.status === 'placed';
+          const canPrepare = order.status === 'accepted';
+          const canReady = order.status === 'preparing';
+          const isActive = ['placed', 'accepted', 'preparing', 'ready_for_pickup'].includes(order.status);
+          
+          // Determine primary action
+          let primaryAction = '';
+          if (canAccept) {
+            primaryAction = `
+              <button class="pill w100" onclick="updateOrder('${order.order_id}', 'accepted')" style="background: #10b981; font-size: 14px; font-weight: 600; padding: 12px;">
+                ✓ Accept Order
+              </button>
+              <button class="pill ghost w100 mt8" onclick="updateOrder('${order.order_id}', 'cancelled')" style="font-size: 13px;">
+                ✕ Reject Order
+              </button>
+            `;
+          } else if (canPrepare) {
+            primaryAction = `
+              <button class="pill w100" onclick="updateOrder('${order.order_id}', 'preparing')" style="background: #f59e0b; font-size: 14px; font-weight: 600; padding: 12px;">
+                👨‍🍳 Start Preparing
+              </button>
+            `;
+          } else if (canReady) {
+            primaryAction = `
+              <button class="pill w100" onclick="updateOrder('${order.order_id}', 'ready_for_pickup')" style="background: #8b5cf6; font-size: 14px; font-weight: 600; padding: 12px;">
+                ✓ Mark as Ready
+              </button>
+            `;
+          }
+          
+          return `
+            <li class="card" style="${!isActive ? 'opacity: 0.6;' : ''}">
+              <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px;">
+                <div style="flex: 1;">
+                  <h4 style="margin: 0; font-size: 17px; font-weight: 700;">${escapeHtml(order.dish_title)}</h4>
+                  <div style="color: var(--muted); font-size: 13px; margin-top: 4px;">
+                    Qty: <b>${order.quantity}</b> • Total: <b style="color: var(--accent);">₹${total}</b>
+                  </div>
+                </div>
+                ${getStatusBadge(order.status)}
+              </div>
+              
+              <div style="padding: 12px; background: rgba(79, 195, 255, 0.05); border-left: 3px solid #4fc3ff; border-radius: 8px; margin: 12px 0; font-size: 13px;">
+                <div style="margin-bottom: 6px;"><b>📞 Customer:</b> ${escapeHtml(order.phone)}</div>
+                <div><b>📍 Address:</b> ${escapeHtml(order.address)}</div>
+              </div>
+              
+              <div style="color: var(--muted); font-size: 12px; margin-bottom: 16px;">
+                Order #${order.order_id.substring(0, 12)} • ${formatTime(order.created_at)}
+              </div>
+              
+              ${primaryAction}
+            </li>
+          `;
+        }).join('');
+        
+        ordersList.style.display = 'block';
+      }
+      
+      // Load orders
+      async function loadOrders() {
+        if (!vendorId) return;
+        
+        ordersLoading.style.display = 'block';
+        ordersError.style.display = 'none';
+        
+        try {
+          const response = await fetch(`/api/orders?vendor=${encodeURIComponent(vendorId)}`);
+          
+          if (!response.ok) {
+            throw new Error('Failed to load orders');
+          }
+          
+          const data = await response.json();
+          renderOrders(data.orders || []);
+          
+        } catch (error) {
+          console.error('Failed to load orders:', error);
+          ordersLoading.style.display = 'none';
+          ordersError.style.display = 'block';
+        }
+      }
+      
+      // Make update function global for onclick handlers
+      window.updateOrder = updateOrderStatus;
+      
+      // Check if already logged in
+      const savedVendorId = sessionStorage.getItem('vendor_id');
+      const savedVendorName = sessionStorage.getItem('vendor_name');
+      
+      if (savedVendorId && savedVendorName) {
+        vendorId = savedVendorId;
+        currentVendor = savedVendorName;
+        showDashboard();
+      }
+      
+      // Auto-refresh every 10 seconds
+      setInterval(() => {
+        if (vendorId) {
+          loadOrders();
+        }
+      }, 10000);
+      
+    })();
+  </script>
+
+  <script src="/netlify/widgets/simple_page_metric.js"></script>
+</body>
+</html>

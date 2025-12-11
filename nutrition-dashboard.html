@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition Dashboard - Healthy Diet</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .dashboard-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    
+    .stat-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .stat-card h3 {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .stat-value {
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+      margin: 10px 0;
+    }
+    
+    .stat-unit {
+      font-size: 14px;
+      color: #999;
+      margin-left: 5px;
+    }
+    
+    .stat-progress {
+      width: 100%;
+      height: 8px;
+      background: #e0e0e0;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    
+    .stat-progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #4CAF50, #8BC34A);
+      transition: width 0.3s ease;
+    }
+    
+    .stat-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #666;
+      margin-top: 5px;
+    }
+    
+    .macro-ring {
+      width: 200px;
+      height: 200px;
+      margin: 20px auto;
+    }
+    
+    .micronutrients {
+      margin-top: 30px;
+    }
+    
+    .micro-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .micro-name {
+      font-weight: 500;
+    }
+    
+    .micro-bar-container {
+      flex: 1;
+      margin: 0 15px;
+      height: 6px;
+      background: #f0f0f0;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    
+    .micro-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #2196F3, #03A9F4);
+      transition: width 0.3s ease;
+    }
+    
+    .micro-value {
+      font-weight: bold;
+      min-width: 60px;
+      text-align: right;
+    }
+    
+    .micro-deficient {
+      color: #ff5722;
+    }
+    
+    .micro-good {
+      color: #4CAF50;
+    }
+    
+    .micro-excess {
+      color: #ff9800;
+    }
+    
+    .insights-section {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px 0;
+    }
+    
+    .insight-item {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+      border-left: 4px solid #2196F3;
+    }
+    
+    .insight-icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    
+    .week-trend {
+      margin: 30px 0;
+    }
+    
+    .trend-chart {
+      height: 250px;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .meal-timeline {
+      margin: 30px 0;
+    }
+    
+    .timeline-item {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+      margin: 10px 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    
+    .timeline-time {
+      font-weight: bold;
+      color: #2196F3;
+      min-width: 80px;
+    }
+    
+    .timeline-meal {
+      flex: 1;
+      margin: 0 15px;
+    }
+    
+    .timeline-calories {
+      font-weight: bold;
+      color: #666;
+    }
+    
+    .quick-actions {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    
+    .action-btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      background: #2196F3;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    
+    .action-btn:hover {
+      background: #1976D2;
+    }
+    
+    .action-btn.secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+    
+    .action-btn.secondary:hover {
+      background: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard-container">
+    <header>
+      <h1>📊 Nutrition Dashboard</h1>
+      <p class="muted">Your comprehensive nutrition tracking and insights</p>
+    </header>
+    
+    <div class="quick-actions">
+      <button class="action-btn" onclick="window.location.href='index.html'">🏠 Home</button>
+      <button class="action-btn" onclick="logMeal()">➕ Log Meal</button>
+      <button class="action-btn secondary" onclick="refreshData()">🔄 Refresh</button>
+      <button class="action-btn secondary" onclick="exportData()">📥 Export</button>
+    </div>
+    
+    <!-- Today's Summary -->
+    <section>
+      <h2>Today's Summary</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>Calories</h3>
+          <div class="stat-value">
+            <span id="calories-consumed">0</span>
+            <span class="stat-unit">/ 2000 kcal</span>
+          </div>
+          <div class="stat-progress">
+            <div class="stat-progress-bar" id="calories-bar" style="width: 0%"></div>
+          </div>
+          <div class="stat-label">
+            <span id="calories-remaining">2000 remaining</span>
+            <span id="calories-percent">0%</span>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <h3>Protein</h3>
+          <div class="stat-value">
+            <span id="protein-consumed">0</span>
+            <span class="stat-unit">/ 50g</span>
+          </div>
+          <div class="stat-progress">
+            <div class="stat-progress-bar" id="protein-bar" style="width: 0%; background: linear-gradient(90deg, #FF9800, #FFC107)"></div>
+          </div>
+          <div class="stat-label">
+            <span id="protein-remaining">50g remaining</span>
+            <span id="protein-percent">0%</span>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <h3>Carbs</h3>
+          <div class="stat-value">
+            <span id="carbs-consumed">0</span>
+            <span class="stat-unit">/ 250g</span>
+          </div>
+          <div class="stat-progress">
+            <div class="stat-progress-bar" id="carbs-bar" style="width: 0%; background: linear-gradient(90deg, #9C27B0, #E91E63)"></div>
+          </div>
+          <div class="stat-label">
+            <span id="carbs-remaining">250g remaining</span>
+            <span id="carbs-percent">0%</span>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <h3>Fat</h3>
+          <div class="stat-value">
+            <span id="fat-consumed">0</span>
+            <span class="stat-unit">/ 65g</span>
+          </div>
+          <div class="stat-progress">
+            <div class="stat-progress-bar" id="fat-bar" style="width: 0%; background: linear-gradient(90deg, #2196F3, #03A9F4)"></div>
+          </div>
+          <div class="stat-label">
+            <span id="fat-remaining">65g remaining</span>
+            <span id="fat-percent">0%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Micronutrients -->
+    <section class="micronutrients">
+      <h2>Micronutrients (% Daily Value)</h2>
+      <div class="stat-card">
+        <div class="micro-item">
+          <span class="micro-name">Iron</span>
+          <div class="micro-bar-container">
+            <div class="micro-bar" id="iron-bar" style="width: 0%"></div>
+          </div>
+          <span class="micro-value" id="iron-value">0%</span>
+        </div>
+        <div class="micro-item">
+          <span class="micro-name">Calcium</span>
+          <div class="micro-bar-container">
+            <div class="micro-bar" id="calcium-bar" style="width: 0%"></div>
+          </div>
+          <span class="micro-value" id="calcium-value">0%</span>
+        </div>
+        <div class="micro-item">
+          <span class="micro-name">Vitamin A</span>
+          <div class="micro-bar-container">
+            <div class="micro-bar" id="vitaminA-bar" style="width: 0%"></div>
+          </div>
+          <span class="micro-value" id="vitaminA-value">0%</span>
+        </div>
+        <div class="micro-item">
+          <span class="micro-name">Vitamin C</span>
+          <div class="micro-bar-container">
+            <div class="micro-bar" id="vitaminC-bar" style="width: 0%"></div>
+          </div>
+          <span class="micro-value" id="vitaminC-value">0%</span>
+        </div>
+        <div class="micro-item">
+          <span class="micro-name">Vitamin D</span>
+          <div class="micro-bar-container">
+            <div class="micro-bar" id="vitaminD-bar" style="width: 0%"></div>
+          </div>
+          <span class="micro-value" id="vitaminD-value">0%</span>
+        </div>
+        <div class="micro-item">
+          <span class="micro-name">Vitamin B12</span>
+          <div class="micro-bar-container">
+            <div class="micro-bar" id="vitaminB12-bar" style="width: 0%"></div>
+          </div>
+          <span class="micro-value" id="vitaminB12-value">0%</span>
+        </div>
+      </div>
+    </section>
+    
+    <!-- AI Insights -->
+    <section class="insights-section">
+      <h2>💡 Smart Insights</h2>
+      <div id="insights-container">
+        <div class="insight-item">
+          <span class="insight-icon">🔍</span>
+          <span>Loading insights based on your nutrition patterns...</span>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Today's Meals -->
+    <section class="meal-timeline">
+      <h2>Today's Meals</h2>
+      <div id="meals-container">
+        <p class="muted">No meals logged yet. <a href="#" onclick="logMeal(); return false;">Log your first meal</a></p>
+      </div>
+    </section>
+    
+    <!-- Week Trend -->
+    <section class="week-trend">
+      <h2>7-Day Trend</h2>
+      <div class="trend-chart" id="trend-chart">
+        <p class="muted">Chart will be displayed here</p>
+      </div>
+    </section>
+  </div>
+  
+  <script src="nutrition-dashboard.js"></script>
+</body>
+</html>

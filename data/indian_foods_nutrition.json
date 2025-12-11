@@ -1,0 +1,853 @@
+{
+  "version": "1.0.0",
+  "source": "IFCT 2017 (Indian Food Composition Tables) + NIN Database",
+  "last_updated": "2025-11-17",
+  "foods": [
+    {
+      "name": "Chapati",
+      "aliases": ["roti", "phulka", "wheat chapati"],
+      "category": "grains",
+      "serving": "1 medium (30g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 297,
+        "protein_g": 11.8,
+        "carbs_g": 56.4,
+        "fat_g": 3.7,
+        "fiber_g": 11.2,
+        "sodium_mg": 558
+      },
+      "micros": {
+        "iron_mg": 4.9,
+        "calcium_mg": 48,
+        "vitamin_b1_mg": 0.48,
+        "folate_mcg": 40
+      }
+    },
+    {
+      "name": "Rice White Cooked",
+      "aliases": ["white rice", "steamed rice", "plain rice"],
+      "category": "grains",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 130,
+        "protein_g": 2.7,
+        "carbs_g": 28.0,
+        "fat_g": 0.3,
+        "fiber_g": 0.4,
+        "sodium_mg": 1
+      },
+      "micros": {
+        "iron_mg": 0.2,
+        "calcium_mg": 10,
+        "vitamin_b1_mg": 0.02
+      }
+    },
+    {
+      "name": "Brown Rice Cooked",
+      "aliases": ["brown rice", "unpolished rice"],
+      "category": "grains",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 111,
+        "protein_g": 2.6,
+        "carbs_g": 23.0,
+        "fat_g": 0.9,
+        "fiber_g": 1.8,
+        "sodium_mg": 5
+      },
+      "micros": {
+        "iron_mg": 0.6,
+        "calcium_mg": 10,
+        "magnesium_mg": 43,
+        "vitamin_b1_mg": 0.10
+      }
+    },
+    {
+      "name": "Dal Tadka",
+      "aliases": ["yellow dal", "toor dal cooked", "arhar dal"],
+      "category": "pulses",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 108,
+        "protein_g": 7.2,
+        "carbs_g": 15.4,
+        "fat_g": 2.1,
+        "fiber_g": 3.8,
+        "sodium_mg": 280
+      },
+      "micros": {
+        "iron_mg": 2.1,
+        "calcium_mg": 35,
+        "folate_mcg": 65,
+        "vitamin_b1_mg": 0.15
+      }
+    },
+    {
+      "name": "Rajma",
+      "aliases": ["kidney beans", "rajma masala", "red kidney beans"],
+      "category": "pulses",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 127,
+        "protein_g": 8.7,
+        "carbs_g": 22.8,
+        "fat_g": 0.5,
+        "fiber_g": 6.4,
+        "sodium_mg": 380
+      },
+      "micros": {
+        "iron_mg": 2.5,
+        "calcium_mg": 50,
+        "folate_mcg": 130,
+        "potassium_mg": 405
+      }
+    },
+    {
+      "name": "Chickpeas Curry",
+      "aliases": ["chana masala", "chole", "chickpea curry", "garbanzo beans"],
+      "category": "pulses",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 164,
+        "protein_g": 8.9,
+        "carbs_g": 27.4,
+        "fat_g": 2.6,
+        "fiber_g": 7.6,
+        "sodium_mg": 350
+      },
+      "micros": {
+        "iron_mg": 2.9,
+        "calcium_mg": 49,
+        "folate_mcg": 172,
+        "vitamin_b6_mg": 0.14
+      }
+    },
+    {
+      "name": "Paneer",
+      "aliases": ["cottage cheese", "indian cottage cheese", "paneer cubes"],
+      "category": "dairy",
+      "serving": "50g (3-4 cubes)",
+      "macros": {
+        "per": "100g",
+        "kcal": 265,
+        "protein_g": 18.3,
+        "carbs_g": 1.2,
+        "fat_g": 20.8,
+        "fiber_g": 0,
+        "sodium_mg": 18
+      },
+      "micros": {
+        "calcium_mg": 480,
+        "phosphorus_mg": 245,
+        "vitamin_a_mcg": 210,
+        "vitamin_b12_mcg": 0.3
+      }
+    },
+    {
+      "name": "Palak Paneer",
+      "aliases": ["spinach paneer", "spinach cottage cheese"],
+      "category": "vegetables",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 145,
+        "protein_g": 8.5,
+        "carbs_g": 5.2,
+        "fat_g": 10.8,
+        "fiber_g": 2.1,
+        "sodium_mg": 420
+      },
+      "micros": {
+        "iron_mg": 3.8,
+        "calcium_mg": 285,
+        "vitamin_a_mcg": 650,
+        "vitamin_c_mg": 15,
+        "folate_mcg": 120
+      }
+    },
+    {
+      "name": "Chicken Curry",
+      "aliases": ["chicken masala", "chicken gravy"],
+      "category": "poultry",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 165,
+        "protein_g": 18.5,
+        "carbs_g": 4.2,
+        "fat_g": 8.5,
+        "fiber_g": 1.2,
+        "sodium_mg": 480
+      },
+      "micros": {
+        "iron_mg": 1.5,
+        "zinc_mg": 1.8,
+        "vitamin_b12_mcg": 0.4,
+        "niacin_mg": 7.2
+      }
+    },
+    {
+      "name": "Chicken Tikka",
+      "aliases": ["grilled chicken", "tandoori chicken tikka"],
+      "category": "poultry",
+      "serving": "100g (4-5 pieces)",
+      "macros": {
+        "per": "100g",
+        "kcal": 148,
+        "protein_g": 24.5,
+        "carbs_g": 2.1,
+        "fat_g": 4.2,
+        "fiber_g": 0.5,
+        "sodium_mg": 520
+      },
+      "micros": {
+        "iron_mg": 1.2,
+        "zinc_mg": 2.1,
+        "vitamin_b6_mg": 0.5,
+        "niacin_mg": 8.5
+      }
+    },
+    {
+      "name": "Egg Boiled",
+      "aliases": ["boiled egg", "hard boiled egg"],
+      "category": "eggs",
+      "serving": "1 large egg (50g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 155,
+        "protein_g": 12.6,
+        "carbs_g": 1.1,
+        "fat_g": 10.6,
+        "fiber_g": 0,
+        "sodium_mg": 124
+      },
+      "micros": {
+        "iron_mg": 1.2,
+        "calcium_mg": 50,
+        "vitamin_a_mcg": 160,
+        "vitamin_b12_mcg": 1.1,
+        "vitamin_d_mcg": 2.0,
+        "choline_mg": 251
+      }
+    },
+    {
+      "name": "Omelette",
+      "aliases": ["egg omelette", "masala omelette"],
+      "category": "eggs",
+      "serving": "2 eggs (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 154,
+        "protein_g": 10.6,
+        "carbs_g": 0.8,
+        "fat_g": 11.7,
+        "fiber_g": 0,
+        "sodium_mg": 342
+      },
+      "micros": {
+        "iron_mg": 1.2,
+        "calcium_mg": 54,
+        "vitamin_a_mcg": 180,
+        "vitamin_b12_mcg": 0.9,
+        "choline_mg": 225
+      }
+    },
+    {
+      "name": "Idli",
+      "aliases": ["steamed idli", "rice idli"],
+      "category": "breakfast",
+      "serving": "2 pieces (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 156,
+        "protein_g": 4.1,
+        "carbs_g": 30.4,
+        "fat_g": 1.4,
+        "fiber_g": 1.2,
+        "sodium_mg": 85
+      },
+      "micros": {
+        "iron_mg": 0.8,
+        "calcium_mg": 35,
+        "vitamin_b1_mg": 0.08
+      }
+    },
+    {
+      "name": "Dosa",
+      "aliases": ["plain dosa", "crispy dosa"],
+      "category": "breakfast",
+      "serving": "1 medium (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 168,
+        "protein_g": 3.9,
+        "carbs_g": 29.2,
+        "fat_g": 3.7,
+        "fiber_g": 1.4,
+        "sodium_mg": 125
+      },
+      "micros": {
+        "iron_mg": 1.1,
+        "calcium_mg": 28,
+        "vitamin_b1_mg": 0.12
+      }
+    },
+    {
+      "name": "Masala Dosa",
+      "aliases": ["potato dosa", "aloo dosa"],
+      "category": "breakfast",
+      "serving": "1 piece (200g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 185,
+        "protein_g": 4.2,
+        "carbs_g": 28.5,
+        "fat_g": 5.8,
+        "fiber_g": 2.1,
+        "sodium_mg": 280
+      },
+      "micros": {
+        "iron_mg": 1.4,
+        "calcium_mg": 32,
+        "vitamin_c_mg": 8,
+        "potassium_mg": 245
+      }
+    },
+    {
+      "name": "Poha",
+      "aliases": ["beaten rice", "chivda", "flattened rice"],
+      "category": "breakfast",
+      "serving": "1 plate (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 158,
+        "protein_g": 2.1,
+        "carbs_g": 30.8,
+        "fat_g": 2.5,
+        "fiber_g": 1.8,
+        "sodium_mg": 320
+      },
+      "micros": {
+        "iron_mg": 3.2,
+        "calcium_mg": 18,
+        "vitamin_b1_mg": 0.08
+      }
+    },
+    {
+      "name": "Upma",
+      "aliases": ["rava upma", "suji upma", "semolina upma"],
+      "category": "breakfast",
+      "serving": "1 plate (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 172,
+        "protein_g": 3.8,
+        "carbs_g": 28.5,
+        "fat_g": 4.8,
+        "fiber_g": 1.5,
+        "sodium_mg": 385
+      },
+      "micros": {
+        "iron_mg": 1.5,
+        "calcium_mg": 22,
+        "vitamin_b1_mg": 0.15
+      }
+    },
+    {
+      "name": "Paratha Plain",
+      "aliases": ["plain paratha", "parantha"],
+      "category": "breakfast",
+      "serving": "1 medium (60g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 321,
+        "protein_g": 6.8,
+        "carbs_g": 44.2,
+        "fat_g": 13.2,
+        "fiber_g": 2.8,
+        "sodium_mg": 450
+      },
+      "micros": {
+        "iron_mg": 2.8,
+        "calcium_mg": 38,
+        "vitamin_b1_mg": 0.28
+      }
+    },
+    {
+      "name": "Aloo Paratha",
+      "aliases": ["potato paratha", "stuffed paratha"],
+      "category": "breakfast",
+      "serving": "1 piece (120g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 285,
+        "protein_g": 5.8,
+        "carbs_g": 38.5,
+        "fat_g": 11.8,
+        "fiber_g": 3.2,
+        "sodium_mg": 480
+      },
+      "micros": {
+        "iron_mg": 2.2,
+        "calcium_mg": 42,
+        "vitamin_c_mg": 12,
+        "potassium_mg": 285
+      }
+    },
+    {
+      "name": "Khichdi",
+      "aliases": ["moong dal khichdi", "dal khichdi"],
+      "category": "comfort-food",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 120,
+        "protein_g": 4.8,
+        "carbs_g": 21.5,
+        "fat_g": 1.8,
+        "fiber_g": 2.5,
+        "sodium_mg": 280
+      },
+      "micros": {
+        "iron_mg": 1.5,
+        "calcium_mg": 28,
+        "folate_mcg": 42
+      }
+    },
+    {
+      "name": "Curd",
+      "aliases": ["yogurt", "dahi", "plain yogurt"],
+      "category": "dairy",
+      "serving": "1 katori (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 60,
+        "protein_g": 3.1,
+        "carbs_g": 4.4,
+        "fat_g": 3.0,
+        "fiber_g": 0,
+        "sodium_mg": 46
+      },
+      "micros": {
+        "calcium_mg": 120,
+        "phosphorus_mg": 90,
+        "vitamin_b12_mcg": 0.4,
+        "probiotics": "yes"
+      }
+    },
+    {
+      "name": "Banana",
+      "aliases": ["ripe banana", "kela"],
+      "category": "fruits",
+      "serving": "1 medium (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 89,
+        "protein_g": 1.1,
+        "carbs_g": 22.8,
+        "fat_g": 0.3,
+        "fiber_g": 2.6,
+        "sodium_mg": 1
+      },
+      "micros": {
+        "potassium_mg": 358,
+        "vitamin_c_mg": 8.7,
+        "vitamin_b6_mg": 0.4,
+        "magnesium_mg": 27
+      }
+    },
+    {
+      "name": "Apple",
+      "aliases": ["fresh apple", "seb"],
+      "category": "fruits",
+      "serving": "1 medium (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 52,
+        "protein_g": 0.3,
+        "carbs_g": 13.8,
+        "fat_g": 0.2,
+        "fiber_g": 2.4,
+        "sodium_mg": 1
+      },
+      "micros": {
+        "potassium_mg": 107,
+        "vitamin_c_mg": 4.6,
+        "calcium_mg": 6
+      }
+    },
+    {
+      "name": "Spinach Cooked",
+      "aliases": ["palak", "cooked spinach"],
+      "category": "vegetables",
+      "serving": "1 katori (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 23,
+        "protein_g": 2.9,
+        "carbs_g": 3.6,
+        "fat_g": 0.4,
+        "fiber_g": 2.2,
+        "sodium_mg": 79
+      },
+      "micros": {
+        "iron_mg": 2.7,
+        "calcium_mg": 99,
+        "vitamin_a_mcg": 469,
+        "vitamin_c_mg": 9.8,
+        "folate_mcg": 146
+      }
+    },
+    {
+      "name": "Tomato",
+      "aliases": ["fresh tomato", "tamatar"],
+      "category": "vegetables",
+      "serving": "1 medium (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2,
+        "fiber_g": 1.2,
+        "sodium_mg": 5
+      },
+      "micros": {
+        "vitamin_c_mg": 13.7,
+        "vitamin_a_mcg": 42,
+        "potassium_mg": 237,
+        "lycopene_mg": 2.6
+      }
+    },
+    {
+      "name": "Mixed Vegetable Curry",
+      "aliases": ["sabzi", "vegetable curry", "mixed veg"],
+      "category": "vegetables",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 85,
+        "protein_g": 2.5,
+        "carbs_g": 12.4,
+        "fat_g": 3.2,
+        "fiber_g": 3.8,
+        "sodium_mg": 320
+      },
+      "micros": {
+        "vitamin_a_mcg": 185,
+        "vitamin_c_mg": 22,
+        "iron_mg": 1.8,
+        "calcium_mg": 48
+      }
+    },
+    {
+      "name": "Samosa",
+      "aliases": ["aloo samosa", "punjabi samosa"],
+      "category": "snacks",
+      "serving": "1 piece (50g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 262,
+        "protein_g": 4.8,
+        "carbs_g": 28.5,
+        "fat_g": 14.2,
+        "fiber_g": 2.5,
+        "sodium_mg": 485
+      },
+      "micros": {
+        "iron_mg": 1.8,
+        "calcium_mg": 28,
+        "potassium_mg": 195
+      }
+    },
+    {
+      "name": "Vada",
+      "aliases": ["medu vada", "urad dal vada"],
+      "category": "snacks",
+      "serving": "1 piece (40g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 240,
+        "protein_g": 8.2,
+        "carbs_g": 24.5,
+        "fat_g": 11.8,
+        "fiber_g": 3.2,
+        "sodium_mg": 420
+      },
+      "micros": {
+        "iron_mg": 2.5,
+        "calcium_mg": 42,
+        "folate_mcg": 85
+      }
+    },
+    {
+      "name": "Pakora",
+      "aliases": ["bhajiya", "vegetable pakora", "onion pakora"],
+      "category": "snacks",
+      "serving": "5 pieces (75g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 235,
+        "protein_g": 5.8,
+        "carbs_g": 22.4,
+        "fat_g": 13.5,
+        "fiber_g": 2.8,
+        "sodium_mg": 450
+      },
+      "micros": {
+        "iron_mg": 2.2,
+        "calcium_mg": 35,
+        "vitamin_c_mg": 8
+      }
+    },
+    {
+      "name": "Gulab Jamun",
+      "aliases": ["sweet gulab jamun"],
+      "category": "desserts",
+      "serving": "2 pieces (60g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 375,
+        "protein_g": 5.2,
+        "carbs_g": 58.5,
+        "fat_g": 13.8,
+        "fiber_g": 0.5,
+        "sodium_mg": 45
+      },
+      "micros": {
+        "calcium_mg": 85,
+        "iron_mg": 0.5
+      }
+    },
+    {
+      "name": "Rasgulla",
+      "aliases": ["rosogolla", "sponge rasgulla"],
+      "category": "desserts",
+      "serving": "2 pieces (80g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 186,
+        "protein_g": 4.8,
+        "carbs_g": 35.2,
+        "fat_g": 3.2,
+        "fiber_g": 0,
+        "sodium_mg": 28
+      },
+      "micros": {
+        "calcium_mg": 125,
+        "phosphorus_mg": 95
+      }
+    },
+    {
+      "name": "Biryani Chicken",
+      "aliases": ["chicken biryani", "hyderabadi biryani"],
+      "category": "rice-dishes",
+      "serving": "1 plate (250g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 185,
+        "protein_g": 8.5,
+        "carbs_g": 24.2,
+        "fat_g": 6.8,
+        "fiber_g": 1.5,
+        "sodium_mg": 520
+      },
+      "micros": {
+        "iron_mg": 1.8,
+        "calcium_mg": 35,
+        "vitamin_b12_mcg": 0.3
+      }
+    },
+    {
+      "name": "Biryani Vegetable",
+      "aliases": ["veg biryani", "vegetable biryani"],
+      "category": "rice-dishes",
+      "serving": "1 plate (250g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 165,
+        "protein_g": 3.8,
+        "carbs_g": 28.5,
+        "fat_g": 4.2,
+        "fiber_g": 2.8,
+        "sodium_mg": 480
+      },
+      "micros": {
+        "iron_mg": 1.5,
+        "calcium_mg": 42,
+        "vitamin_a_mcg": 125
+      }
+    },
+    {
+      "name": "Pulao",
+      "aliases": ["veg pulao", "vegetable pulao"],
+      "category": "rice-dishes",
+      "serving": "1 plate (200g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 145,
+        "protein_g": 3.2,
+        "carbs_g": 25.8,
+        "fat_g": 3.2,
+        "fiber_g": 2.2,
+        "sodium_mg": 385
+      },
+      "micros": {
+        "iron_mg": 1.2,
+        "calcium_mg": 28,
+        "vitamin_c_mg": 12
+      }
+    },
+    {
+      "name": "Butter Chicken",
+      "aliases": ["murgh makhani", "chicken makhani"],
+      "category": "poultry",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 235,
+        "protein_g": 14.5,
+        "carbs_g": 6.8,
+        "fat_g": 17.2,
+        "fiber_g": 1.2,
+        "sodium_mg": 620
+      },
+      "micros": {
+        "iron_mg": 1.5,
+        "calcium_mg": 58,
+        "vitamin_a_mcg": 185
+      }
+    },
+    {
+      "name": "Fish Curry",
+      "aliases": ["machli curry", "bengali fish curry"],
+      "category": "seafood",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 135,
+        "protein_g": 16.8,
+        "carbs_g": 3.5,
+        "fat_g": 5.8,
+        "fiber_g": 0.8,
+        "sodium_mg": 485
+      },
+      "micros": {
+        "iron_mg": 1.2,
+        "calcium_mg": 42,
+        "vitamin_d_mcg": 3.5,
+        "omega3_g": 1.2
+      }
+    },
+    {
+      "name": "Sprouts",
+      "aliases": ["moong sprouts", "mixed sprouts"],
+      "category": "pulses",
+      "serving": "1 katori (100g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 30,
+        "protein_g": 3.0,
+        "carbs_g": 5.9,
+        "fat_g": 0.2,
+        "fiber_g": 1.8,
+        "sodium_mg": 6
+      },
+      "micros": {
+        "iron_mg": 1.3,
+        "calcium_mg": 13,
+        "vitamin_c_mg": 13.2,
+        "folate_mcg": 61
+      }
+    },
+    {
+      "name": "Oats Porridge",
+      "aliases": ["oatmeal", "daliya", "oats"],
+      "category": "breakfast",
+      "serving": "1 katori (200g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 68,
+        "protein_g": 2.4,
+        "carbs_g": 12.0,
+        "fat_g": 1.4,
+        "fiber_g": 1.7,
+        "sodium_mg": 49
+      },
+      "micros": {
+        "iron_mg": 0.7,
+        "calcium_mg": 9,
+        "magnesium_mg": 27,
+        "vitamin_b1_mg": 0.08
+      }
+    },
+    {
+      "name": "Quinoa Cooked",
+      "aliases": ["quinoa", "cooked quinoa"],
+      "category": "grains",
+      "serving": "1 katori (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 120,
+        "protein_g": 4.4,
+        "carbs_g": 21.3,
+        "fat_g": 1.9,
+        "fiber_g": 2.8,
+        "sodium_mg": 7
+      },
+      "micros": {
+        "iron_mg": 1.5,
+        "calcium_mg": 17,
+        "magnesium_mg": 64,
+        "phosphorus_mg": 152
+      }
+    },
+    {
+      "name": "Smoothie Bowl",
+      "aliases": ["fruit smoothie", "berry smoothie"],
+      "category": "breakfast",
+      "serving": "1 bowl (300g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 85,
+        "protein_g": 2.8,
+        "carbs_g": 16.5,
+        "fat_g": 1.2,
+        "fiber_g": 2.5,
+        "sodium_mg": 35
+      },
+      "micros": {
+        "vitamin_c_mg": 45,
+        "calcium_mg": 95,
+        "potassium_mg": 285
+      }
+    },
+    {
+      "name": "Salad Mixed",
+      "aliases": ["green salad", "vegetable salad", "garden salad"],
+      "category": "salads",
+      "serving": "1 bowl (150g)",
+      "macros": {
+        "per": "100g",
+        "kcal": 25,
+        "protein_g": 1.2,
+        "carbs_g": 4.8,
+        "fat_g": 0.3,
+        "fiber_g": 2.5,
+        "sodium_mg": 15
+      },
+      "micros": {
+        "vitamin_a_mcg": 285,
+        "vitamin_c_mg": 28,
+        "iron_mg": 0.8,
+        "calcium_mg": 42
+      }
+    }
+  ]
+}

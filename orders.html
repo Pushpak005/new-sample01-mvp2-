@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <title>My Orders • Healthy Diet</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="bg">
+
+  <div class="phone">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a href="index.html" class="icon-btn" style="font-size: 24px; text-decoration: none;">←</a>
+        <span style="font-weight: 700;">My Orders</span>
+      </div>
+      <div>
+        <a class="icon-btn" href="index.html" aria-label="Home">🏠</a>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <section class="panel">
+        <h3>Your Orders</h3>
+        
+        <div id="ordersLoading" style="text-align: center; padding: 20px; color: var(--muted);">
+          ⏳ Loading your orders...
+        </div>
+        
+        <div id="ordersError" style="display: none; text-align: center; padding: 20px; color: #ef4444;">
+          ⚠️ Unable to load orders. Please try again later.
+        </div>
+        
+        <div id="ordersEmpty" style="display: none; text-align: center; padding: 20px; color: var(--muted);">
+          <div style="font-size: 48px; margin-bottom: 12px;">🛒</div>
+          <div>No orders yet</div>
+          <div style="margin-top: 12px;">
+            <a href="index.html" class="pill">Start Ordering</a>
+          </div>
+        </div>
+        
+        <ul id="ordersList" class="cards" style="display: none;"></ul>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    // Simple orders view - no framework needed
+    (function() {
+      
+      // Get user ID from localStorage
+      function getUserId() {
+        return localStorage.getItem('userId') || null;
+      }
+      
+      // Format status with colors
+      function getStatusBadge(status) {
+        const statusConfig = {
+          'placed': { label: 'Placed', color: '#3b82f6' },
+          'accepted': { label: 'Accepted', color: '#10b981' },
+          'preparing': { label: 'Preparing', color: '#f59e0b' },
+          'ready_for_pickup': { label: 'Ready for Pickup', color: '#8b5cf6' },
+          'reached_vendor': { label: 'Rider at Restaurant', color: '#ec4899' },
+          'out_for_delivery': { label: 'Out for Delivery', color: '#06b6d4' },
+          'near_destination': { label: 'Arriving Soon', color: '#14b8a6' },
+          'delivered': { label: 'Delivered', color: '#10b981' },
+          'cancelled': { label: 'Cancelled', color: '#ef4444' }
+        };
+        
+        const config = statusConfig[status] || { label: status, color: '#6b7280' };
+        return `<span style="
+          display: inline-block;
+          background: ${config.color};
+          color: white;
+          padding: 4px 10px;
+          border-radius: 6px;
+          font-size: 12px;
+          font-weight: 600;
+        ">${config.label}</span>`;
+      }
+      
+      // Format timestamp
+      function formatTime(timestamp) {
+        const date = new Date(timestamp);
+        const now = new Date();
+        const diffMs = now - date;
+        const diffMins = Math.floor(diffMs / 60000);
+        
+        if (diffMins < 60) {
+          return `${diffMins} min ago`;
+        } else if (diffMins < 1440) {
+          const hours = Math.floor(diffMins / 60);
+          return `${hours} hour${hours > 1 ? 's' : ''} ago`;
+        } else {
+          return date.toLocaleDateString('en-IN', { 
+            day: 'numeric', 
+            month: 'short',
+            hour: '2-digit',
+            minute: '2-digit'
+          });
+        }
+      }
+      
+      // Render orders
+      function renderOrders(orders) {
+        const loadingEl = document.getElementById('ordersLoading');
+        const errorEl = document.getElementById('ordersError');
+        const emptyEl = document.getElementById('ordersEmpty');
+        const listEl = document.getElementById('ordersList');
+        
+        loadingEl.style.display = 'none';
+        errorEl.style.display = 'none';
+        emptyEl.style.display = 'none';
+        listEl.style.display = 'none';
+        
+        if (!orders || orders.length === 0) {
+          emptyEl.style.display = 'block';
+          return;
+        }
+        
+        // Sort by created time (newest first)
+        orders.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+        
+        // Render order cards
+        listEl.innerHTML = orders.map(order => {
+          const total = (order.price || 0) * (order.quantity || 1);
+          return `
+            <li class="card">
+              <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                <div>
+                  <h4 style="margin: 0;">${escapeHtml(order.dish_title)}</h4>
+                  <div style="color: var(--muted); font-size: 13px; margin-top: 4px;">
+                    ${escapeHtml(order.vendor_name)}
+                  </div>
+                </div>
+                ${getStatusBadge(order.status)}
+              </div>
+              
+              <div style="color: var(--muted); font-size: 13px; margin-top: 8px;">
+                <div>Quantity: <b>${order.quantity}</b></div>
+                <div>Total: <b>₹${total}</b></div>
+                <div style="margin-top: 4px;">Order ID: <span style="font-family: monospace;">${order.order_id}</span></div>
+                <div style="margin-top: 4px;">Placed: ${formatTime(order.created_at)}</div>
+              </div>
+              
+              <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--ring); font-size: 13px; color: var(--muted);">
+                📍 ${escapeHtml(order.address)}
+              </div>
+            </li>
+          `;
+        }).join('');
+        
+        listEl.style.display = 'block';
+      }
+      
+      // Escape HTML
+      function escapeHtml(s) {
+        return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+      
+      // Load orders
+      async function loadOrders() {
+        const userId = getUserId();
+        if (!userId) {
+          document.getElementById('ordersLoading').style.display = 'none';
+          document.getElementById('ordersEmpty').style.display = 'block';
+          return;
+        }
+        
+        try {
+          const response = await fetch(`/api/orders?user=${encodeURIComponent(userId)}`);
+          
+          if (!response.ok) {
+            throw new Error('Failed to load orders');
+          }
+          
+          const data = await response.json();
+          renderOrders(data.orders || []);
+          
+        } catch (error) {
+          console.error('Failed to load orders:', error);
+          document.getElementById('ordersLoading').style.display = 'none';
+          document.getElementById('ordersError').style.display = 'block';
+        }
+      }
+      
+      // Initialize
+      loadOrders();
+      
+      // Refresh every 10 seconds
+      setInterval(loadOrders, 10000);
+      
+    })();
+  </script>
+
+</body>
+</html>

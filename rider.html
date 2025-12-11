@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <title>Rider Dashboard • Healthy Diet</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="bg">
+
+  <div class="phone">
+    
+    <!-- Login Screen -->
+    <div id="loginScreen">
+      <header class="topbar">
+        <div class="topbar-left">
+          <span style="font-weight: 700;">🏍️ Rider Login</span>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="panel">
+          <h3>Delivery Partner Login</h3>
+          <p style="color: var(--muted); font-size: 14px; margin-bottom: 16px;">
+            Enter your rider ID and PIN to access deliveries.
+          </p>
+          
+          <form id="loginForm">
+            <div style="margin-bottom: 12px;">
+              <label style="display: block; margin-bottom: 6px; font-weight: 500;">Rider ID</label>
+              <select id="riderSelect" style="
+                width: 100%;
+                padding: 10px 12px;
+                border: 1px solid var(--ring);
+                background: var(--bg);
+                color: var(--text);
+                border-radius: 8px;
+                font-size: 14px;
+              " required>
+                <option value="">Select your ID</option>
+                <option value="rider01">Raj Kumar</option>
+                <option value="rider02">Anita</option>
+                <option value="rider03">Suresh</option>
+              </select>
+            </div>
+            
+            <div style="margin-bottom: 16px;">
+              <label style="display: block; margin-bottom: 6px; font-weight: 500;">PIN</label>
+              <input type="password" id="riderPin" placeholder="Enter 4-digit PIN" maxlength="4" pattern="[0-9]{4}" style="
+                width: 100%;
+                padding: 10px 12px;
+                border: 1px solid var(--ring);
+                background: var(--bg);
+                color: var(--text);
+                border-radius: 8px;
+                font-size: 14px;
+              " required/>
+              <div style="font-size: 12px; color: var(--muted); margin-top: 4px;">
+                Demo PIN: 1234 for all riders
+              </div>
+            </div>
+            
+            <button type="submit" class="pill w100">Login</button>
+            
+            <div id="loginError" style="display: none; margin-top: 12px; padding: 10px; background: rgba(239, 68, 68, 0.1); border-radius: 8px; color: #ef4444; font-size: 13px; text-align: center;">
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboardScreen" style="display: none;">
+      <header class="topbar">
+        <div class="topbar-left">
+          <span class="avatar">🏍️</span>
+          <span class="uname" id="riderName">Rider</span>
+        </div>
+        <div>
+          <button class="icon-btn" id="refreshBtn" title="Refresh">🔄</button>
+          <button class="linklike" id="logoutBtn">Logout</button>
+        </div>
+      </header>
+
+      <main class="content">
+        
+        <!-- New Requests -->
+        <section class="panel" id="newRequestsSection" style="display: none;">
+          <div class="row-between">
+            <h3>🔔 New Requests</h3>
+            <div id="newRequestsCount" style="color: var(--muted); font-size: 14px;">0</div>
+          </div>
+          <ul id="newRequestsList" class="cards"></ul>
+        </section>
+        
+        <!-- Active deliveries -->
+        <section class="panel">
+          <div class="row-between">
+            <h3>🏍️ Active Deliveries</h3>
+            <div id="deliveryCount" style="color: var(--muted); font-size: 14px;">0 active</div>
+          </div>
+          
+          <div id="ordersLoading" style="text-align: center; padding: 20px; color: var(--muted);">
+            ⏳ Loading deliveries...
+          </div>
+          
+          <div id="ordersError" style="display: none; text-align: center; padding: 20px; color: #ef4444;">
+            ⚠️ Unable to load deliveries. 
+            <button class="linklike" id="retryBtn">Try again</button>
+          </div>
+          
+          <div id="ordersEmpty" style="display: none; text-align: center; padding: 20px; color: var(--muted);">
+            <div style="font-size: 48px; margin-bottom: 12px;">✨</div>
+            <div>No active deliveries</div>
+            <div style="font-size: 13px; margin-top: 8px;">New orders will appear here</div>
+          </div>
+          
+          <ul id="ordersList" class="cards" style="display: none;"></ul>
+        </section>
+        
+        <!-- Completed deliveries -->
+        <section class="panel" id="completedSection" style="display: none;">
+          <div class="row-between">
+            <h3>✅ Completed Today</h3>
+            <div id="completedDeliveriesCount" style="color: var(--muted); font-size: 14px;">0</div>
+          </div>
+          <ul id="completedList" class="cards"></ul>
+        </section>
+        
+        <!-- Quick stats -->
+        <section class="panel">
+          <h3>Today's Summary</h3>
+          <div class="metrics">
+            <div class="metric">
+              <div class="label">Completed</div>
+              <div class="value" id="completedCount">0</div>
+            </div>
+            <div class="metric">
+              <div class="label">Active</div>
+              <div class="value" id="activeCount">0</div>
+            </div>
+            <div class="metric">
+              <div class="label">Earnings</div>
+              <div class="value" id="earnings">₹0</div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+  </div>
+
+  <script>
+    (function() {
+      
+      // State
+      let currentRider = null;
+      let riderId = null;
+      
+      // DOM elements
+      const loginScreen = document.getElementById('loginScreen');
+      const dashboardScreen = document.getElementById('dashboardScreen');
+      const loginForm = document.getElementById('loginForm');
+      const loginError = document.getElementById('loginError');
+      const riderNameEl = document.getElementById('riderName');
+      const logoutBtn = document.getElementById('logoutBtn');
+      const refreshBtn = document.getElementById('refreshBtn');
+      const retryBtn = document.getElementById('retryBtn');
+      const ordersLoading = document.getElementById('ordersLoading');
+      const ordersError = document.getElementById('ordersError');
+      const ordersEmpty = document.getElementById('ordersEmpty');
+      const ordersList = document.getElementById('ordersList');
+      const deliveryCount = document.getElementById('deliveryCount');
+      const completedCount = document.getElementById('completedCount');
+      const activeCount = document.getElementById('activeCount');
+      const earnings = document.getElementById('earnings');
+      
+      // New sections
+      const newRequestsSection = document.getElementById('newRequestsSection');
+      const newRequestsList = document.getElementById('newRequestsList');
+      const newRequestsCount = document.getElementById('newRequestsCount');
+      const completedSection = document.getElementById('completedSection');
+      const completedList = document.getElementById('completedList');
+      const completedDeliveriesCount = document.getElementById('completedDeliveriesCount');
+      
+      // Rider configuration
+      const RIDER_CONFIG = {
+        'rider01': { name: 'Raj Kumar', pin: '1234' },
+        'rider02': { name: 'Anita', pin: '1234' },
+        'rider03': { name: 'Suresh', pin: '1234' }
+      };
+      
+      // Login handler
+      loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const selectedRider = document.getElementById('riderSelect').value;
+        const enteredPin = document.getElementById('riderPin').value;
+        
+        const config = RIDER_CONFIG[selectedRider];
+        
+        if (!config) {
+          showLoginError('Please select a rider ID');
+          return;
+        }
+        
+        if (enteredPin !== config.pin) {
+          showLoginError('Invalid PIN');
+          return;
+        }
+        
+        // Login successful
+        currentRider = config.name;
+        riderId = selectedRider;
+        
+        // Save to session
+        sessionStorage.setItem('rider_id', riderId);
+        sessionStorage.setItem('rider_name', currentRider);
+        
+        // Show dashboard
+        showDashboard();
+      });
+      
+      function showLoginError(message) {
+        loginError.textContent = message;
+        loginError.style.display = 'block';
+        setTimeout(() => {
+          loginError.style.display = 'none';
+        }, 3000);
+      }
+      
+      function showDashboard() {
+        loginScreen.style.display = 'none';
+        dashboardScreen.style.display = 'block';
+        riderNameEl.textContent = currentRider;
+        loadOrders();
+      }
+      
+      // Logout
+      logoutBtn.addEventListener('click', () => {
+        sessionStorage.removeItem('rider_id');
+        sessionStorage.removeItem('rider_name');
+        currentRider = null;
+        riderId = null;
+        loginScreen.style.display = 'block';
+        dashboardScreen.style.display = 'none';
+        loginForm.reset();
+      });
+      
+      // Refresh
+      refreshBtn.addEventListener('click', loadOrders);
+      retryBtn.addEventListener('click', loadOrders);
+      
+      // Format status badge
+      function getStatusBadge(status) {
+        const statusConfig = {
+          'ready_for_pickup': { label: 'Pick Up', color: '#8b5cf6', icon: '📦' },
+          'reached_vendor': { label: 'At Restaurant', color: '#ec4899', icon: '🏪' },
+          'out_for_delivery': { label: 'Delivering', color: '#06b6d4', icon: '🏍️' },
+          'near_destination': { label: 'Arriving', color: '#14b8a6', icon: '📍' },
+          'delivered': { label: 'Delivered', color: '#10b981', icon: '✓' }
+        };
+        
+        const config = statusConfig[status] || { label: status, color: '#6b7280', icon: '' };
+        return `<span style="
+          display: inline-block;
+          background: ${config.color};
+          color: white;
+          padding: 4px 10px;
+          border-radius: 6px;
+          font-size: 12px;
+          font-weight: 600;
+        ">${config.icon} ${config.label}</span>`;
+      }
+      
+      // Format time
+      function formatTime(timestamp) {
+        const date = new Date(timestamp);
+        const now = new Date();
+        const diffMs = now - date;
+        const diffMins = Math.floor(diffMs / 60000);
+        
+        if (diffMins < 60) {
+          return `${diffMins} min ago`;
+        } else {
+          return date.toLocaleTimeString('en-IN', { 
+            hour: '2-digit',
+            minute: '2-digit'
+          });
+        }
+      }
+      
+      // Escape HTML
+      function escapeHtml(s) {
+        return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+      
+      // Handle rider response (accept/reject)
+      async function handleRiderResponse(orderId, decision) {
+        try {
+          const response = await fetch('/api/orders/rider-response', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              order_id: orderId,
+              rider_id: riderId,
+              decision: decision
+            })
+          });
+          
+          const data = await response.json();
+          
+          if (!response.ok || !data.success) {
+            const errorMsg = data.error || 'Failed to process response';
+            
+            // Special handling for rejection limit
+            if (data.limit_reached) {
+              alert('⚠️ Monthly rejection limit reached (3 per month).\n\nPlease contact operations if you need assistance.');
+            } else {
+              alert(errorMsg);
+            }
+            return;
+          }
+          
+          // Success - reload orders
+          if (decision === 'accept') {
+            console.log('Order accepted successfully');
+          } else {
+            console.log('Order rejected successfully');
+          }
+          
+          loadOrders();
+          
+        } catch (error) {
+          console.error('Failed to process rider response:', error);
+          alert('Failed to process your response. Please try again.');
+        }
+      }
+      
+      // Encode address for Google Maps
+      function encodeAddressForMaps(address) {
+        return encodeURIComponent(address);
+      }
+      
+      // Update order status
+      async function updateOrderStatus(orderId, newStatus) {
+        try {
+          const response = await fetch('/api/orders/status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              order_id: orderId,
+              status: newStatus,
+              rider_id: riderId
+            })
+          });
+          
+          if (!response.ok) {
+            throw new Error('Failed to update status');
+          }
+          
+          // Reload orders
+          loadOrders();
+          
+        } catch (error) {
+          console.error('Failed to update order status:', error);
+          alert('Failed to update status. Please try again.');
+        }
+      }
+      
+      // Calculate stats
+      function updateStats(orders) {
+        const today = new Date().toDateString();
+        const todayOrders = orders.filter(o => 
+          new Date(o.created_at).toDateString() === today
+        );
+        
+        const completed = todayOrders.filter(o => o.status === 'delivered').length;
+        const active = orders.filter(o => 
+          o.status === 'ready_for_pickup' || o.status === 'out_for_delivery'
+        ).length;
+        
+        // Estimate earnings (₹30 per delivery)
+        const totalEarnings = completed * 30;
+        
+        completedCount.textContent = completed;
+        activeCount.textContent = active;
+        earnings.textContent = `₹${totalEarnings}`;
+      }
+      
+      // Render orders (separated into New Requests, Active, and Completed)
+      function renderOrders(orders) {
+        ordersLoading.style.display = 'none';
+        ordersError.style.display = 'none';
+        ordersEmpty.style.display = 'none';
+        ordersList.style.display = 'none';
+        newRequestsSection.style.display = 'none';
+        completedSection.style.display = 'none';
+        
+        if (!orders || orders.length === 0) {
+          ordersEmpty.style.display = 'block';
+          deliveryCount.textContent = '0 active';
+          updateStats([]);
+          return;
+        }
+        
+        // Separate orders into categories
+        const newRequests = orders.filter(o => 
+          o.allocation_status === 'pending_rider' && 
+          o.current_candidate_rider_id === riderId
+        );
+        
+        const activeDeliveries = orders.filter(o => 
+          o.allocation_status === 'assigned' && 
+          o.assigned_rider_id === riderId && 
+          o.status !== 'delivered'
+        );
+        
+        const today = new Date().toDateString();
+        const completedDeliveries = orders.filter(o => 
+          o.assigned_rider_id === riderId && 
+          o.status === 'delivered' &&
+          new Date(o.updated_at).toDateString() === today
+        );
+        
+        // Update counts
+        deliveryCount.textContent = `${activeDeliveries.length} active`;
+        newRequestsCount.textContent = newRequests.length.toString();
+        completedDeliveriesCount.textContent = completedDeliveries.length.toString();
+        
+        // Update stats
+        updateStats(orders);
+        
+        // Render New Requests
+        if (newRequests.length > 0) {
+          newRequestsSection.style.display = 'block';
+          newRequestsList.innerHTML = newRequests.map(order => {
+            const total = (order.price || 0) * (order.quantity || 1);
+            const estimatedEarning = 30; // ₹30 per delivery
+            
+            return `
+              <li class="card" style="border: 2px solid #3b82f6; background: rgba(59, 130, 246, 0.05);">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                  <div style="flex: 1;">
+                    <h4 style="margin: 0; color: #3b82f6;">🔔 NEW REQUEST</h4>
+                    <div style="font-size: 18px; font-weight: 700; margin-top: 8px;">
+                      ${escapeHtml(order.dish_title)}
+                    </div>
+                    <div style="color: var(--muted); font-size: 13px; margin-top: 4px;">
+                      Order #${order.order_id.substring(0, 12)}
+                    </div>
+                  </div>
+                  <div style="text-align: right;">
+                    <div style="font-size: 14px; font-weight: 700; color: #10b981;">
+                      +₹${estimatedEarning}
+                    </div>
+                    <div style="font-size: 12px; color: var(--muted);">earnings</div>
+                  </div>
+                </div>
+                
+                <!-- Pickup info -->
+                <div style="padding: 10px; background: rgba(139, 92, 246, 0.1); border-left: 3px solid #8b5cf6; border-radius: 4px; margin: 12px 0; font-size: 13px;">
+                  <div style="font-weight: 600; margin-bottom: 4px;">📦 Pickup</div>
+                  <div style="font-weight: 600;">${escapeHtml(order.vendor_name)}</div>
+                  <div style="color: var(--muted); font-size: 12px; margin-top: 2px;">
+                    ${order.vendor_area || 'Wakad'}
+                  </div>
+                </div>
+                
+                <!-- Drop info -->
+                <div style="padding: 10px; background: rgba(6, 182, 212, 0.1); border-left: 3px solid #06b6d4; border-radius: 4px; margin: 12px 0; font-size: 13px;">
+                  <div style="font-weight: 600; margin-bottom: 4px;">📍 Drop</div>
+                  <div style="font-weight: 600;">${escapeHtml(order.address)}</div>
+                  <div style="color: var(--muted); font-size: 12px; margin-top: 4px;">
+                    📞 ${escapeHtml(order.phone)}
+                  </div>
+                </div>
+                
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--ring);">
+                  <div style="font-size: 13px; color: var(--muted);">
+                    Order value: ₹${total}
+                  </div>
+                  <div style="font-size: 13px; color: var(--muted);">
+                    ${formatTime(order.created_at)}
+                  </div>
+                </div>
+                
+                <div class="row gap8 mt12">
+                  <button class="pill" onclick="acceptOrder('${order.order_id}')" style="flex: 1; background: #10b981;">
+                    ✓ Accept Order
+                  </button>
+                  <button class="pill ghost" onclick="rejectOrder('${order.order_id}')" style="flex: 1;">
+                    ✕ Reject
+                  </button>
+                </div>
+              </li>
+            `;
+          }).join('');
+        }
+        
+        // Render Active Deliveries
+        if (activeDeliveries.length > 0) {
+          // Sort by status priority
+          const statusPriority = {
+            'ready_for_pickup': 1,
+            'reached_vendor': 2,
+            'out_for_delivery': 3,
+            'near_destination': 4
+          };
+          
+          activeDeliveries.sort((a, b) => {
+            const aPriority = statusPriority[a.status] || 99;
+            const bPriority = statusPriority[b.status] || 99;
+            if (aPriority !== bPriority) return aPriority - bPriority;
+            return new Date(b.created_at) - new Date(a.created_at);
+          });
+          
+          ordersList.innerHTML = activeDeliveries.map(order => {
+            const total = (order.price || 0) * (order.quantity || 1);
+            const canReach = order.status === 'ready_for_pickup';
+            const canPickup = order.status === 'reached_vendor';
+            const canNear = order.status === 'out_for_delivery';
+            const canDeliver = order.status === 'near_destination';
+            const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeAddressForMaps(order.address)}`;
+            
+            return `
+              <li class="card">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                  <div style="flex: 1;">
+                    <h4 style="margin: 0; font-size: 16px; font-weight: 700;">${escapeHtml(order.dish_title)}</h4>
+                    <div style="color: var(--muted); font-size: 13px; margin-top: 4px;">
+                      Order #${order.order_id.substring(0, 12)}
+                    </div>
+                  </div>
+                  ${getStatusBadge(order.status)}
+                </div>
+                
+                <!-- Pickup info -->
+                <div style="padding: 10px; background: rgba(139, 92, 246, 0.1); border-left: 3px solid #8b5cf6; border-radius: 4px; margin: 12px 0; font-size: 13px;">
+                  <div style="font-weight: 600; margin-bottom: 4px;">📦 Pickup</div>
+                  <div>${escapeHtml(order.vendor_name)}</div>
+                  <div style="color: var(--muted); font-size: 12px; margin-top: 2px;">
+                    ${order.vendor_area || 'Wakad'}
+                  </div>
+                </div>
+                
+                <!-- Drop info -->
+                <div style="padding: 10px; background: rgba(6, 182, 212, 0.1); border-left: 3px solid #06b6d4; border-radius: 4px; margin: 12px 0; font-size: 13px;">
+                  <div style="font-weight: 600; margin-bottom: 4px;">📍 Drop</div>
+                  <div>${escapeHtml(order.address)}</div>
+                  <div style="color: var(--muted); font-size: 12px; margin-top: 4px;">
+                    📞 ${escapeHtml(order.phone)}
+                  </div>
+                </div>
+                
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--ring);">
+                  <div style="font-size: 13px; color: var(--muted);">
+                    Placed ${formatTime(order.created_at)}
+                  </div>
+                  <div style="font-weight: 700; color: var(--accent);">
+                    ₹${total}
+                  </div>
+                </div>
+                
+                <!-- Navigation button -->
+                <div class="mt12">
+                  <a href="${mapsUrl}" target="_blank" class="pill ghost w100" style="text-decoration: none; text-align: center; display: block;">
+                    🗺️ Open in Maps
+                  </a>
+                </div>
+                
+                <!-- Action buttons -->
+                <div class="row gap8 mt12">
+                  ${canReach ? `
+                    <button class="pill" onclick="updateStatus('${order.order_id}', 'reached_vendor')" style="flex: 1;">
+                      🏪 Reached Restaurant
+                    </button>
+                  ` : ''}
+                  ${canPickup ? `
+                    <button class="pill" onclick="updateStatus('${order.order_id}', 'out_for_delivery')" style="flex: 1;">
+                      🏍️ Picked Up
+                    </button>
+                  ` : ''}
+                  ${canNear ? `
+                    <button class="pill" onclick="updateStatus('${order.order_id}', 'near_destination')" style="flex: 1;">
+                      📍 Near Destination
+                    </button>
+                  ` : ''}
+                  ${canDeliver ? `
+                    <button class="pill" onclick="updateStatus('${order.order_id}', 'delivered')" style="flex: 1; background: #10b981;">
+                      ✓ Mark Delivered
+                    </button>
+                  ` : ''}
+                </div>
+              </li>
+            `;
+          }).join('');
+          
+          ordersList.style.display = 'block';
+        } else {
+          ordersEmpty.style.display = 'block';
+        }
+        
+        // Render Completed Deliveries
+        if (completedDeliveries.length > 0) {
+          completedSection.style.display = 'block';
+          completedList.innerHTML = completedDeliveries.map(order => {
+            const total = (order.price || 0) * (order.quantity || 1);
+            
+            return `
+              <li class="card" style="opacity: 0.7; background: rgba(16, 185, 129, 0.05);">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                  <div style="flex: 1;">
+                    <h4 style="margin: 0; font-size: 14px;">${escapeHtml(order.dish_title)}</h4>
+                    <div style="color: var(--muted); font-size: 12px; margin-top: 4px;">
+                      ${escapeHtml(order.vendor_name)} → ${escapeHtml(order.address.substring(0, 30))}...
+                    </div>
+                  </div>
+                  <div style="text-align: right;">
+                    <div style="color: #10b981; font-weight: 600; font-size: 12px;">✓ Delivered</div>
+                    <div style="font-size: 12px; color: var(--muted);">+₹30</div>
+                  </div>
+                </div>
+                
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 12px; color: var(--muted);">
+                  <div>₹${total}</div>
+                  <div>${formatTime(order.updated_at)}</div>
+                </div>
+              </li>
+            `;
+          }).join('');
+        }
+      }
+      
+      // Load orders
+      async function loadOrders() {
+        if (!riderId) return;
+        
+        ordersLoading.style.display = 'block';
+        ordersError.style.display = 'none';
+        
+        try {
+          const response = await fetch(`/api/orders?rider=${encodeURIComponent(riderId)}`);
+          
+          if (!response.ok) {
+            throw new Error('Failed to load orders');
+          }
+          
+          const data = await response.json();
+          renderOrders(data.orders || []);
+          
+        } catch (error) {
+          console.error('Failed to load orders:', error);
+          ordersLoading.style.display = 'none';
+          ordersError.style.display = 'block';
+        }
+      }
+      
+      // Make update function global for onclick handlers
+      window.updateStatus = updateOrderStatus;
+      window.acceptOrder = (orderId) => handleRiderResponse(orderId, 'accept');
+      window.rejectOrder = (orderId) => handleRiderResponse(orderId, 'reject');
+      
+      // Check if already logged in
+      const savedRiderId = sessionStorage.getItem('rider_id');
+      const savedRiderName = sessionStorage.getItem('rider_name');
+      
+      if (savedRiderId && savedRiderName) {
+        riderId = savedRiderId;
+        currentRider = savedRiderName;
+        showDashboard();
+      }
+      
+      // Auto-refresh every 10 seconds
+      setInterval(() => {
+        if (riderId) {
+          loadOrders();
+        }
+      }, 10000);
+      
+    })();
+  </script>
+
+  <script src="/netlify/widgets/simple_page_metric.js"></script>
+</body>
+</html>

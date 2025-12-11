@@ -1,0 +1,182 @@
+{
+  "version": "1.0.0",
+  "description": "Standard portion sizes for Indian and common foods",
+  "portions": {
+    "chapati": {
+      "standard": { "amount": 30, "unit": "g", "description": "1 medium chapati" },
+      "alternatives": [
+        { "amount": 45, "unit": "g", "description": "1 large chapati" },
+        { "amount": 20, "unit": "g", "description": "1 small chapati" }
+      ]
+    },
+    "roti": {
+      "standard": { "amount": 30, "unit": "g", "description": "1 medium roti" }
+    },
+    "rice": {
+      "standard": { "amount": 150, "unit": "g", "description": "1 katori (bowl)" },
+      "alternatives": [
+        { "amount": 200, "unit": "g", "description": "1 large bowl" },
+        { "amount": 100, "unit": "g", "description": "1 small bowl" },
+        { "amount": 250, "unit": "g", "description": "1 plate" }
+      ]
+    },
+    "dal": {
+      "standard": { "amount": 150, "unit": "g", "description": "1 katori" },
+      "alternatives": [
+        { "amount": 100, "unit": "g", "description": "1 small katori" }
+      ]
+    },
+    "curry": {
+      "standard": { "amount": 150, "unit": "g", "description": "1 katori" }
+    },
+    "sabzi": {
+      "standard": { "amount": 100, "unit": "g", "description": "1 serving" }
+    },
+    "salad": {
+      "standard": { "amount": 150, "unit": "g", "description": "1 bowl" },
+      "alternatives": [
+        { "amount": 100, "unit": "g", "description": "1 small bowl" },
+        { "amount": 200, "unit": "g", "description": "1 large bowl" }
+      ]
+    },
+    "egg": {
+      "standard": { "amount": 50, "unit": "g", "description": "1 large egg" },
+      "alternatives": [
+        { "amount": 100, "unit": "g", "description": "2 eggs" },
+        { "amount": 40, "unit": "g", "description": "1 medium egg" }
+      ]
+    },
+    "paneer": {
+      "standard": { "amount": 50, "unit": "g", "description": "3-4 cubes" },
+      "alternatives": [
+        { "amount": 100, "unit": "g", "description": "6-8 cubes" },
+        { "amount": 30, "unit": "g", "description": "2 cubes" }
+      ]
+    },
+    "idli": {
+      "standard": { "amount": 50, "unit": "g", "description": "1 piece" },
+      "alternatives": [
+        { "amount": 100, "unit": "g", "description": "2 pieces" }
+      ]
+    },
+    "dosa": {
+      "standard": { "amount": 100, "unit": "g", "description": "1 medium dosa" },
+      "alternatives": [
+        { "amount": 150, "unit": "g", "description": "1 large dosa" }
+      ]
+    },
+    "paratha": {
+      "standard": { "amount": 60, "unit": "g", "description": "1 medium paratha" },
+      "alternatives": [
+        { "amount": 80, "unit": "g", "description": "1 large paratha" }
+      ]
+    },
+    "biryani": {
+      "standard": { "amount": 250, "unit": "g", "description": "1 plate" },
+      "alternatives": [
+        { "amount": 200, "unit": "g", "description": "1 medium bowl" },
+        { "amount": 350, "unit": "g", "description": "1 large plate" }
+      ]
+    },
+    "samosa": {
+      "standard": { "amount": 50, "unit": "g", "description": "1 piece" }
+    },
+    "pakora": {
+      "standard": { "amount": 15, "unit": "g", "description": "1 piece" },
+      "alternatives": [
+        { "amount": 75, "unit": "g", "description": "5 pieces" }
+      ]
+    },
+    "vada": {
+      "standard": { "amount": 40, "unit": "g", "description": "1 piece" }
+    },
+    "curd": {
+      "standard": { "amount": 100, "unit": "g", "description": "1 small bowl" },
+      "alternatives": [
+        { "amount": 200, "unit": "g", "description": "1 large bowl" }
+      ]
+    },
+    "milk": {
+      "standard": { "amount": 250, "unit": "ml", "description": "1 glass" },
+      "alternatives": [
+        { "amount": 150, "unit": "ml", "description": "1 small glass" }
+      ]
+    },
+    "banana": {
+      "standard": { "amount": 100, "unit": "g", "description": "1 medium" },
+      "alternatives": [
+        { "amount": 120, "unit": "g", "description": "1 large" }
+      ]
+    },
+    "apple": {
+      "standard": { "amount": 150, "unit": "g", "description": "1 medium" }
+    },
+    "chicken": {
+      "standard": { "amount": 100, "unit": "g", "description": "1 serving" },
+      "alternatives": [
+        { "amount": 150, "unit": "g", "description": "1 large serving" }
+      ]
+    },
+    "fish": {
+      "standard": { "amount": 100, "unit": "g", "description": "1 serving" }
+    },
+    "sprouts": {
+      "standard": { "amount": 100, "unit": "g", "description": "1 bowl" }
+    },
+    "oats": {
+      "standard": { "amount": 50, "unit": "g", "description": "1 serving (dry)" },
+      "alternatives": [
+        { "amount": 200, "unit": "g", "description": "1 bowl (cooked)" }
+      ]
+    },
+    "smoothie": {
+      "standard": { "amount": 300, "unit": "ml", "description": "1 glass" }
+    },
+    "juice": {
+      "standard": { "amount": 200, "unit": "ml", "description": "1 glass" }
+    }
+  },
+  "visual_guides": {
+    "palm": {
+      "description": "Size of your palm (excluding fingers)",
+      "equivalents": [
+        { "food": "chicken", "amount": 85, "unit": "g" },
+        { "food": "fish", "amount": 85, "unit": "g" },
+        { "food": "paneer", "amount": 85, "unit": "g" }
+      ]
+    },
+    "fist": {
+      "description": "Size of your closed fist",
+      "equivalents": [
+        { "food": "rice", "amount": 150, "unit": "g" },
+        { "food": "dal", "amount": 150, "unit": "g" },
+        { "food": "curry", "amount": 150, "unit": "g" },
+        { "food": "salad", "amount": 150, "unit": "g" }
+      ]
+    },
+    "thumb": {
+      "description": "Size of your thumb (tip to base)",
+      "equivalents": [
+        { "food": "paneer", "amount": 30, "unit": "g" },
+        { "food": "cheese", "amount": 30, "unit": "g" },
+        { "food": "butter", "amount": 15, "unit": "g" }
+      ]
+    },
+    "handful": {
+      "description": "Amount you can hold in one cupped hand",
+      "equivalents": [
+        { "food": "nuts", "amount": 30, "unit": "g" },
+        { "food": "dry fruits", "amount": 40, "unit": "g" },
+        { "food": "popcorn", "amount": 25, "unit": "g" }
+      ]
+    }
+  },
+  "descriptors": {
+    "small": 0.7,
+    "medium": 1.0,
+    "large": 1.4,
+    "extra large": 1.8,
+    "tiny": 0.5,
+    "huge": 2.0
+  }
+}

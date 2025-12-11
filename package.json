@@ -1,0 +1,39 @@
+{
+  "name": "acl025-healthy-food-delivery",
+  "version": "2.0.0",
+  "description": "Advanced healthy food delivery platform with smart algorithms and real-time features",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "netlify deploy --prod",
+    "deploy:staging": "netlify deploy",
+    "test": "echo 'Tests will be added in testing phase'",
+    "setup": "bash scripts/setup-advanced.sh"
+  },
+  "keywords": [
+    "food-delivery",
+    "nutrition",
+    "health",
+    "netlify",
+    "zomato",
+    "swiggy",
+    "machine-learning",
+    "algorithms"
+  ],
+  "author": "Pushpak005",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "@upstash/redis": "^1.25.1",
+    "csv-parse": "^6.1.0",
+    "pg": "^8.16.3",
+    "posthog-js": "^1.96.1"
+  },
+  "devDependencies": {
+    "netlify-cli": "^23.12.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
