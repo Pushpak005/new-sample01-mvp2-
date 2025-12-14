@@ -283,4 +283,8 @@ COPY ${JAR_FILE} /app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 EOF
 
+<<<<<<< HEAD
 echo "All backend files created."
+=======
+echo "All backend files created."
+>>>>>>> origin/main
