@@ -18,7 +18,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v4
       with:
-        context: demo/fast-start/backend
+        context: .
         file: demo/fast-start/backend/Dockerfile
         push: true
         tags: ghcr.io/pushpak005/new-sample-backend:latest
