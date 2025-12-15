@@ -21,4 +21,4 @@ jobs:
         context: .
         file: demo/fast-start/backend/Dockerfile
         push: true
-        tags: ghcr.io/pushpak005/new-sample-backend:latest
+        platforms: linux/amd64,linux/arm64        tags: ghcr.io/pushpak005/new-sample-backend:latest
