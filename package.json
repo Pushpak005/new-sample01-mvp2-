@@ -24,7 +24,7 @@
   "author": "Pushpak005",
   "license": "MIT",
   "dependencies": {
-    "@supabase/supabase-js": "^2.38.0",
+    "@supabase/supabase-js": "^2.87.1",
     "@upstash/redis": "^1.25.1",
     "csv-parse": "^6.1.0",
     "pg": "^8.16.3",
@@ -35,5 +35,14 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pushpak005/new-sample01-mvp2-.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pushpak005/new-sample01-mvp2-/issues"
+  },
+  "homepage": "https://github.com/Pushpak005/new-sample01-mvp2-#readme"
 }

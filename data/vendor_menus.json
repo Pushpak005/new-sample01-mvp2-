@@ -1,0 +1,60 @@
+[
+  {
+    "vendorId": "v1",
+    "vendorName": "Healthybee",
+    "items": [
+      {
+        "id": "hb-i1",
+        "title": "Paneer Sprouts Salad",
+        "price": 259,
+        "tags": ["high-protein","low-calorie","low-sodium"],
+        "description": "Cottage cheese, mixed sprouts, cucumber, tomato, light dressing.",
+        "nutrition": {"calories": 180, "protein": 12, "carbs": 10, "fat": 8}
+      },
+      {
+        "id": "hb-i2",
+        "title": "Quinoa & Roasted Veg Bowl",
+        "price": 220,
+        "tags": ["high-fiber","low-calorie","balanced-meal"],
+        "description": "Quinoa, seasonal roasted vegetables, seeds.",
+        "nutrition": {"calories": 320, "protein": 9, "carbs": 45, "fat": 8}
+      }
+    ]
+  },
+  {
+    "vendorId": "v2",
+    "vendorName": "Swad Gomantak",
+    "items": [
+      {
+        "id": "sg-i1",
+        "title": "Grilled Fish Thali (light)",
+        "price": 299,
+        "tags": ["low-sodium","high-protein"],
+        "description": "Grilled fish, brown rice, salad; minimal oil.",
+        "nutrition": {"calories": 380, "protein": 32, "carbs": 38, "fat": 10}
+      },
+      {
+        "id": "sg-i2",
+        "title": "Veg Pulao (light)",
+        "price": 150,
+        "tags": ["light-clean","balanced-meal"],
+        "description": "Mixed veg pulao with light seasoning.",
+        "nutrition": {"calories": 260, "protein": 6, "carbs": 52, "fat": 4}
+      }
+    ]
+  },
+  {
+    "vendorId": "v3",
+    "vendorName": "Shree Krishna Veg",
+    "items": [
+      {
+        "id": "skv-i1",
+        "title": "Moong Dal Chilla Wrap",
+        "price": 120,
+        "tags": ["high-protein-snack","low-calorie"],
+        "description": "Moong dal chilla stuffed with greens.",
+        "nutrition": {"calories": 160, "protein": 11, "carbs": 18, "fat": 4}
+      }
+    ]
+  }
+]
