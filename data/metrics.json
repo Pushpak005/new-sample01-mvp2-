@@ -14,13 +14,13 @@
     "vendors_filtered": "swad gomantak,healthybee"
   },
   "text_regressor": {
-    "n_train": 131,
+    "n_train": 460,
     "alpha": 0.1,
-    "test_mae": 33.292324525568056,
-    "test_rmse": 45.89534276468786
+    "test_mae": 7.347390373423293,
+    "test_rmse": 13.468115267435815
   },
   "model_impute": {
-    "imputed_count": 455,
+    "imputed_count": 0,
     "calories_source": "model_regressor"
   }
 }
