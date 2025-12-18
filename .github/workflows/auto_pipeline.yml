@@ -1,0 +1,41 @@
+name: calorie-pipeline
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 2 * * *'  # daily at 02:00 UTC — change if needed
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
+          pip install scikit-learn pandas joblib supabase
+
+      - name: Run training script
+        run: |
+          python3 scripts/train_text_regressor.py || echo "train script failed"
+
+      - name: Run impute/prediction script
+        run: |
+          python3 scripts/impute_with_model.py || echo "impute script failed"
+
+      - name: Upload artifacts to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          python3 scripts/upload_artifacts_supabase.py || echo "upload failed"
