@@ -1,0 +1,51 @@
+vendor_name,item_id,title,calories_rounded,calories,calories_source,confidence_label,final_confidence
+healthybee,hb-i1,Paneer Sprouts Salad,180,180.0,,unknown,0.0
+healthybee,hb-i2,Quinoa & Roasted Veg Bowl,320,320.0,,unknown,0.0
+swad gomantak,sg-i1,Grilled Fish Thali (light),380,380.0,,unknown,0.0
+swad gomantak,sg-i2,Veg Pulao (light),260,260.0,,unknown,0.0
+shree krishna veg,skv-i1,Moong Dal Chilla Wrap,160,160.0,,unknown,0.0
+shree krishna veg es,ac4ec427-300,Steam Rice,182,182.40524485465272,manual_review,high,1.0
+shree krishna veg es,ac4ec427-301,Veg Item. Vegetable Manchurian,199,199.0912970828267,manual_review,high,1.0
+shree krishna veg es,ac4ec427-302,Chilli Paneer,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-303,Spring Rolls,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-304,Paneer Satay,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-306,Kungpao Paneer,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-299,Curd Rice,182,182.40524485465272,manual_review,high,1.0
+shree krishna veg es,ac4ec427-307,Crispy Vegetables,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-308,Honey Corn Chilli Paneer.,195,194.540866445342,manual_review,high,1.0
+shree krishna veg es,ac4ec427-309,Shanghai Paneer.,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-305,Crispy Paneer.,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-298,Jeera Rice,182,182.40524485465272,manual_review,high,1.0
+shree krishna veg es,ac4ec427-296,Dahi Khichadi,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-310,Noodle Crispy Paneer,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-295,Cheese Pulao.,190,190.0019698106006,manual_review,high,1.0
+shree krishna veg es,ac4ec427-294,Kashmiri Pulao,190,190.0019698106006,manual_review,high,1.0
+shree krishna veg es,ac4ec427-293,Paneer Pulao,216,216.4036885085557,manual_review,high,1.0
+shree krishna veg es,ac4ec427-292,Paneer Tikka Biryani.,204,203.6810337909876,manual_review,high,1.0
+shree krishna veg es,ac4ec427-291,Dum Biryani,186,186.36388550844148,manual_review,high,1.0
+shree krishna veg es,ac4ec427-290,Peas Pulao,190,190.0019698106006,manual_review,high,1.0
+shree krishna veg es,ac4ec427-289,Khichadi Kadhi,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-288,Palak Khichadi,200,199.71412275785613,manual_review,high,1.0
+shree krishna veg es,ac4ec427-287,Dal Khichadi,173,172.74079288325603,manual_review,high,1.0
+shree krishna veg es,ac4ec427-286,Veg Biryani,196,196.44814196645152,manual_review,high,1.0
+shree krishna veg es,ac4ec427-297,Subz Pulao,190,190.0019698106006,manual_review,high,1.0
+shree krishna veg es,ac4ec427-311,Vegetable Lollipop,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-314,Black Pepper Paneer.,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-313,Paneer Hot Pan,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-338,Jain Dal Fry,173,172.74079288325603,manual_review,high,1.0
+shree krishna veg es,ac4ec427-337,Jain Green Peas Masala,181,181.1403033035112,manual_review,high,1.0
+shree krishna veg es,ac4ec427-336,Jain Chana Masala,181,181.1403033035112,manual_review,high,1.0
+shree krishna veg es,ac4ec427-335,Jain Cheese Pulao,190,190.0019698106006,manual_review,high,1.0
+shree krishna veg es,ac4ec427-334,Jain Green Peas Pulao,190,190.0019698106006,manual_review,high,1.0
+shree krishna veg es,ac4ec427-333,Jain Palak Paneer,234,233.9851659676474,manual_review,high,1.0
+shree krishna veg es,ac4ec427-332,Jain Paneer Pulao,216,216.4036885085557,manual_review,high,1.0
+shree krishna veg es,ac4ec427-331,Jain Kaju Curry,191,191.11333107459507,manual_review,high,1.0
+shree krishna veg es,ac4ec427-330,Jain Kaju Masala,181,181.1403033035112,manual_review,high,1.0
+shree krishna veg es,ac4ec427-329,Jain Paneer Masala,209,208.59596809128143,manual_review,high,1.0
+shree krishna veg es,ac4ec427-328,Jain Paneer Kofta,218,217.7053222501472,manual_review,high,1.0
+shree krishna veg es,ac4ec427-327,Khada Bhaji,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-326,Khada Pav Bhaji,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-325,Only Bhaji,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-324,Cheese Pav Bhaji,189,188.69778242687508,manual_review,high,1.0
+shree krishna veg es,ac4ec427-323,Masala Pav,181,181.1403033035112,manual_review,high,1.0
+shree krishna veg es,ac4ec427-322,Cheese Tawa Pulav,189,188.69778242687508,manual_review,high,1.0

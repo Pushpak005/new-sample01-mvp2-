@@ -32,3 +32,23 @@ data/backups/
 # Editor
 .vscode/
 .idea/
+# project safe ignores
+data/backups/
+models/*.joblib
+data/*.parquet
+tmp_*
+
+# dev / env
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# logs / temp
+*.log
+tmp/
