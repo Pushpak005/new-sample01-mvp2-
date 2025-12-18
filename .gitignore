@@ -1,14 +1,34 @@
-backend.log
-demo/fast-start/backend.bak
-demo/fast-start/backend/pom.xml.bak
-demo/fast-start/backend/pom.xml.bak2
-demo/fast-start/backend/pom.xmly
-demo/fast-start/backend/target/
+# Python / dev
+.venv/
+venv/
+__pycache__/
+*.pyc
 
-# Local Netlify folder
-.netlify
+# OS
+.DS_Store
 
-# Local env
+# Node
+node_modules/
+
+# Logs / temp
+*.log
+tmp_*
+*.bak
+
+# Env files
 .env
-.env.local
-node_modules
+.env.* 
+
+# Build/test
+.coverage
+pytest_cache/
+
+# Data and model artifacts (don't commit large binaries)
+data/*.parquet
+data/*.parquet.*
+models/*.joblib
+data/backups/
+
+# Editor
+.vscode/
+.idea/
