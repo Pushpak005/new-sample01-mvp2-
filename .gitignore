@@ -52,3 +52,4 @@ venv/
 # logs / temp
 *.log
 tmp/
+docs/old_md/duplicates/
