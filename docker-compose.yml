@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  api:
+    build: ./api
+    image: healthy-api:local
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data:rw
+    environment:
+      - UVICORN_LOOP=asyncio
+    command: ["uvicorn", "api.app:app", "--host", "0.0.0.0", "--port", "8080"]
+
+  etl:
+    build:
+      context: ./etl
+      dockerfile: Dockerfile
+    image: healthy-etl:local
+    volumes:
+      - ./data:/app/../data:rw
+    entrypoint: ["python","etl.py"]
+    # run once on 'up' (restart: "no" ensures it will not continuously restart)
+    restart: "no"
+
+  web:
+    image: python:3.11-slim
+    working_dir: /site
+    volumes:
+      - ./:/site:ro
+    ports:
+      - "8000:8000"
+    command: ["python","-m","http.server","8000"]

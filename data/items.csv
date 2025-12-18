@@ -1,0 +1,461 @@
+vendor_id,vendor_name,source,source_index,source_vendor_name,item_id,title,description,price_cents,category,tags,calories,protein,fat,carbs,ingest_ts
+51ef1dc9,healthybee,vendor_menus.json,0,Healthybee,hb-i1,Paneer Sprouts Salad,"Cottage cheese, mixed sprouts, cucumber, tomato, light dressing.",259,,"['high-protein', 'low-calorie', 'low-sodium']",180.0,12.0,8.0,10.0,2025-12-16T13:42:42.742658
+51ef1dc9,healthybee,vendor_menus.json,1,Healthybee,hb-i2,Quinoa & Roasted Veg Bowl,"Quinoa, seasonal roasted vegetables, seeds.",220,,"['high-fiber', 'low-calorie', 'balanced-meal']",320.0,9.0,8.0,45.0,2025-12-16T13:42:42.742686
+3264c85c,swad gomantak,vendor_menus.json,0,Swad Gomantak,sg-i1,Grilled Fish Thali (light),"Grilled fish, brown rice, salad; minimal oil.",299,,"['low-sodium', 'high-protein']",380.0,32.0,10.0,38.0,2025-12-16T13:42:42.742700
+3264c85c,swad gomantak,vendor_menus.json,1,Swad Gomantak,sg-i2,Veg Pulao (light),Mixed veg pulao with light seasoning.,150,,"['light-clean', 'balanced-meal']",260.0,6.0,4.0,52.0,2025-12-16T13:42:42.742704
+991883c1,shree krishna veg,vendor_menus.json,0,Shree Krishna Veg,skv-i1,Moong Dal Chilla Wrap,Moong dal chilla stuffed with greens.,120,,"['high-protein-snack', 'low-calorie']",160.0,11.0,4.0,18.0,2025-12-16T13:42:42.742712
+51ef1dc9,healthybee,partner_menus.json,0,Healthybee,51ef1dc9-0,Paneer Sprouts Salad,,259,,,,,,,2025-12-16T13:42:42.742736
+51ef1dc9,healthybee,partner_menus.json,1,Healthybee,51ef1dc9-1,Spinach Paneer Bhurji Chapati Meal,,294,,,,,,,2025-12-16T13:42:42.742745
+51ef1dc9,healthybee,partner_menus.json,2,Healthybee,51ef1dc9-2,Non-Veg High Protein Meal Box,,401,,,,,,,2025-12-16T13:42:42.742751
+51ef1dc9,healthybee,partner_menus.json,3,Healthybee,51ef1dc9-3,Rajma Masala Brown Rice Meal Box,,319,,,,,,,2025-12-16T13:42:42.742756
+51ef1dc9,healthybee,partner_menus.json,4,Healthybee,51ef1dc9-4,Protein Rich Chickpea Curry Brown Rice Meal Box,,314,,,,,,,2025-12-16T13:42:42.742761
+51ef1dc9,healthybee,partner_menus.json,5,Healthybee,51ef1dc9-5,Chicken Tikka Wrap,,265,,,,,,,2025-12-16T13:42:42.742765
+51ef1dc9,healthybee,partner_menus.json,6,Healthybee,51ef1dc9-6,Protein Rich Chickpea Wrap,,257,,,,,,,2025-12-16T13:42:42.742769
+51ef1dc9,healthybee,partner_menus.json,7,Healthybee,51ef1dc9-7,Strawberry Banana Chia Smoothie,,209,,,,,,,2025-12-16T13:42:42.742774
+51ef1dc9,healthybee,partner_menus.json,8,Healthybee,51ef1dc9-8,Protein Rich Chickpea Sandwich,,200,,,,,,,2025-12-16T13:42:42.742778
+51ef1dc9,healthybee,partner_menus.json,9,Healthybee,51ef1dc9-9,Chicken Tikka Sandwich,,208,,,,,,,2025-12-16T13:42:42.742782
+51ef1dc9,healthybee,partner_menus.json,10,Healthybee,51ef1dc9-10,Only Peri Peri Grilled Chicken [200 gm],,349,,,,,,,2025-12-16T13:42:42.742786
+51ef1dc9,healthybee,partner_menus.json,11,Healthybee,51ef1dc9-11,Purple Rice,,169,,,,,,,2025-12-16T13:42:42.742791
+51ef1dc9,healthybee,partner_menus.json,12,Healthybee,51ef1dc9-12,Quinoa Chicken Tabbouleh Salad,,349,,,,,,,2025-12-16T13:42:42.742795
+51ef1dc9,healthybee,partner_menus.json,13,Healthybee,51ef1dc9-13,Quinoa Paneer Tabbouleh Salad,,319,,,,,,,2025-12-16T13:42:42.742799
+51ef1dc9,healthybee,partner_menus.json,14,Healthybee,51ef1dc9-14,Paneer Burrito Bowl,,319,,,,,,,2025-12-16T13:42:42.742803
+51ef1dc9,healthybee,partner_menus.json,15,Healthybee,51ef1dc9-15,Chicken Grilled Sandwich,,197,,,,,,,2025-12-16T13:42:42.742808
+51ef1dc9,healthybee,partner_menus.json,16,Healthybee,51ef1dc9-16,Paneer Tikka Grilled Sandwich,,208,,,,,,,2025-12-16T13:42:42.742812
+51ef1dc9,healthybee,partner_menus.json,17,Healthybee,51ef1dc9-17,Veg Grilled Sandwich,,169,,,,,,,2025-12-16T13:42:42.742816
+51ef1dc9,healthybee,partner_menus.json,18,Healthybee,51ef1dc9-18,Punjabi Club Grilled Sandwich,,251,,,,,,,2025-12-16T13:42:42.742820
+51ef1dc9,healthybee,partner_menus.json,19,Healthybee,51ef1dc9-19,Chicken Coleslaw Sandwich,,192,,,,,,,2025-12-16T13:42:42.742824
+51ef1dc9,healthybee,partner_menus.json,20,Healthybee,51ef1dc9-20,Omelette Chicken Decker Sandwich,,299,,,,,,,2025-12-16T13:42:42.742831
+51ef1dc9,healthybee,partner_menus.json,21,Healthybee,51ef1dc9-21,Veg Sandwich,,136,,,,,,,2025-12-16T13:42:42.742835
+51ef1dc9,healthybee,partner_menus.json,22,Healthybee,51ef1dc9-22,Chicken Mayo Grilled Sandwich,,219,,,,,,,2025-12-16T13:42:42.742839
+51ef1dc9,healthybee,partner_menus.json,23,Healthybee,51ef1dc9-23,Bite into the goodness of chicken and mayonnaise enveloped in multi-grain grilled sandwich.,,181,,,,,,,2025-12-16T13:42:42.742844
+51ef1dc9,healthybee,partner_menus.json,24,Healthybee,51ef1dc9-24,Boiled Egg Sandwich,,181,,,,,,,2025-12-16T13:42:42.742849
+51ef1dc9,healthybee,partner_menus.json,25,Healthybee,51ef1dc9-25,Veg Coleslaw Sandwich,,169,,,,,,,2025-12-16T13:42:42.742855
+51ef1dc9,healthybee,partner_menus.json,26,Healthybee,51ef1dc9-26,Cheese Chilli Grilled Sandwich,,191,,,,,,,2025-12-16T13:42:42.742860
+51ef1dc9,healthybee,partner_menus.json,27,Healthybee,51ef1dc9-27,Paneer Peri Peri Salad,,279,,,,,,,2025-12-16T13:42:42.742864
+51ef1dc9,healthybee,partner_menus.json,28,Healthybee,51ef1dc9-28,Peri - Peri Chicken Salad,,299,,,,,,,2025-12-16T13:42:42.742868
+51ef1dc9,healthybee,partner_menus.json,29,Healthybee,51ef1dc9-29,Jamaican Jerk Chicken Salad,,299,,,,,,,2025-12-16T13:42:42.742872
+51ef1dc9,healthybee,partner_menus.json,30,Healthybee,51ef1dc9-30,Basil Pesto Chicken Salad,,299,,,,,,,2025-12-16T13:42:42.742876
+51ef1dc9,healthybee,partner_menus.json,31,Healthybee,51ef1dc9-31,Creamy Garlic Chicken Salad,,319,,,,,,,2025-12-16T13:42:42.742880
+51ef1dc9,healthybee,partner_menus.json,32,Healthybee,51ef1dc9-32,Steamed Chicken Salad - Lean Protein,,299,,,,,,,2025-12-16T13:42:42.742884
+51ef1dc9,healthybee,partner_menus.json,33,Healthybee,51ef1dc9-33,Zesty Herbs Grilled Paneer Salad,,279,,,,,,,2025-12-16T13:42:42.742888
+51ef1dc9,healthybee,partner_menus.json,34,Healthybee,51ef1dc9-34,Classic Grill Chicken Salad,,299,,,,,,,2025-12-16T13:42:42.742893
+51ef1dc9,healthybee,partner_menus.json,35,Healthybee,51ef1dc9-35,Sprouts Salad,,194,,,,,,,2025-12-16T13:42:42.742897
+51ef1dc9,healthybee,partner_menus.json,36,Healthybee,51ef1dc9-36,Fruit Sprouts Salad,,230,,,,,,,2025-12-16T13:42:42.742901
+51ef1dc9,healthybee,partner_menus.json,37,Healthybee,51ef1dc9-37,Paneer Salad,,240,,,,,,,2025-12-16T13:42:42.742905
+51ef1dc9,healthybee,partner_menus.json,38,Healthybee,51ef1dc9-38,Boiled Eggs Salad,,204,,,,,,,2025-12-16T13:42:42.742909
+51ef1dc9,healthybee,partner_menus.json,39,Healthybee,51ef1dc9-39,Chickpea Beetroot Salad,,249,,,,,,,2025-12-16T13:42:42.742913
+51ef1dc9,healthybee,partner_menus.json,40,Healthybee,51ef1dc9-40,Corn Sprouts Salad,,194,,,,,,,2025-12-16T13:42:42.742917
+51ef1dc9,healthybee,partner_menus.json,41,Healthybee,51ef1dc9-41,Corn Salad,,194,,,,,,,2025-12-16T13:42:42.742921
+51ef1dc9,healthybee,partner_menus.json,42,Healthybee,51ef1dc9-42,Chicken Curry Brown Rice Meal Box,,324,,,,,,,2025-12-16T13:42:42.742925
+51ef1dc9,healthybee,partner_menus.json,43,Healthybee,51ef1dc9-43,Palak Paneer Chapati Meal Box,,274,,,,,,,2025-12-16T13:42:42.742930
+51ef1dc9,healthybee,partner_menus.json,44,Healthybee,51ef1dc9-44,Protein Rich Chickpea Curry Chapati Meal Box,,294,,,,,,,2025-12-16T13:42:42.742934
+51ef1dc9,healthybee,partner_menus.json,45,Healthybee,51ef1dc9-45,Chicken Curry Chapati Meal Box,,299,,,,,,,2025-12-16T13:42:42.742938
+51ef1dc9,healthybee,partner_menus.json,46,Healthybee,51ef1dc9-46,Palak Paneer Brown Rice Meal Box,,294,,,,,,,2025-12-16T13:42:42.742942
+51ef1dc9,healthybee,partner_menus.json,47,Healthybee,51ef1dc9-47,Rajma Masala Chapati Meal Box,,309,,,,,,,2025-12-16T13:42:42.742946
+51ef1dc9,healthybee,partner_menus.json,48,Healthybee,51ef1dc9-48,Paneer Wrap,,251,,,,,,,2025-12-16T13:42:42.742950
+51ef1dc9,healthybee,partner_menus.json,49,Healthybee,51ef1dc9-49,Chicken Egg Wrap,,284,,,,,,,2025-12-16T13:42:42.742954
+51ef1dc9,healthybee,partner_menus.json,50,Healthybee,51ef1dc9-50,"Packed with eggs, chicken, and vegetables, this wheat paratha wrap is prepared in olive oil.",,207,,,,,,,2025-12-16T13:42:42.742958
+51ef1dc9,healthybee,partner_menus.json,51,Healthybee,51ef1dc9-51,Corn Veggie Wrap,,207,,,,,,,2025-12-16T13:42:42.742962
+51ef1dc9,healthybee,partner_menus.json,52,Healthybee,51ef1dc9-52,Chicken Wrap,,262,,,,,,,2025-12-16T13:42:42.742966
+51ef1dc9,healthybee,partner_menus.json,53,Healthybee,51ef1dc9-53,Egg Wrap,,207,,,,,,,2025-12-16T13:42:42.742971
+51ef1dc9,healthybee,partner_menus.json,54,Healthybee,51ef1dc9-54,Spinach Egg White Omelette (Protein &amp; Iron Rich),,189,,,,,,,2025-12-16T13:42:42.742975
+51ef1dc9,healthybee,partner_menus.json,55,Healthybee,51ef1dc9-55,Chicken Omelette ( Lean Protein Source ),,249,,,,,,,2025-12-16T13:42:42.742979
+51ef1dc9,healthybee,partner_menus.json,56,Healthybee,51ef1dc9-56,Double Deck Chicken Omelette,,259,,,,,,,2025-12-16T13:42:42.742983
+51ef1dc9,healthybee,partner_menus.json,57,Healthybee,51ef1dc9-57,Spinach Egg White Bhurji (Protein &amp; Iron Rich),,249,,,,,,,2025-12-16T13:42:42.742987
+51ef1dc9,healthybee,partner_menus.json,58,Healthybee,51ef1dc9-58,Boiled Eggs (3 Pcs),,89,,,,,,,2025-12-16T13:42:42.742991
+51ef1dc9,healthybee,partner_menus.json,59,Healthybee,51ef1dc9-59,"Masala Omelette (Healthy Bhi, Desi Bhi)",,159,,,,,,,2025-12-16T13:42:42.742995
+51ef1dc9,healthybee,partner_menus.json,60,Healthybee,51ef1dc9-60,Chicken Brown Rice Bowl,,299,,,,,,,2025-12-16T13:42:42.742999
+51ef1dc9,healthybee,partner_menus.json,61,Healthybee,51ef1dc9-61,Paneer Brown Rice Bowl,,274,,,,,,,2025-12-16T13:42:42.743003
+51ef1dc9,healthybee,partner_menus.json,62,Healthybee,51ef1dc9-62,Veg Brown Rice Bowl,,240,,,,,,,2025-12-16T13:42:42.743007
+51ef1dc9,healthybee,partner_menus.json,63,Healthybee,51ef1dc9-63,Egg Brown Rice Bowl,,274,,,,,,,2025-12-16T13:42:42.743011
+51ef1dc9,healthybee,partner_menus.json,64,Healthybee,51ef1dc9-64,Banana Date Smoothie,,220,,,,,,,2025-12-16T13:42:42.743017
+51ef1dc9,healthybee,partner_menus.json,65,Healthybee,51ef1dc9-65,Banana Milkshake,,139,,,,,,,2025-12-16T13:42:42.743021
+51ef1dc9,healthybee,partner_menus.json,66,Healthybee,51ef1dc9-66,Apple Banana Milkshake,,165,,,,,,,2025-12-16T13:42:42.743025
+51ef1dc9,healthybee,partner_menus.json,67,Healthybee,51ef1dc9-67,"Healthy and flavorful shake prepared with milk, apple, and banana.",,155,,,,,,,2025-12-16T13:42:42.743030
+51ef1dc9,healthybee,partner_menus.json,68,Healthybee,51ef1dc9-68,Apple Milkshake,,155,,,,,,,2025-12-16T13:42:42.743034
+51ef1dc9,healthybee,partner_menus.json,69,Healthybee,51ef1dc9-69,Pomegranate Juice [sugar-free],,165,,,,,,,2025-12-16T13:42:42.743038
+51ef1dc9,healthybee,partner_menus.json,70,Healthybee,51ef1dc9-70,Basil Papaya Juice [sugar-free],,155,,,,,,,2025-12-16T13:42:42.743042
+51ef1dc9,healthybee,partner_menus.json,71,Healthybee,51ef1dc9-71,Carrot Beetroot Juice [sugar-free],,155,,,,,,,2025-12-16T13:42:42.743048
+51ef1dc9,healthybee,partner_menus.json,72,Healthybee,51ef1dc9-72,Basil Watermelon Juice [sugar-free],,155,,,,,,,2025-12-16T13:42:42.743052
+51ef1dc9,healthybee,partner_menus.json,73,Healthybee,51ef1dc9-73,Balance Fruit Bowl,,184,,,,,,,2025-12-16T13:42:42.743056
+51ef1dc9,healthybee,partner_menus.json,74,Healthybee,51ef1dc9-74,Fruit Custard Bowl,,169,,,,,,,2025-12-16T13:42:42.743060
+51ef1dc9,healthybee,partner_menus.json,75,Healthybee,51ef1dc9-75,Quinoa Chickpea Tabbouleh Salad,,279,,,,,,,2025-12-16T13:42:42.743064
+51ef1dc9,healthybee,partner_menus.json,76,Healthybee,51ef1dc9-76,Peanut Butter Fruits Oatmeal,,249,,,,,,,2025-12-16T13:42:42.743068
+51ef1dc9,healthybee,partner_menus.json,77,Healthybee,51ef1dc9-77,Fruit Milk Oats,,179,,,,,,,2025-12-16T13:42:42.743073
+51ef1dc9,healthybee,partner_menus.json,78,Healthybee,51ef1dc9-78,Milk Oats,,149,,,,,,,2025-12-16T13:42:42.743077
+51ef1dc9,healthybee,partner_menus.json,79,Healthybee,51ef1dc9-79,Brown Rice (200 gm),,140,,,,,,,2025-12-16T13:42:42.743081
+51ef1dc9,healthybee,partner_menus.json,80,Healthybee,51ef1dc9-80,Beetroot Chapati (1 Pc),,35,,,,,,,2025-12-16T13:42:42.743085
+51ef1dc9,healthybee,partner_menus.json,81,Healthybee,51ef1dc9-81,Parsley Dip,,39,,,,,,,2025-12-16T13:42:42.743089
+51ef1dc9,healthybee,partner_menus.json,82,Healthybee,51ef1dc9-82,Spinach Chapati (1 Pc),,35,,,,,,,2025-12-16T13:42:42.743093
+51ef1dc9,healthybee,partner_menus.json,83,Healthybee,51ef1dc9-83,Chicken Burrito Bowl,,339,,,,,,,2025-12-16T13:42:42.743098
+51ef1dc9,healthybee,partner_menus.json,84,Healthybee,51ef1dc9-84,Cucumber Mint Lemonade,,129,,,,,,,2025-12-16T13:42:42.743102
+51ef1dc9,healthybee,partner_menus.json,85,Healthybee,51ef1dc9-85,Honey Ginger Lemonade,,129,,,,,,,2025-12-16T13:42:42.743106
+51ef1dc9,healthybee,partner_menus.json,86,Healthybee,51ef1dc9-86,Classic Lemonade,,90,,,,,,,2025-12-16T13:42:42.743110
+51ef1dc9,healthybee,partner_menus.json,87,Healthybee,51ef1dc9-87,P P L Detox [sugar-free],,184,,,,,,,2025-12-16T13:42:42.743114
+3264c85c,swad gomantak,partner_menus.json,88,Swad Gomantak,3264c85c-88,Surmai Thali,,650,,,,,,,2025-12-16T13:42:42.743119
+3264c85c,swad gomantak,partner_menus.json,89,Swad Gomantak,3264c85c-89,Pomfret Thali,,770,,,,,,,2025-12-16T13:42:42.743123
+3264c85c,swad gomantak,partner_menus.json,90,Swad Gomantak,3264c85c-90,Chicken Malvani Thali,,400,,,,,,,2025-12-16T13:42:42.743128
+3264c85c,swad gomantak,partner_menus.json,91,Swad Gomantak,3264c85c-91,Gomanntak Special Seafood Thali,,890,,,,,,,2025-12-16T13:42:42.743132
+3264c85c,swad gomantak,partner_menus.json,92,Swad Gomantak,3264c85c-92,Gomanntak Konkan Special Thali,,790,,,,,,,2025-12-16T13:42:42.743136
+3264c85c,swad gomantak,partner_menus.json,93,Swad Gomantak,3264c85c-93,Prawns Thali,,650,,,,,,,2025-12-16T13:42:42.743141
+3264c85c,swad gomantak,partner_menus.json,94,Swad Gomantak,3264c85c-94,Crab Thali,,650,,,,,,,2025-12-16T13:42:42.743145
+3264c85c,swad gomantak,partner_menus.json,95,Swad Gomantak,3264c85c-95,Bangda Thali,,450,,,,,,,2025-12-16T13:42:42.743149
+3264c85c,swad gomantak,partner_menus.json,96,Swad Gomantak,3264c85c-96,Bombil Thali,,450,,,,,,,2025-12-16T13:42:42.743153
+3264c85c,swad gomantak,partner_menus.json,97,Swad Gomantak,3264c85c-97,Mandeli Thali,,350,,,,,,,2025-12-16T13:42:42.743158
+3264c85c,swad gomantak,partner_menus.json,98,Swad Gomantak,3264c85c-98,Veg Thali,,250,,,,,,,2025-12-16T13:42:42.743162
+3264c85c,swad gomantak,partner_menus.json,99,Swad Gomantak,3264c85c-99,Egg Thali,,210,,,,,,,2025-12-16T13:42:42.743166
+3264c85c,swad gomantak,partner_menus.json,100,Swad Gomantak,3264c85c-100,Mutton Malvani Thali,,600,,,,,,,2025-12-16T13:42:42.743171
+3264c85c,swad gomantak,partner_menus.json,101,Swad Gomantak,3264c85c-101,Surmai Curry,,689,,,,,,,2025-12-16T13:42:42.743175
+3264c85c,swad gomantak,partner_menus.json,102,Swad Gomantak,3264c85c-102,Surmai Konkan Curry,,689,,,,,,,2025-12-16T13:42:42.743180
+3264c85c,swad gomantak,partner_menus.json,103,Swad Gomantak,3264c85c-103,Surmai Tawa Masala,,495,,,,,,,2025-12-16T13:42:42.743184
+3264c85c,swad gomantak,partner_menus.json,104,Swad Gomantak,3264c85c-104,Surmai Tikhale,,689,,,,,,,2025-12-16T13:42:42.743189
+3264c85c,swad gomantak,partner_menus.json,105,Swad Gomantak,3264c85c-105,Prawns Konkan Curry,,589,,,,,,,2025-12-16T13:42:42.743194
+3264c85c,swad gomantak,partner_menus.json,106,Swad Gomantak,3264c85c-106,Prawns Masala,,589,,,,,,,2025-12-16T13:42:42.743198
+3264c85c,swad gomantak,partner_menus.json,107,Swad Gomantak,3264c85c-107,Prawns Sukka,,589,,,,,,,2025-12-16T13:42:42.743202
+3264c85c,swad gomantak,partner_menus.json,108,Swad Gomantak,3264c85c-108,Prawns Curry,,589,,,,,,,2025-12-16T13:42:42.743206
+3264c85c,swad gomantak,partner_menus.json,109,Swad Gomantak,3264c85c-109,Chicken Kombdi Vade,,590,,,,,,,2025-12-16T13:42:42.743211
+3264c85c,swad gomantak,partner_menus.json,110,Swad Gomantak,3264c85c-110,Chicken Malwani Handi,,390,,,,,,,2025-12-16T13:42:42.743215
+3264c85c,swad gomantak,partner_menus.json,111,Swad Gomantak,3264c85c-111,Chicken Curry,,350,,,,,,,2025-12-16T13:42:42.743219
+3264c85c,swad gomantak,partner_menus.json,112,Swad Gomantak,3264c85c-112,Chicken Sukka,,350,,,,,,,2025-12-16T13:42:42.743224
+3264c85c,swad gomantak,partner_menus.json,113,Swad Gomantak,3264c85c-113,Chicken Maratha Curry,,350,,,,,,,2025-12-16T13:42:42.743228
+3264c85c,swad gomantak,partner_menus.json,114,Swad Gomantak,3264c85c-114,Chicken Masala,,350,,,,,,,2025-12-16T13:42:42.743232
+3264c85c,swad gomantak,partner_menus.json,115,Swad Gomantak,3264c85c-115,Chicken Kadai,,350,,,,,,,2025-12-16T13:42:42.743236
+3264c85c,swad gomantak,partner_menus.json,116,Swad Gomantak,3264c85c-116,Chicken Handi,,390,,,,,,,2025-12-16T13:42:42.743240
+3264c85c,swad gomantak,partner_menus.json,117,Swad Gomantak,3264c85c-117,Chicken Keema,,350,,,,,,,2025-12-16T13:42:42.743245
+3264c85c,swad gomantak,partner_menus.json,118,Swad Gomantak,3264c85c-118,Chicken Maratha Handi,,390,,,,,,,2025-12-16T13:42:42.743249
+3264c85c,swad gomantak,partner_menus.json,119,Swad Gomantak,3264c85c-119,Chicken Tawa Masala,,350,,,,,,,2025-12-16T13:42:42.743253
+3264c85c,swad gomantak,partner_menus.json,120,Swad Gomantak,3264c85c-120,Tisrya Sukka,,450,,,,,,,2025-12-16T13:42:42.743257
+3264c85c,swad gomantak,partner_menus.json,121,Swad Gomantak,3264c85c-121,Tisrya Masala,,450,,,,,,,2025-12-16T13:42:42.743261
+3264c85c,swad gomantak,partner_menus.json,122,Swad Gomantak,3264c85c-122,Tisrya Curry,,450,,,,,,,2025-12-16T13:42:42.743266
+3264c85c,swad gomantak,partner_menus.json,123,Swad Gomantak,3264c85c-123,Pomfret Tikhale,,689,,,,,,,2025-12-16T13:42:42.743270
+3264c85c,swad gomantak,partner_menus.json,124,Swad Gomantak,3264c85c-124,Pomfret Tawa Masala,,689,,,,,,,2025-12-16T13:42:42.743275
+3264c85c,swad gomantak,partner_menus.json,125,Swad Gomantak,3264c85c-125,Pomfret Konkan Curry,,689,,,,,,,2025-12-16T13:42:42.743280
+3264c85c,swad gomantak,partner_menus.json,126,Swad Gomantak,3264c85c-126,Pomfret Curry,,689,,,,,,,2025-12-16T13:42:42.743285
+3264c85c,swad gomantak,partner_menus.json,127,Swad Gomantak,3264c85c-127,Bangda Tawa Masala,,450,,,,,,,2025-12-16T13:42:42.743289
+3264c85c,swad gomantak,partner_menus.json,128,Swad Gomantak,3264c85c-128,Bangda Tikhale,,450,,,,,,,2025-12-16T13:42:42.743293
+3264c85c,swad gomantak,partner_menus.json,129,Swad Gomantak,3264c85c-129,Bangda Curry,,450,,,,,,,2025-12-16T13:42:42.743298
+3264c85c,swad gomantak,partner_menus.json,130,Swad Gomantak,3264c85c-130,Bangda Konkan Curry,,450,,,,,,,2025-12-16T13:42:42.743302
+3264c85c,swad gomantak,partner_menus.json,131,Swad Gomantak,3264c85c-131,Mutton Curry,,550,,,,,,,2025-12-16T13:42:42.743306
+3264c85c,swad gomantak,partner_menus.json,132,Swad Gomantak,3264c85c-132,Mutton Sukka Dry,,550,,,,,,,2025-12-16T13:42:42.743310
+3264c85c,swad gomantak,partner_menus.json,133,Swad Gomantak,3264c85c-133,Mutton Vade,,610,,,,,,,2025-12-16T13:42:42.743315
+3264c85c,swad gomantak,partner_menus.json,134,Swad Gomantak,3264c85c-134,Mutton Handi,,550,,,,,,,2025-12-16T13:42:42.743320
+3264c85c,swad gomantak,partner_menus.json,135,Swad Gomantak,3264c85c-135,Mutton Maratha Handi,,550,,,,,,,2025-12-16T13:42:42.743325
+3264c85c,swad gomantak,partner_menus.json,136,Swad Gomantak,3264c85c-136,Mutton Masala,,550,,,,,,,2025-12-16T13:42:42.743329
+3264c85c,swad gomantak,partner_menus.json,137,Swad Gomantak,3264c85c-137,Mutton Tawa Dry,,550,,,,,,,2025-12-16T13:42:42.743333
+3264c85c,swad gomantak,partner_menus.json,138,Swad Gomantak,3264c85c-138,Veg Malwani Handi,,260,,,,,,,2025-12-16T13:42:42.743338
+3264c85c,swad gomantak,partner_menus.json,139,Swad Gomantak,3264c85c-139,Mix Veg,,160,,,,,,,2025-12-16T13:42:42.743342
+3264c85c,swad gomantak,partner_menus.json,140,Swad Gomantak,3264c85c-140,Paneer Handi,,270,,,,,,,2025-12-16T13:42:42.743346
+3264c85c,swad gomantak,partner_menus.json,141,Swad Gomantak,3264c85c-141,Paneer Bhurji,,180,,,,,,,2025-12-16T13:42:42.743350
+3264c85c,swad gomantak,partner_menus.json,142,Swad Gomantak,3264c85c-142,Matar Paneer,,170,,,,,,,2025-12-16T13:42:42.743354
+3264c85c,swad gomantak,partner_menus.json,143,Swad Gomantak,3264c85c-143,Veg Handi,,250,,,,,,,2025-12-16T13:42:42.743359
+3264c85c,swad gomantak,partner_menus.json,144,Swad Gomantak,3264c85c-144,Veg Kadai,,250,,,,,,,2025-12-16T13:42:42.743364
+3264c85c,swad gomantak,partner_menus.json,145,Swad Gomantak,3264c85c-145,Dal Fry,,120,,,,,,,2025-12-16T13:42:42.743368
+3264c85c,swad gomantak,partner_menus.json,146,Swad Gomantak,3264c85c-146,Dal Tadka,,130,,,,,,,2025-12-16T13:42:42.743373
+3264c85c,swad gomantak,partner_menus.json,147,Swad Gomantak,3264c85c-147,Veg Saguti,,170,,,,,,,2025-12-16T13:42:42.743377
+3264c85c,swad gomantak,partner_menus.json,148,Swad Gomantak,3264c85c-148,Veg Tawa,,170,,,,,,,2025-12-16T13:42:42.743381
+3264c85c,swad gomantak,partner_menus.json,149,Swad Gomantak,3264c85c-149,Paneer Butter Masala,,200,,,,,,,2025-12-16T13:42:42.743386
+3264c85c,swad gomantak,partner_menus.json,150,Swad Gomantak,3264c85c-150,Lasooni Dal,,130,,,,,,,2025-12-16T13:42:42.743390
+3264c85c,swad gomantak,partner_menus.json,151,Swad Gomantak,3264c85c-151,Paneer Kadhai,,270,,,,,,,2025-12-16T13:42:42.743394
+3264c85c,swad gomantak,partner_menus.json,152,Swad Gomantak,3264c85c-152,Green Peas Masala,,120,,,,,,,2025-12-16T13:42:42.743398
+3264c85c,swad gomantak,partner_menus.json,153,Swad Gomantak,3264c85c-153,Shev Bhaji,,120,,,,,,,2025-12-16T13:42:42.743402
+3264c85c,swad gomantak,partner_menus.json,154,Swad Gomantak,3264c85c-154,Egg Curry,,170,,,,,,,2025-12-16T13:42:42.743407
+3264c85c,swad gomantak,partner_menus.json,155,Swad Gomantak,3264c85c-155,Egg Masala,,170,,,,,,,2025-12-16T13:42:42.743411
+3264c85c,swad gomantak,partner_menus.json,156,Swad Gomantak,3264c85c-156,Egg Bhurji,,100,,,,,,,2025-12-16T13:42:42.743415
+3264c85c,swad gomantak,partner_menus.json,157,Swad Gomantak,3264c85c-157,Egg Omelette,,90,,,,,,,2025-12-16T13:42:42.743419
+3264c85c,swad gomantak,partner_menus.json,158,Swad Gomantak,3264c85c-158,Boiled Egg,,60,,,,,,,2025-12-16T13:42:42.743423
+3264c85c,swad gomantak,partner_menus.json,159,Swad Gomantak,3264c85c-159,Prawns 65,,590,,,,,,,2025-12-16T13:42:42.743428
+3264c85c,swad gomantak,partner_menus.json,160,Swad Gomantak,3264c85c-160,Tossed Prawns [8 Pieces],,590,,,,,,,2025-12-16T13:42:42.743432
+3264c85c,swad gomantak,partner_menus.json,161,Swad Gomantak,3264c85c-161,Prawns Koliwada [8 Pieces],,590,,,,,,,2025-12-16T13:42:42.743436
+3264c85c,swad gomantak,partner_menus.json,162,Swad Gomantak,3264c85c-162,Prawn Golden Fried,,490,,,,,,,2025-12-16T13:42:42.743440
+3264c85c,swad gomantak,partner_menus.json,163,Swad Gomantak,3264c85c-163,Tossed Crab,,590,,,,,,,2025-12-16T13:42:42.743445
+3264c85c,swad gomantak,partner_menus.json,164,Swad Gomantak,3264c85c-164,Crab Lollipop [6 Pieces],,400,,,,,,,2025-12-16T13:42:42.743449
+3264c85c,swad gomantak,partner_menus.json,165,Swad Gomantak,3264c85c-165,Fish Fingers [6 Pieces],,340,,,,,,,2025-12-16T13:42:42.743453
+3264c85c,swad gomantak,partner_menus.json,166,Swad Gomantak,3264c85c-166,Chicken Lollipop [6 Pieces],,300,,,,,,,2025-12-16T13:42:42.743457
+3264c85c,swad gomantak,partner_menus.json,167,Swad Gomantak,3264c85c-167,Chicken Tava Fry,,250,,,,,,,2025-12-16T13:42:42.743461
+3264c85c,swad gomantak,partner_menus.json,168,Swad Gomantak,3264c85c-168,Crab Lasooni Tadka,,590,,,,,,,2025-12-16T13:42:42.743466
+3264c85c,swad gomantak,partner_menus.json,169,Swad Gomantak,3264c85c-169,Prawns Chilli,,490,,,,,,,2025-12-16T13:42:42.743470
+3264c85c,swad gomantak,partner_menus.json,170,Swad Gomantak,3264c85c-170,Prawns Lasooni Tadka [6 Pieces],,590,,,,,,,2025-12-16T13:42:42.743474
+3264c85c,swad gomantak,partner_menus.json,171,Swad Gomantak,3264c85c-171,Chicken Lasuni Tadka,,300,,,,,,,2025-12-16T13:42:42.743478
+3264c85c,swad gomantak,partner_menus.json,172,Swad Gomantak,3264c85c-172,Tossed Prawns,,590,,,,,,,2025-12-16T13:42:42.743482
+3264c85c,swad gomantak,partner_menus.json,173,Swad Gomantak,3264c85c-173,Prawns Tawa Fry,,490,,,,,,,2025-12-16T13:42:42.743487
+3264c85c,swad gomantak,partner_menus.json,174,Swad Gomantak,3264c85c-174,Surmai Tawa Fry,,690,,,,,,,2025-12-16T13:42:42.743491
+3264c85c,swad gomantak,partner_menus.json,175,Swad Gomantak,3264c85c-175,Pomfret Tawa Fry,,610,,,,,,,2025-12-16T13:42:42.743495
+3264c85c,swad gomantak,partner_menus.json,176,Swad Gomantak,3264c85c-176,Bangada Tawa Fry,,250,,,,,,,2025-12-16T13:42:42.743500
+3264c85c,swad gomantak,partner_menus.json,177,Swad Gomantak,3264c85c-177,Surmai Rava Fry,,690,,,,,,,2025-12-16T13:42:42.743504
+3264c85c,swad gomantak,partner_menus.json,178,Swad Gomantak,3264c85c-178,Pomfret Rava Fry,,630,,,,,,,2025-12-16T13:42:42.743508
+3264c85c,swad gomantak,partner_menus.json,179,Swad Gomantak,3264c85c-179,Prawns Rava Fry,,600,,,,,,,2025-12-16T13:42:42.743512
+3264c85c,swad gomantak,partner_menus.json,180,Swad Gomantak,3264c85c-180,Bombil Rava Fry,,390,,,,,,,2025-12-16T13:42:42.743516
+3264c85c,swad gomantak,partner_menus.json,181,Swad Gomantak,3264c85c-181,Mandeli Rava Fry,,260,,,,,,,2025-12-16T13:42:42.743521
+3264c85c,swad gomantak,partner_menus.json,182,Swad Gomantak,3264c85c-182,Bangda Rava Fry,,490,,,,,,,2025-12-16T13:42:42.743525
+3264c85c,swad gomantak,partner_menus.json,183,Swad Gomantak,3264c85c-183,Crab Masala,,590,,,,,,,2025-12-16T13:42:42.743529
+3264c85c,swad gomantak,partner_menus.json,184,Swad Gomantak,3264c85c-184,Crab Sukka,,590,,,,,,,2025-12-16T13:42:42.743535
+3264c85c,swad gomantak,partner_menus.json,185,Swad Gomantak,3264c85c-185,Crab Konkan Curry,,590,,,,,,,2025-12-16T13:42:42.743539
+3264c85c,swad gomantak,partner_menus.json,186,Swad Gomantak,3264c85c-186,Crab Curry,,510,,,,,,,2025-12-16T13:42:42.743543
+3264c85c,swad gomantak,partner_menus.json,187,Swad Gomantak,3264c85c-187,Solkadi,,70,,,,,,,2025-12-16T13:42:42.743548
+3264c85c,swad gomantak,partner_menus.json,188,Swad Gomantak,3264c85c-188,Kokum Sharbat,,40,,,,,,,2025-12-16T13:42:42.743552
+3264c85c,swad gomantak,partner_menus.json,189,Swad Gomantak,3264c85c-189,Mirgund Papad,,35,,,,,,,2025-12-16T13:42:42.743556
+3264c85c,swad gomantak,partner_menus.json,190,Swad Gomantak,3264c85c-190,Roasted Papad,,20,,,,,,,2025-12-16T13:42:42.743560
+3264c85c,swad gomantak,partner_menus.json,191,Swad Gomantak,3264c85c-191,Paneer 65 [8 Piece],,310,,,,,,,2025-12-16T13:42:42.743565
+3264c85c,swad gomantak,partner_menus.json,192,Swad Gomantak,3264c85c-192,Paneer Chilly [8 Piece],,310,,,,,,,2025-12-16T13:42:42.743569
+3264c85c,swad gomantak,partner_menus.json,193,Swad Gomantak,3264c85c-193,Surmai Fry [1 Pieces] With Prawns Curry & Steamed Rice,,699,,,,,,,2025-12-16T13:42:42.743573
+3264c85c,swad gomantak,partner_menus.json,194,Swad Gomantak,3264c85c-194,Chicken Thali With Prawns Fry,,670,,,,,,,2025-12-16T13:42:42.743577
+3264c85c,swad gomantak,partner_menus.json,195,Swad Gomantak,3264c85c-195,Chicken Thali With Surmai Fry,,670,,,,,,,2025-12-16T13:42:42.743581
+3264c85c,swad gomantak,partner_menus.json,196,Swad Gomantak,3264c85c-196,Pomfret Fry With Prawns Curry & Steamed Rice,,599,,,,,,,2025-12-16T13:42:42.743585
+3264c85c,swad gomantak,partner_menus.json,197,Swad Gomantak,3264c85c-197,Prawns Fry With Prawns Curry & Steamed Rice,,750,,,,,,,2025-12-16T13:42:42.743592
+3264c85c,swad gomantak,partner_menus.json,198,Swad Gomantak,3264c85c-198,Bangda Fry With Prawns Curry & Steamed Rice,,490,,,,,,,2025-12-16T13:42:42.743596
+3264c85c,swad gomantak,partner_menus.json,199,Swad Gomantak,3264c85c-199,Bombil Fry With Prawns Curry & Steamed Rice,,400,,,,,,,2025-12-16T13:42:42.743600
+3264c85c,swad gomantak,partner_menus.json,200,Swad Gomantak,3264c85c-200,Chicken Thali With Bangda Fry,,580,,,,,,,2025-12-16T13:42:42.743605
+3264c85c,swad gomantak,partner_menus.json,201,Swad Gomantak,3264c85c-201,Chicken Thali With Bombil Fry,,580,,,,,,,2025-12-16T13:42:42.743609
+3264c85c,swad gomantak,partner_menus.json,202,Swad Gomantak,3264c85c-202,Kolambi Bhaat,,550,,,,,,,2025-12-16T13:42:42.743613
+3264c85c,swad gomantak,partner_menus.json,203,Swad Gomantak,3264c85c-203,Prawns Biryani,,599,,,,,,,2025-12-16T13:42:42.743617
+3264c85c,swad gomantak,partner_menus.json,204,Swad Gomantak,3264c85c-204,Mutton Biryani,,590,,,,,,,2025-12-16T13:42:42.743621
+3264c85c,swad gomantak,partner_menus.json,205,Swad Gomantak,3264c85c-205,Fish Biryani,,699,,,,,,,2025-12-16T13:42:42.743626
+3264c85c,swad gomantak,partner_menus.json,206,Swad Gomantak,3264c85c-206,Chicken Biryani,,450,,,,,,,2025-12-16T13:42:42.743630
+3264c85c,swad gomantak,partner_menus.json,207,Swad Gomantak,3264c85c-207,Egg Biryani,,350,,,,,,,2025-12-16T13:42:42.743634
+3264c85c,swad gomantak,partner_menus.json,208,Swad Gomantak,3264c85c-208,Veg Biryani,,290,,,,,,,2025-12-16T13:42:42.743638
+3264c85c,swad gomantak,partner_menus.json,209,Swad Gomantak,3264c85c-209,Dal Khichdi,,250,,,,,,,2025-12-16T13:42:42.743643
+3264c85c,swad gomantak,partner_menus.json,210,Swad Gomantak,3264c85c-210,Jeera Rice,,110,,,,,,,2025-12-16T13:42:42.743647
+3264c85c,swad gomantak,partner_menus.json,211,Swad Gomantak,3264c85c-211,Plain Rice,,89,,,,,,,2025-12-16T13:42:42.743651
+3264c85c,swad gomantak,partner_menus.json,212,Swad Gomantak,3264c85c-212,Paneer Biryani,,300,,,,,,,2025-12-16T13:42:42.743655
+3264c85c,swad gomantak,partner_menus.json,213,Swad Gomantak,3264c85c-213,Surmai Chatpata Biryani,,599,,,,,,,2025-12-16T13:42:42.743660
+3264c85c,swad gomantak,partner_menus.json,214,Swad Gomantak,3264c85c-214,Crab Lahsuni Biryani,,599,,,,,,,2025-12-16T13:42:42.743664
+3264c85c,swad gomantak,partner_menus.json,215,Swad Gomantak,3264c85c-215,Pomfret Fry Biryani,,599,,,,,,,2025-12-16T13:42:42.743668
+3264c85c,swad gomantak,partner_menus.json,216,Swad Gomantak,3264c85c-216,Mutton Kolhapuri Biryani,,550,,,,,,,2025-12-16T13:42:42.743672
+3264c85c,swad gomantak,partner_menus.json,217,Swad Gomantak,3264c85c-217,Chicken Kolhapuri Biryani,,350,,,,,,,2025-12-16T13:42:42.743676
+3264c85c,swad gomantak,partner_menus.json,218,Swad Gomantak,3264c85c-218,Bangda Fry Masala Biryani,,450,,,,,,,2025-12-16T13:42:42.743681
+3264c85c,swad gomantak,partner_menus.json,219,Swad Gomantak,3264c85c-219,Veg Kolhapuri Biryani,,300,,,,,,,2025-12-16T13:42:42.743685
+3264c85c,swad gomantak,partner_menus.json,220,Swad Gomantak,3264c85c-220,Crab Lasuni Biryani,,599,,,,,,,2025-12-16T13:42:42.743689
+3264c85c,swad gomantak,partner_menus.json,221,Swad Gomantak,3264c85c-221,Chicken Lasooni Tadka [6 Pieces](soup),,330,,,,,,,2025-12-16T13:42:42.743693
+3264c85c,swad gomantak,partner_menus.json,222,Swad Gomantak,3264c85c-222,Chicken Chilli,,300,,,,,,,2025-12-16T13:42:42.743698
+3264c85c,swad gomantak,partner_menus.json,223,Swad Gomantak,3264c85c-223,Crab Soup,,280,,,,,,,2025-12-16T13:42:42.743702
+3264c85c,swad gomantak,partner_menus.json,224,Swad Gomantak,3264c85c-224,Chicken Soup,,180,,,,,,,2025-12-16T13:42:42.743707
+3264c85c,swad gomantak,partner_menus.json,225,Swad Gomantak,3264c85c-225,Prawns Soup,,280,,,,,,,2025-12-16T13:42:42.743712
+3264c85c,swad gomantak,partner_menus.json,226,Swad Gomantak,3264c85c-226,Chicken Clear Soup,,140,,,,,,,2025-12-16T13:42:42.743716
+3264c85c,swad gomantak,partner_menus.json,227,Swad Gomantak,3264c85c-227,Potato Bhaji,,120,,,,,,,2025-12-16T13:42:42.743720
+3264c85c,swad gomantak,partner_menus.json,228,Swad Gomantak,3264c85c-228,Veg Soup,,140,,,,,,,2025-12-16T13:42:42.743726
+3264c85c,swad gomantak,partner_menus.json,229,Swad Gomantak,3264c85c-229,Mutton Soup,,190,,,,,,,2025-12-16T13:42:42.743731
+3264c85c,swad gomantak,partner_menus.json,230,Swad Gomantak,3264c85c-230,Mutton Clear Soup,,180,,,,,,,2025-12-16T13:42:42.743735
+3264c85c,swad gomantak,partner_menus.json,231,Swad Gomantak,3264c85c-231,Chicken Tawa Fry,,330,,,,,,,2025-12-16T13:42:42.743739
+3264c85c,swad gomantak,partner_menus.json,232,Swad Gomantak,3264c85c-232,Chicken Oil Fry [8 Pieces],,300,,,,,,,2025-12-16T13:42:42.743744
+3264c85c,swad gomantak,partner_menus.json,233,Swad Gomantak,3264c85c-233,Rice Bhakri,,49,,,,,,,2025-12-16T13:42:42.743748
+3264c85c,swad gomantak,partner_menus.json,234,Swad Gomantak,3264c85c-234,Chapati,,29,,,,,,,2025-12-16T13:42:42.743752
+3264c85c,swad gomantak,partner_menus.json,235,Swad Gomantak,3264c85c-235,Vada [2 Pieces],,70,,,,,,,2025-12-16T13:42:42.743757
+ac4ec427,shree krishna veg es,partner_menus.json,236,shree krishna veg menues,ac4ec427-236,Kaju Paneer Masala,,360,,,,,,,2025-12-16T13:42:42.743762
+ac4ec427,shree krishna veg es,partner_menus.json,237,shree krishna veg menues,ac4ec427-237,Paneer Tikka Masala,,360,,,,,,,2025-12-16T13:42:42.743767
+ac4ec427,shree krishna veg es,partner_menus.json,238,shree krishna veg menues,ac4ec427-238,Palak Paneer,,330,,,,,,,2025-12-16T13:42:42.743772
+ac4ec427,shree krishna veg es,partner_menus.json,239,shree krishna veg menues,ac4ec427-239,Paneer Tawa Masala..,,360,,,,,,,2025-12-16T13:42:42.743776
+ac4ec427,shree krishna veg es,partner_menus.json,240,shree krishna veg menues,ac4ec427-240,Kofta Zaikedar,,360,,,,,,,2025-12-16T13:42:42.743780
+ac4ec427,shree krishna veg es,partner_menus.json,241,shree krishna veg menues,ac4ec427-241,Nargis Kofta Curry.,,340,,,,,,,2025-12-16T13:42:42.743785
+ac4ec427,shree krishna veg es,partner_menus.json,242,shree krishna veg menues,ac4ec427-242,Paneer Rajwadi,,360,,,,,,,2025-12-16T13:42:42.743789
+ac4ec427,shree krishna veg es,partner_menus.json,243,shree krishna veg menues,ac4ec427-243,Paneer Lazeez.,,350,,,,,,,2025-12-16T13:42:42.743794
+ac4ec427,shree krishna veg es,partner_menus.json,244,shree krishna veg menues,ac4ec427-244,Maharaja Veg,,330,,,,,,,2025-12-16T13:42:42.743798
+ac4ec427,shree krishna veg es,partner_menus.json,245,shree krishna veg menues,ac4ec427-245,Paneer Butter Masala..,,360,,,,,,,2025-12-16T13:42:42.743803
+ac4ec427,shree krishna veg es,partner_menus.json,246,shree krishna veg menues,ac4ec427-246,Paneer Bhurji,,360,,,,,,,2025-12-16T13:42:42.743807
+ac4ec427,shree krishna veg es,partner_menus.json,247,shree krishna veg menues,ac4ec427-247,Subz Maratha,,360,,,,,,,2025-12-16T13:42:42.743811
+ac4ec427,shree krishna veg es,partner_menus.json,248,shree krishna veg menues,ac4ec427-248,Paneer Amritsari,,360,,,,,,,2025-12-16T13:42:42.743816
+ac4ec427,shree krishna veg es,partner_menus.json,249,shree krishna veg menues,ac4ec427-249,Subz Patiala,,360,,,,,,,2025-12-16T13:42:42.743820
+ac4ec427,shree krishna veg es,partner_menus.json,250,shree krishna veg menues,ac4ec427-250,Krishna Special Veg Curry,,370,,,,,,,2025-12-16T13:42:42.743825
+ac4ec427,shree krishna veg es,partner_menus.json,251,shree krishna veg menues,ac4ec427-251,Paneer Musallam,,350,,,,,,,2025-12-16T13:42:42.743829
+ac4ec427,shree krishna veg es,partner_menus.json,252,shree krishna veg menues,ac4ec427-252,Paneer Kolhapuri,,350,,,,,,,2025-12-16T13:42:42.743834
+ac4ec427,shree krishna veg es,partner_menus.json,253,shree krishna veg menues,ac4ec427-253,Paneer Golati,,360,,,,,,,2025-12-16T13:42:42.743838
+ac4ec427,shree krishna veg es,partner_menus.json,254,shree krishna veg menues,ac4ec427-254,Paneer Chatpata..,,360,,,,,,,2025-12-16T13:42:42.743842
+ac4ec427,shree krishna veg es,partner_menus.json,255,shree krishna veg menues,ac4ec427-255,Subz Bhuna,,350,,,,,,,2025-12-16T13:42:42.743847
+ac4ec427,shree krishna veg es,partner_menus.json,256,shree krishna veg menues,ac4ec427-256,Subz Diwani Handi,,340,,,,,,,2025-12-16T13:42:42.743851
+ac4ec427,shree krishna veg es,partner_menus.json,257,shree krishna veg menues,ac4ec427-257,Kaju Tawa Paneer,,360,,,,,,,2025-12-16T13:42:42.743856
+ac4ec427,shree krishna veg es,partner_menus.json,258,shree krishna veg menues,ac4ec427-258,Mirch Paneer,,360,,,,,,,2025-12-16T13:42:42.743860
+ac4ec427,shree krishna veg es,partner_menus.json,259,shree krishna veg menues,ac4ec427-259,Malai Kofta Curry,,340,,,,,,,2025-12-16T13:42:42.743865
+ac4ec427,shree krishna veg es,partner_menus.json,260,shree krishna veg menues,ac4ec427-260,Chole Bhatura,,330,,,,,,,2025-12-16T13:42:42.743869
+ac4ec427,shree krishna veg es,partner_menus.json,261,shree krishna veg menues,ac4ec427-261,Paneer Kofta,,350,,,,,,,2025-12-16T13:42:42.743875
+ac4ec427,shree krishna veg es,partner_menus.json,262,shree krishna veg menues,ac4ec427-262,Subz Jalfrezi,,330,,,,,,,2025-12-16T13:42:42.743880
+ac4ec427,shree krishna veg es,partner_menus.json,263,shree krishna veg menues,ac4ec427-263,Subz Kolhapuri.,,330,,,,,,,2025-12-16T13:42:42.743885
+ac4ec427,shree krishna veg es,partner_menus.json,264,shree krishna veg menues,ac4ec427-264,Methi Mutter Malai,,330,,,,,,,2025-12-16T13:42:42.743890
+ac4ec427,shree krishna veg es,partner_menus.json,265,shree krishna veg menues,ac4ec427-265,Paneer Do Pyaza,,320,,,,,,,2025-12-16T13:42:42.743895
+ac4ec427,shree krishna veg es,partner_menus.json,266,shree krishna veg menues,ac4ec427-266,Sam Savera,,340,,,,,,,2025-12-16T13:42:42.743899
+ac4ec427,shree krishna veg es,partner_menus.json,267,shree krishna veg menues,ac4ec427-267,Subz Peshawari,,340,,,,,,,2025-12-16T13:42:42.743904
+ac4ec427,shree krishna veg es,partner_menus.json,268,shree krishna veg menues,ac4ec427-268,Dum Alu Kashmiri,,330,,,,,,,2025-12-16T13:42:42.743908
+ac4ec427,shree krishna veg es,partner_menus.json,269,shree krishna veg menues,ac4ec427-269,Subz Chilly Milly,,320,,,,,,,2025-12-16T13:42:42.743913
+ac4ec427,shree krishna veg es,partner_menus.json,270,shree krishna veg menues,ac4ec427-270,Mashroom Baby,,330,,,,,,,2025-12-16T13:42:42.743917
+ac4ec427,shree krishna veg es,partner_menus.json,271,shree krishna veg menues,ac4ec427-271,Navaratna Kurma,,330,,,,,,,2025-12-16T13:42:42.743922
+ac4ec427,shree krishna veg es,partner_menus.json,272,shree krishna veg menues,ac4ec427-272,Mushroom Tawa Masala :,,300,,,,,,,2025-12-16T13:42:42.743926
+ac4ec427,shree krishna veg es,partner_menus.json,273,shree krishna veg menues,ac4ec427-273,Corn Masala,,330,,,,,,,2025-12-16T13:42:42.743931
+ac4ec427,shree krishna veg es,partner_menus.json,274,shree krishna veg menues,ac4ec427-274,Cheese Peas Curry,,320,,,,,,,2025-12-16T13:42:42.743935
+ac4ec427,shree krishna veg es,partner_menus.json,275,shree krishna veg menues,ac4ec427-275,Mushroom Masala,,290,,,,,,,2025-12-16T13:42:42.743940
+ac4ec427,shree krishna veg es,partner_menus.json,276,shree krishna veg menues,ac4ec427-276,Chana Masala,,280,,,,,,,2025-12-16T13:42:42.743944
+ac4ec427,shree krishna veg es,partner_menus.json,277,shree krishna veg menues,ac4ec427-277,Plain Palak,,300,,,,,,,2025-12-16T13:42:42.743948
+ac4ec427,shree krishna veg es,partner_menus.json,278,shree krishna veg menues,ac4ec427-278,Lasuni Methi,,300,,,,,,,2025-12-16T13:42:42.743953
+ac4ec427,shree krishna veg es,partner_menus.json,279,shree krishna veg menues,ac4ec427-279,Green Peas Masala....,,280,,,,,,,2025-12-16T13:42:42.743958
+ac4ec427,shree krishna veg es,partner_menus.json,280,shree krishna veg menues,ac4ec427-280,Alu Jeera,,270,,,,,,,2025-12-16T13:42:42.743962
+ac4ec427,shree krishna veg es,partner_menus.json,281,shree krishna veg menues,ac4ec427-281,Alu Muttar,,260,,,,,,,2025-12-16T13:42:42.743967
+ac4ec427,shree krishna veg es,partner_menus.json,282,shree krishna veg menues,ac4ec427-282,Alu Gobi,,260,,,,,,,2025-12-16T13:42:42.743971
+ac4ec427,shree krishna veg es,partner_menus.json,283,shree krishna veg menues,ac4ec427-283,Alu Methi,,260,,,,,,,2025-12-16T13:42:42.743976
+ac4ec427,shree krishna veg es,partner_menus.json,284,shree krishna veg menues,ac4ec427-284,Alu Palak,,260,,,,,,,2025-12-16T13:42:42.743980
+ac4ec427,shree krishna veg es,partner_menus.json,285,shree krishna veg menues,ac4ec427-285,Hyderabadi Biryani,,330,,,,,,,2025-12-16T13:42:42.743985
+ac4ec427,shree krishna veg es,partner_menus.json,286,shree krishna veg menues,ac4ec427-286,Veg Biryani,,330,,,,,,,2025-12-16T13:42:42.743989
+ac4ec427,shree krishna veg es,partner_menus.json,287,shree krishna veg menues,ac4ec427-287,Dal Khichadi,,290,,,,,,,2025-12-16T13:42:42.743998
+ac4ec427,shree krishna veg es,partner_menus.json,288,shree krishna veg menues,ac4ec427-288,Palak Khichadi,,270,,,,,,,2025-12-16T13:42:42.744006
+ac4ec427,shree krishna veg es,partner_menus.json,289,shree krishna veg menues,ac4ec427-289,Khichadi Kadhi,,310,,,,,,,2025-12-16T13:42:42.744014
+ac4ec427,shree krishna veg es,partner_menus.json,290,shree krishna veg menues,ac4ec427-290,Peas Pulao,,260,,,,,,,2025-12-16T13:42:42.744023
+ac4ec427,shree krishna veg es,partner_menus.json,291,shree krishna veg menues,ac4ec427-291,Dum Biryani,,340,,,,,,,2025-12-16T13:42:42.744031
+ac4ec427,shree krishna veg es,partner_menus.json,292,shree krishna veg menues,ac4ec427-292,Paneer Tikka Biryani.,,330,,,,,,,2025-12-16T13:42:42.744039
+ac4ec427,shree krishna veg es,partner_menus.json,293,shree krishna veg menues,ac4ec427-293,Paneer Pulao,,315,,,,,,,2025-12-16T13:42:42.744047
+ac4ec427,shree krishna veg es,partner_menus.json,294,shree krishna veg menues,ac4ec427-294,Kashmiri Pulao,,305,,,,,,,2025-12-16T13:42:42.744055
+ac4ec427,shree krishna veg es,partner_menus.json,295,shree krishna veg menues,ac4ec427-295,Cheese Pulao.,,315,,,,,,,2025-12-16T13:42:42.744063
+ac4ec427,shree krishna veg es,partner_menus.json,296,shree krishna veg menues,ac4ec427-296,Dahi Khichadi,,310,,,,,,,2025-12-16T13:42:42.744071
+ac4ec427,shree krishna veg es,partner_menus.json,297,shree krishna veg menues,ac4ec427-297,Subz Pulao,,280,,,,,,,2025-12-16T13:42:42.744079
+ac4ec427,shree krishna veg es,partner_menus.json,298,shree krishna veg menues,ac4ec427-298,Jeera Rice,,190,,,,,,,2025-12-16T13:42:42.744088
+ac4ec427,shree krishna veg es,partner_menus.json,299,shree krishna veg menues,ac4ec427-299,Curd Rice,,240,,,,,,,2025-12-16T13:42:42.744096
+ac4ec427,shree krishna veg es,partner_menus.json,300,shree krishna veg menues,ac4ec427-300,Steam Rice,,170,,,,,,,2025-12-16T13:42:42.744105
+ac4ec427,shree krishna veg es,partner_menus.json,301,shree krishna veg menues,ac4ec427-301,Veg Item. Vegetable Manchurian,,310,,,,,,,2025-12-16T13:42:42.744113
+ac4ec427,shree krishna veg es,partner_menus.json,302,shree krishna veg menues,ac4ec427-302,Chilli Paneer,,330,,,,,,,2025-12-16T13:42:42.744121
+ac4ec427,shree krishna veg es,partner_menus.json,303,shree krishna veg menues,ac4ec427-303,Spring Rolls,,330,,,,,,,2025-12-16T13:42:42.744129
+ac4ec427,shree krishna veg es,partner_menus.json,304,shree krishna veg menues,ac4ec427-304,Paneer Satay,,350,,,,,,,2025-12-16T13:42:42.744140
+ac4ec427,shree krishna veg es,partner_menus.json,305,shree krishna veg menues,ac4ec427-305,Crispy Paneer.,,350,,,,,,,2025-12-16T13:42:42.744148
+ac4ec427,shree krishna veg es,partner_menus.json,306,shree krishna veg menues,ac4ec427-306,Kungpao Paneer,,350,,,,,,,2025-12-16T13:42:42.744157
+ac4ec427,shree krishna veg es,partner_menus.json,307,shree krishna veg menues,ac4ec427-307,Crispy Vegetables,,340,,,,,,,2025-12-16T13:42:42.744165
+ac4ec427,shree krishna veg es,partner_menus.json,308,shree krishna veg menues,ac4ec427-308,Honey Corn Chilli Paneer.,,350,,,,,,,2025-12-16T13:42:42.744173
+ac4ec427,shree krishna veg es,partner_menus.json,309,shree krishna veg menues,ac4ec427-309,Shanghai Paneer.,,350,,,,,,,2025-12-16T13:42:42.744181
+ac4ec427,shree krishna veg es,partner_menus.json,310,shree krishna veg menues,ac4ec427-310,Noodle Crispy Paneer,,330,,,,,,,2025-12-16T13:42:42.744190
+ac4ec427,shree krishna veg es,partner_menus.json,311,shree krishna veg menues,ac4ec427-311,Vegetable Lollipop,,330,,,,,,,2025-12-16T13:42:42.744198
+ac4ec427,shree krishna veg es,partner_menus.json,312,shree krishna veg menues,ac4ec427-312,Shezwan Tikka Paneer.,,340,,,,,,,2025-12-16T13:42:42.744207
+ac4ec427,shree krishna veg es,partner_menus.json,313,shree krishna veg menues,ac4ec427-313,Paneer Hot Pan,,340,,,,,,,2025-12-16T13:42:42.744215
+ac4ec427,shree krishna veg es,partner_menus.json,314,shree krishna veg menues,ac4ec427-314,Black Pepper Paneer.,,330,,,,,,,2025-12-16T13:42:42.744224
+ac4ec427,shree krishna veg es,partner_menus.json,315,shree krishna veg menues,ac4ec427-315,Baby Corn Golden Fried,,320,,,,,,,2025-12-16T13:42:42.744232
+ac4ec427,shree krishna veg es,partner_menus.json,316,shree krishna veg menues,ac4ec427-316,Plain Pav Bhaji,,195,,,,,,,2025-12-16T13:42:42.744240
+ac4ec427,shree krishna veg es,partner_menus.json,317,shree krishna veg menues,ac4ec427-317,Butter Pav,,70,,,,,,,2025-12-16T13:42:42.744249
+ac4ec427,shree krishna veg es,partner_menus.json,318,shree krishna veg menues,ac4ec427-318,Tawa Pulav,,290,,,,,,,2025-12-16T13:42:42.744257
+ac4ec427,shree krishna veg es,partner_menus.json,319,shree krishna veg menues,ac4ec427-319,Paneer Pav Bhaji,,215,,,,,,,2025-12-16T13:42:42.744265
+ac4ec427,shree krishna veg es,partner_menus.json,320,shree krishna veg menues,ac4ec427-320,Paneer Tawa Pulav,,320,,,,,,,2025-12-16T13:42:42.744273
+ac4ec427,shree krishna veg es,partner_menus.json,321,shree krishna veg menues,ac4ec427-321,Jain Pav Bhaji,,230,,,,,,,2025-12-16T13:42:42.744282
+ac4ec427,shree krishna veg es,partner_menus.json,322,shree krishna veg menues,ac4ec427-322,Cheese Tawa Pulav,,320,,,,,,,2025-12-16T13:42:42.744290
+ac4ec427,shree krishna veg es,partner_menus.json,323,shree krishna veg menues,ac4ec427-323,Masala Pav,,170,,,,,,,2025-12-16T13:42:42.744298
+ac4ec427,shree krishna veg es,partner_menus.json,324,shree krishna veg menues,ac4ec427-324,Cheese Pav Bhaji,,215,,,,,,,2025-12-16T13:42:42.744306
+ac4ec427,shree krishna veg es,partner_menus.json,325,shree krishna veg menues,ac4ec427-325,Only Bhaji,,150,,,,,,,2025-12-16T13:42:42.744317
+ac4ec427,shree krishna veg es,partner_menus.json,326,shree krishna veg menues,ac4ec427-326,Khada Pav Bhaji,,220,,,,,,,2025-12-16T13:42:42.744325
+ac4ec427,shree krishna veg es,partner_menus.json,327,shree krishna veg menues,ac4ec427-327,Khada Bhaji,,180,,,,,,,2025-12-16T13:42:42.744334
+ac4ec427,shree krishna veg es,partner_menus.json,328,shree krishna veg menues,ac4ec427-328,Jain Paneer Kofta,,370,,,,,,,2025-12-16T13:42:42.744342
+ac4ec427,shree krishna veg es,partner_menus.json,329,shree krishna veg menues,ac4ec427-329,Jain Paneer Masala,,360,,,,,,,2025-12-16T13:42:42.744350
+ac4ec427,shree krishna veg es,partner_menus.json,330,shree krishna veg menues,ac4ec427-330,Jain Kaju Masala,,360,,,,,,,2025-12-16T13:42:42.744358
+ac4ec427,shree krishna veg es,partner_menus.json,331,shree krishna veg menues,ac4ec427-331,Jain Kaju Curry,,360,,,,,,,2025-12-16T13:42:42.744367
+ac4ec427,shree krishna veg es,partner_menus.json,332,shree krishna veg menues,ac4ec427-332,Jain Paneer Pulao,,330,,,,,,,2025-12-16T13:42:42.744375
+ac4ec427,shree krishna veg es,partner_menus.json,333,shree krishna veg menues,ac4ec427-333,Jain Palak Paneer,,330,,,,,,,2025-12-16T13:42:42.744383
+ac4ec427,shree krishna veg es,partner_menus.json,334,shree krishna veg menues,ac4ec427-334,Jain Green Peas Pulao,,280,,,,,,,2025-12-16T13:42:42.744391
+ac4ec427,shree krishna veg es,partner_menus.json,335,shree krishna veg menues,ac4ec427-335,Jain Cheese Pulao,,330,,,,,,,2025-12-16T13:42:42.744400
+ac4ec427,shree krishna veg es,partner_menus.json,336,shree krishna veg menues,ac4ec427-336,Jain Chana Masala,,290,,,,,,,2025-12-16T13:42:42.744408
+ac4ec427,shree krishna veg es,partner_menus.json,337,shree krishna veg menues,ac4ec427-337,Jain Green Peas Masala,,300,,,,,,,2025-12-16T13:42:42.744416
+ac4ec427,shree krishna veg es,partner_menus.json,338,shree krishna veg menues,ac4ec427-338,Jain Dal Fry,,280,,,,,,,2025-12-16T13:42:42.744424
+ac4ec427,shree krishna veg es,partner_menus.json,339,shree krishna veg menues,ac4ec427-339,Naan Butter,,85,,,,,,,2025-12-16T13:42:42.744432
+ac4ec427,shree krishna veg es,partner_menus.json,340,shree krishna veg menues,ac4ec427-340,Roti Plain,,45,,,,,,,2025-12-16T13:42:42.744441
+ac4ec427,shree krishna veg es,partner_menus.json,341,shree krishna veg menues,ac4ec427-341,Paneer Paratha,,160,,,,,,,2025-12-16T13:42:42.744449
+ac4ec427,shree krishna veg es,partner_menus.json,342,shree krishna veg menues,ac4ec427-342,Cheese Paratha,,170,,,,,,,2025-12-16T13:42:42.744457
+ac4ec427,shree krishna veg es,partner_menus.json,343,shree krishna veg menues,ac4ec427-343,Roti Butter,,60,,,,,,,2025-12-16T13:42:42.744466
+ac4ec427,shree krishna veg es,partner_menus.json,344,shree krishna veg menues,ac4ec427-344,Methi Roti,,95,,,,,,,2025-12-16T13:42:42.744476
+ac4ec427,shree krishna veg es,partner_menus.json,345,shree krishna veg menues,ac4ec427-345,Alu Paratha,,140,,,,,,,2025-12-16T13:42:42.744484
+ac4ec427,shree krishna veg es,partner_menus.json,346,shree krishna veg menues,ac4ec427-346,Methi Paratha,,140,,,,,,,2025-12-16T13:42:42.744493
+ac4ec427,shree krishna veg es,partner_menus.json,347,shree krishna veg menues,ac4ec427-347,Garlic Naan,,105,,,,,,,2025-12-16T13:42:42.744501
+ac4ec427,shree krishna veg es,partner_menus.json,348,shree krishna veg menues,ac4ec427-348,Cheese Naan,,120,,,,,,,2025-12-16T13:42:42.744509
+ac4ec427,shree krishna veg es,partner_menus.json,349,shree krishna veg menues,ac4ec427-349,Stuffed Kulcha,,105,,,,,,,2025-12-16T13:42:42.744517
+ac4ec427,shree krishna veg es,partner_menus.json,350,shree krishna veg menues,ac4ec427-350,Onion Kulcha,,95,,,,,,,2025-12-16T13:42:42.744525
+ac4ec427,shree krishna veg es,partner_menus.json,351,shree krishna veg menues,ac4ec427-351,Cheese Butter,,130,,,,,,,2025-12-16T13:42:42.744534
+ac4ec427,shree krishna veg es,partner_menus.json,352,shree krishna veg menues,ac4ec427-352,Bhatura,,110,,,,,,,2025-12-16T13:42:42.744542
+ac4ec427,shree krishna veg es,partner_menus.json,353,shree krishna veg menues,ac4ec427-353,Kulcha Butter,,95,,,,,,,2025-12-16T13:42:42.744551
+ac4ec427,shree krishna veg es,partner_menus.json,354,shree krishna veg menues,ac4ec427-354,Paratha Butter,,85,,,,,,,2025-12-16T13:42:42.744559
+ac4ec427,shree krishna veg es,partner_menus.json,355,shree krishna veg menues,ac4ec427-355,Naan Plain,,70,,,,,,,2025-12-16T13:42:42.744567
+ac4ec427,shree krishna veg es,partner_menus.json,356,shree krishna veg menues,ac4ec427-356,Pudina Roti,,95,,,,,,,2025-12-16T13:42:42.744575
+ac4ec427,shree krishna veg es,partner_menus.json,357,shree krishna veg menues,ac4ec427-357,Missi Roti,,80,,,,,,,2025-12-16T13:42:42.744583
+ac4ec427,shree krishna veg es,partner_menus.json,358,shree krishna veg menues,ac4ec427-358,Paratha Plain,,75,,,,,,,2025-12-16T13:42:42.744592
+ac4ec427,shree krishna veg es,partner_menus.json,359,shree krishna veg menues,ac4ec427-359,Veg Item. Schezwan Noodles,,330,,,,,,,2025-12-16T13:42:42.744600
+ac4ec427,shree krishna veg es,partner_menus.json,360,shree krishna veg menues,ac4ec427-360,Hakka Noodles,,290,,,,,,,2025-12-16T13:42:42.744608
+ac4ec427,shree krishna veg es,partner_menus.json,361,shree krishna veg menues,ac4ec427-361,Veg Manchurian,,310,,,,,,,2025-12-16T13:42:42.744616
+ac4ec427,shree krishna veg es,partner_menus.json,362,shree krishna veg menues,ac4ec427-362,Paneer Manchurian,,310,,,,,,,2025-12-16T13:42:42.744625
+ac4ec427,shree krishna veg es,partner_menus.json,363,shree krishna veg menues,ac4ec427-363,Vegetable Chow Mein,,310,,,,,,,2025-12-16T13:42:42.744634
+ac4ec427,shree krishna veg es,partner_menus.json,364,shree krishna veg menues,ac4ec427-364,American Chopsuey,,330,,,,,,,2025-12-16T13:42:42.744642
+ac4ec427,shree krishna veg es,partner_menus.json,365,shree krishna veg menues,ac4ec427-365,Singapori Chilli Noodles,,310,,,,,,,2025-12-16T13:42:42.744650
+ac4ec427,shree krishna veg es,partner_menus.json,366,shree krishna veg menues,ac4ec427-366,Mushroom Manchurian.,,310,,,,,,,2025-12-16T13:42:42.744658
+ac4ec427,shree krishna veg es,partner_menus.json,367,shree krishna veg menues,ac4ec427-367,Veg Schezwan,,310,,,,,,,2025-12-16T13:42:42.744667
+ac4ec427,shree krishna veg es,partner_menus.json,368,shree krishna veg menues,ac4ec427-368,Veg Hot Garlic Sauce,,310,,,,,,,2025-12-16T13:42:42.744675
+ac4ec427,shree krishna veg es,partner_menus.json,369,shree krishna veg menues,ac4ec427-369,Paneer Schezwan,,310,,,,,,,2025-12-16T13:42:42.744683
+ac4ec427,shree krishna veg es,partner_menus.json,370,shree krishna veg menues,ac4ec427-370,Cream Of Tomato Soup,,190,,,,,,,2025-12-16T13:42:42.744692
+ac4ec427,shree krishna veg es,partner_menus.json,371,shree krishna veg menues,ac4ec427-371,Veg Item. Cream Of Brocolli,,205,,,,,,,2025-12-16T13:42:42.744700
+ac4ec427,shree krishna veg es,partner_menus.json,372,shree krishna veg menues,ac4ec427-372,Manchow Soup.,,195,,,,,,,2025-12-16T13:42:42.744708
+ac4ec427,shree krishna veg es,partner_menus.json,373,shree krishna veg menues,ac4ec427-373,Manchow Soup,,195,,,,,,,2025-12-16T13:42:42.744716
+ac4ec427,shree krishna veg es,partner_menus.json,374,shree krishna veg menues,ac4ec427-374,Tomyum Soup,,215,,,,,,,2025-12-16T13:42:42.744725
+ac4ec427,shree krishna veg es,partner_menus.json,375,shree krishna veg menues,ac4ec427-375,Wonton Noodle Soup,,210,,,,,,,2025-12-16T13:42:42.744733
+ac4ec427,shree krishna veg es,partner_menus.json,376,shree krishna veg menues,ac4ec427-376,Sweet Corn Soup,,195,,,,,,,2025-12-16T13:42:42.744742
+ac4ec427,shree krishna veg es,partner_menus.json,377,shree krishna veg menues,ac4ec427-377,Spinach Soup,,195,,,,,,,2025-12-16T13:42:42.744751
+ac4ec427,shree krishna veg es,partner_menus.json,378,shree krishna veg menues,ac4ec427-378,Wonton Soup,,200,,,,,,,2025-12-16T13:42:42.744759
+ac4ec427,shree krishna veg es,partner_menus.json,379,shree krishna veg menues,ac4ec427-379,Cream Of Mashroom Soup,,195,,,,,,,2025-12-16T13:42:42.744767
+ac4ec427,shree krishna veg es,partner_menus.json,380,shree krishna veg menues,ac4ec427-380,Cream Of Veg Soup,,195,,,,,,,2025-12-16T13:42:42.744775
+ac4ec427,shree krishna veg es,partner_menus.json,381,shree krishna veg menues,ac4ec427-381,Lemon Coriander Soup,,185,,,,,,,2025-12-16T13:42:42.744783
+ac4ec427,shree krishna veg es,partner_menus.json,382,shree krishna veg menues,ac4ec427-382,Vegetable Clear Soup,,185,,,,,,,2025-12-16T13:42:42.744792
+ac4ec427,shree krishna veg es,partner_menus.json,383,shree krishna veg menues,ac4ec427-383,Hot & Sour Soup,,185,,,,,,,2025-12-16T13:42:42.744800
+ac4ec427,shree krishna veg es,partner_menus.json,384,shree krishna veg menues,ac4ec427-384,Multani Mushroom,,320,,,,,,,2025-12-16T13:42:42.744810
+ac4ec427,shree krishna veg es,partner_menus.json,385,shree krishna veg menues,ac4ec427-385,Peri Peri Tikka Paneer,,310,,,,,,,2025-12-16T13:42:42.744821
+ac4ec427,shree krishna veg es,partner_menus.json,386,shree krishna veg menues,ac4ec427-386,Reshmi Tikka,,310,,,,,,,2025-12-16T13:42:42.744829
+ac4ec427,shree krishna veg es,partner_menus.json,387,shree krishna veg menues,ac4ec427-387,Paneer Angara........,,310,,,,,,,2025-12-16T13:42:42.744838
+ac4ec427,shree krishna veg es,partner_menus.json,388,shree krishna veg menues,ac4ec427-388,Hara Bhara Kebab,,290,,,,,,,2025-12-16T13:42:42.744846
+ac4ec427,shree krishna veg es,partner_menus.json,389,shree krishna veg menues,ac4ec427-389,"Paneer Akbari, Malai Kebab (Sweet)",,310,,,,,,,2025-12-16T13:42:42.744857
+ac4ec427,shree krishna veg es,partner_menus.json,390,shree krishna veg menues,ac4ec427-390,Veg Seekh Kabab,,300,,,,,,,2025-12-16T13:42:42.744865
+ac4ec427,shree krishna veg es,partner_menus.json,391,shree krishna veg menues,ac4ec427-391,Baby Corn Tandoor,,300,,,,,,,2025-12-16T13:42:42.744873
+ac4ec427,shree krishna veg es,partner_menus.json,392,shree krishna veg menues,ac4ec427-392,Gadbad,,295,,,,,,,2025-12-16T13:42:42.744881
+ac4ec427,shree krishna veg es,partner_menus.json,393,shree krishna veg menues,ac4ec427-393,Dry Fruit Falooda,,260,,,,,,,2025-12-16T13:42:42.744889
+ac4ec427,shree krishna veg es,partner_menus.json,394,shree krishna veg menues,ac4ec427-394,Sp. Falooda Kesar Kulfi,,260,,,,,,,2025-12-16T13:42:42.744897
+ac4ec427,shree krishna veg es,partner_menus.json,395,shree krishna veg menues,ac4ec427-395,Special Fruit Salad,,210,,,,,,,2025-12-16T13:42:42.744906
+ac4ec427,shree krishna veg es,partner_menus.json,396,shree krishna veg menues,ac4ec427-396,Fruit Plate With Cream,,270,,,,,,,2025-12-16T13:42:42.744914
+ac4ec427,shree krishna veg es,partner_menus.json,397,shree krishna veg menues,ac4ec427-397,Special Fruit Salad With Icecream,,245,,,,,,,2025-12-16T13:42:42.744922
+ac4ec427,shree krishna veg es,partner_menus.json,398,shree krishna veg menues,ac4ec427-398,Mango Mastani,,240,,,,,,,2025-12-16T13:42:42.744930
+ac4ec427,shree krishna veg es,partner_menus.json,399,shree krishna veg menues,ac4ec427-399,Jelly With Ice Cream,,210,,,,,,,2025-12-16T13:42:42.744938
+ac4ec427,shree krishna veg es,partner_menus.json,400,shree krishna veg menues,ac4ec427-400,Fruit Salad,,190,,,,,,,2025-12-16T13:42:42.744947
+ac4ec427,shree krishna veg es,partner_menus.json,401,shree krishna veg menues,ac4ec427-401,Gulab Jamun (2 Pcs),,130,,,,,,,2025-12-16T13:42:42.744956
+ac4ec427,shree krishna veg es,partner_menus.json,402,shree krishna veg menues,ac4ec427-402,Sizzling Brownie,,295,,,,,,,2025-12-16T13:42:42.744964
+ac4ec427,shree krishna veg es,partner_menus.json,403,shree krishna veg menues,ac4ec427-403,Fruit Jelly,,190,,,,,,,2025-12-16T13:42:42.744973
+ac4ec427,shree krishna veg es,partner_menus.json,404,shree krishna veg menues,ac4ec427-404,Banana Boat,,280,,,,,,,2025-12-16T13:42:42.744981
+ac4ec427,shree krishna veg es,partner_menus.json,405,shree krishna veg menues,ac4ec427-405,Spl. Mastani (Mango),,310,,,,,,,2025-12-16T13:42:42.744989
+ac4ec427,shree krishna veg es,partner_menus.json,406,shree krishna veg menues,ac4ec427-406,Spl. Mastani (Strawberry).,,310,,,,,,,2025-12-16T13:42:42.744997
+ac4ec427,shree krishna veg es,partner_menus.json,407,shree krishna veg menues,ac4ec427-407,Schezwan Garlic Fried Rice,,390,,,,,,,2025-12-16T13:42:42.745005
+ac4ec427,shree krishna veg es,partner_menus.json,408,shree krishna veg menues,ac4ec427-408,Triple Schezwan Rice...,,370,,,,,,,2025-12-16T13:42:42.745013
+ac4ec427,shree krishna veg es,partner_menus.json,409,shree krishna veg menues,ac4ec427-409,Triple Manchurian Rice,,370,,,,,,,2025-12-16T13:42:42.745022
+ac4ec427,shree krishna veg es,partner_menus.json,410,shree krishna veg menues,ac4ec427-410,Burnt Garlic Fried Rice.,,320,,,,,,,2025-12-16T13:42:42.745030
+ac4ec427,shree krishna veg es,partner_menus.json,411,shree krishna veg menues,ac4ec427-411,Singapore Fried Rice...,,310,,,,,,,2025-12-16T13:42:42.745038
+ac4ec427,shree krishna veg es,partner_menus.json,412,shree krishna veg menues,ac4ec427-412,Dal Tadka,,250,,,,,,,2025-12-16T13:42:42.745046
+ac4ec427,shree krishna veg es,partner_menus.json,413,shree krishna veg menues,ac4ec427-413,Dal Kolhapuri Tadka,,280,,,,,,,2025-12-16T13:42:42.745054
+ac4ec427,shree krishna veg es,partner_menus.json,414,shree krishna veg menues,ac4ec427-414,Dal Makkhani,,280,,,,,,,2025-12-16T13:42:42.745062
+ac4ec427,shree krishna veg es,partner_menus.json,415,shree krishna veg menues,ac4ec427-415,Dhabewali Dal,,290,,,,,,,2025-12-16T13:42:42.745070
+ac4ec427,shree krishna veg es,partner_menus.json,416,shree krishna veg menues,ac4ec427-416,Dal Palak,,260,,,,,,,2025-12-16T13:42:42.745079
+ac4ec427,shree krishna veg es,partner_menus.json,417,shree krishna veg menues,ac4ec427-417,Dal Fry,,230,,,,,,,2025-12-16T13:42:42.745087
+ac4ec427,shree krishna veg es,partner_menus.json,418,shree krishna veg menues,ac4ec427-418,Paneer Chilly Grilled S/W,,240,,,,,,,2025-12-16T13:42:42.745095
+ac4ec427,shree krishna veg es,partner_menus.json,419,shree krishna veg menues,ac4ec427-419,Bombay Grill S/W,,200,,,,,,,2025-12-16T13:42:42.745103
+ac4ec427,shree krishna veg es,partner_menus.json,420,shree krishna veg menues,ac4ec427-420,Veg Sandwich,,140,,,,,,,2025-12-16T13:42:42.745111
+ac4ec427,shree krishna veg es,partner_menus.json,421,shree krishna veg menues,ac4ec427-421,Veg Grill S/W,,200,,,,,,,2025-12-16T13:42:42.745119
+ac4ec427,shree krishna veg es,partner_menus.json,422,shree krishna veg menues,ac4ec427-422,Cheese Grill S/W,,180,,,,,,,2025-12-16T13:42:42.745128
+ac4ec427,shree krishna veg es,partner_menus.json,423,shree krishna veg menues,ac4ec427-423,Tomato Omelette Toast S/W,,180,,,,,,,2025-12-16T13:42:42.745136
+ac4ec427,shree krishna veg es,partner_menus.json,424,shree krishna veg menues,ac4ec427-424,Jam Toast,,115,,,,,,,2025-12-16T13:42:42.745146
+ac4ec427,shree krishna veg es,partner_menus.json,425,shree krishna veg menues,ac4ec427-425,Toast Butter,,95,,,,,,,2025-12-16T13:42:42.745154
+ac4ec427,shree krishna veg es,partner_menus.json,426,shree krishna veg menues,ac4ec427-426,Bread Butter,,85,,,,,,,2025-12-16T13:42:42.745162
+ac4ec427,shree krishna veg es,partner_menus.json,427,shree krishna veg menues,ac4ec427-427,Jam Butter,,95,,,,,,,2025-12-16T13:42:42.745170
+ac4ec427,shree krishna veg es,partner_menus.json,428,shree krishna veg menues,ac4ec427-428,Bread Slice 2 Pcs,,60,,,,,,,2025-12-16T13:42:42.745179
+ac4ec427,shree krishna veg es,partner_menus.json,429,shree krishna veg menues,ac4ec427-429,Cheese Corn Grill S/W,,210,,,,,,,2025-12-16T13:42:42.745187
+ac4ec427,shree krishna veg es,partner_menus.json,430,shree krishna veg menues,ac4ec427-430,Mashroom Corn Grill S/W,,220,,,,,,,2025-12-16T13:42:42.745195
+ac4ec427,shree krishna veg es,partner_menus.json,431,shree krishna veg menues,ac4ec427-431,Veg Fingers,,220,,,,,,,2025-12-16T13:42:42.745204
+ac4ec427,shree krishna veg es,partner_menus.json,432,shree krishna veg menues,ac4ec427-432,Masala Fries,,180,,,,,,,2025-12-16T13:42:42.745214
+ac4ec427,shree krishna veg es,partner_menus.json,433,shree krishna veg menues,ac4ec427-433,Potato Cheese Pops,,220,,,,,,,2025-12-16T13:42:42.745223
+ac4ec427,shree krishna veg es,partner_menus.json,434,shree krishna veg menues,ac4ec427-434,Cheese Garlic Bread,,215,,,,,,,2025-12-16T13:42:42.745231
+ac4ec427,shree krishna veg es,partner_menus.json,435,shree krishna veg menues,ac4ec427-435,Aloo Tikki,,220,,,,,,,2025-12-16T13:42:42.745239
+ac4ec427,shree krishna veg es,partner_menus.json,436,shree krishna veg menues,ac4ec427-436,Plain Fries,,180,,,,,,,2025-12-16T13:42:42.745247
+ac4ec427,shree krishna veg es,partner_menus.json,437,shree krishna veg menues,ac4ec427-437,Chocolate,,170,,,,,,,2025-12-16T13:42:42.745256
+ac4ec427,shree krishna veg es,partner_menus.json,438,shree krishna veg menues,ac4ec427-438,Strawberry,,160,,,,,,,2025-12-16T13:42:42.745264
+ac4ec427,shree krishna veg es,partner_menus.json,439,shree krishna veg menues,ac4ec427-439,Butterscotch,,160,,,,,,,2025-12-16T13:42:42.745272
+ac4ec427,shree krishna veg es,partner_menus.json,440,shree krishna veg menues,ac4ec427-440,Vanilla,,160,,,,,,,2025-12-16T13:42:42.745280
+ac4ec427,shree krishna veg es,partner_menus.json,441,shree krishna veg menues,ac4ec427-441,Matka Kulfi,,120,,,,,,,2025-12-16T13:42:42.745288
+ac4ec427,shree krishna veg es,partner_menus.json,442,shree krishna veg menues,ac4ec427-442,Malai Kulfi,,110,,,,,,,2025-12-16T13:42:42.745297
+ac4ec427,shree krishna veg es,partner_menus.json,443,shree krishna veg menues,ac4ec427-443,Cassatta,,110,,,,,,,2025-12-16T13:42:42.745305
+ac4ec427,shree krishna veg es,partner_menus.json,444,shree krishna veg menues,ac4ec427-444,Stick Kulfi,,90,,,,,,,2025-12-16T13:42:42.745313
+ac4ec427,shree krishna veg es,partner_menus.json,445,shree krishna veg menues,ac4ec427-445,Kesar Pista,,170,,,,,,,2025-12-16T13:42:42.745321
+ac4ec427,shree krishna veg es,partner_menus.json,446,shree krishna veg menues,ac4ec427-446,Pineapple Kaitha,,160,,,,,,,2025-12-16T13:42:42.745329
+ac4ec427,shree krishna veg es,partner_menus.json,447,shree krishna veg menues,ac4ec427-447,Boondi Kaitha,,160,,,,,,,2025-12-16T13:42:42.745337
+ac4ec427,shree krishna veg es,partner_menus.json,448,shree krishna veg menues,ac4ec427-448,Subz Raitha,,160,,,,,,,2025-12-16T13:42:42.745345
+ac4ec427,shree krishna veg es,partner_menus.json,449,shree krishna veg menues,ac4ec427-449,Curd,,150,,,,,,,2025-12-16T13:42:42.745354
+ac4ec427,shree krishna veg es,partner_menus.json,450,shree krishna veg menues,ac4ec427-450,Masala Papad,,75,,,,,,,2025-12-16T13:42:42.745362
+ac4ec427,shree krishna veg es,partner_menus.json,451,shree krishna veg menues,ac4ec427-451,Cheese Masala Papad,,95,,,,,,,2025-12-16T13:42:42.745370
+ac4ec427,shree krishna veg es,partner_menus.json,452,shree krishna veg menues,ac4ec427-452,Fry Papad.,,50,,,,,,,2025-12-16T13:42:42.745380
+ac4ec427,shree krishna veg es,partner_menus.json,453,shree krishna veg menues,ac4ec427-453,Roasted Papad,,45,,,,,,,2025-12-16T13:42:42.745389
+ac4ec427,shree krishna veg es,partner_menus.json,454,shree krishna veg menues,ac4ec427-454,Green Salad,,160,,,,,,,2025-12-16T13:42:42.745397

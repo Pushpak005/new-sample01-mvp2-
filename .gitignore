@@ -4,3 +4,11 @@ demo/fast-start/backend/pom.xml.bak
 demo/fast-start/backend/pom.xml.bak2
 demo/fast-start/backend/pom.xmly
 demo/fast-start/backend/target/
+
+# Local Netlify folder
+.netlify
+
+# Local env
+.env
+.env.local
+node_modules

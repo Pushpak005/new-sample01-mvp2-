@@ -1,11 +1,3 @@
-/* runtime error capture - prepended for better debugging */
-window.addEventListener('error', function(ev){
-  try { console.error('Runtime error:', ev.message, ev.error || ev); } catch(e){}
-});
-window.addEventListener('unhandledrejection', function(ev){
-  try { console.error('Unhandled promise rejection:', ev.reason); } catch(e){}
-});
-/* end runtime error capture */
 (() => {
 /* Healthy Diet – Partner menus only
    - Today’s Picks come only from vendor_menus.json (Healthybee, Swad Gomantak, Shree Krishna Veg).

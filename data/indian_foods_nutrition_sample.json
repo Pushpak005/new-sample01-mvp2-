@@ -1,0 +1,32 @@
+[
+  {
+    "food_id": "f1",
+    "name": "Paneer (100g)",
+    "serving_g": 100,
+    "calories": 265,
+    "protein_g": 18,
+    "carbs_g": 6,
+    "fat_g": 20,
+    "micros": {"iron_mg": 0.7, "vitaminC_mg": 0}
+  },
+  {
+    "food_id": "f2",
+    "name": "Moong Dal (100g, cooked)",
+    "serving_g": 100,
+    "calories": 105,
+    "protein_g": 7,
+    "carbs_g": 15,
+    "fat_g": 0.4,
+    "micros": {"iron_mg": 1.2, "vitaminC_mg": 0}
+  },
+  {
+    "food_id": "f3",
+    "name": "Brown Rice (100g, cooked)",
+    "serving_g": 100,
+    "calories": 111,
+    "protein_g": 2.6,
+    "carbs_g": 23,
+    "fat_g": 0.9,
+    "micros": {"iron_mg": 0.4, "vitaminC_mg": 0}
+  }
+]
