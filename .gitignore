@@ -51,3 +51,4 @@ venv/
 
 # logs / temp
 *.log
+tmp/
