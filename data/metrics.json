@@ -5,5 +5,22 @@
   "items_with_protein": 5,
   "pct_with_calories": 1.09,
   "pct_with_protein": 1.09,
-  "ingest_ts": "2025-12-16T13:42:43.737258"
+  "ingest_ts": "2025-12-16T13:42:43.737258",
+  "local_fuzzy_impute": {
+    "imputed": 126,
+    "avg_score": 87.49969474969475,
+    "before_missing": 455,
+    "after_missing": 329,
+    "vendors_filtered": "swad gomantak,healthybee"
+  },
+  "text_regressor": {
+    "n_train": 131,
+    "alpha": 0.1,
+    "test_mae": 33.292324525568056,
+    "test_rmse": 45.89534276468786
+  },
+  "model_impute": {
+    "imputed_count": 455,
+    "calories_source": "model_regressor"
+  }
 }
