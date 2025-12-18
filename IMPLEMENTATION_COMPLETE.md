@@ -352,7 +352,7 @@ SUPABASE_KEY=your_supabase_anon_key
 ## ✨ Next Steps (Production)
 
 ### High Priority
-1. 🔴 Database Integration (Supabase)
+1. 🔴 cloud Integration (Azure)
 2. 🔴 Authentication System (JWT)
 3. 🔴 Payment Gateway (Razorpay)
 4. 🟠 Environment Variables
