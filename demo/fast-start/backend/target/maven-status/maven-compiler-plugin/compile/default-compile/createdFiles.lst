@@ -1,0 +1,5 @@
+com/acl25/demo/model/Recommendation.class
+com/acl25/demo/controller/RecommendationController.class
+com/acl25/demo/DemoApplication.class
+com/acl25/demo/repo/RecommendationRepository.class
+com/acl25/demo/DataSeeder.class

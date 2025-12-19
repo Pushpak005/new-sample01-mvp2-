@@ -1,0 +1,461 @@
+Vendor,Item ID,Title,Calories (est),Calories (raw),Confidence,Source
+healthybee,hb-i1,Paneer Sprouts Salad,180,180.0,unknown,
+healthybee,hb-i2,Quinoa & Roasted Veg Bowl,320,320.0,unknown,
+swad gomantak,sg-i1,Grilled Fish Thali (light),380,380.0,unknown,
+swad gomantak,sg-i2,Veg Pulao (light),260,260.0,unknown,
+shree krishna veg,skv-i1,Moong Dal Chilla Wrap,160,160.0,unknown,
+healthybee,51ef1dc9-0,Paneer Sprouts Salad,162,161.9514766924047,high,manual_review
+healthybee,51ef1dc9-1,Spinach Paneer Bhurji Chapati Meal,294,293.59723095701713,high,manual_review
+healthybee,51ef1dc9-2,Non-Veg High Protein Meal Box,240,239.75630196920707,high,manual_review
+healthybee,51ef1dc9-3,Rajma Masala Brown Rice Meal Box,141,140.56576944219438,high,manual_review
+healthybee,51ef1dc9-4,Protein Rich Chickpea Curry Brown Rice Meal Box,207,207.05693007371215,high,manual_review
+healthybee,51ef1dc9-5,Chicken Tikka Wrap,153,153.27408260524118,high,manual_review
+healthybee,51ef1dc9-6,Protein Rich Chickpea Wrap,219,218.87410614645069,high,manual_review
+healthybee,51ef1dc9-7,Strawberry Banana Chia Smoothie,96,95.97577063508014,high,manual_review
+healthybee,51ef1dc9-8,Protein Rich Chickpea Sandwich,208,207.64367751596825,high,manual_review
+healthybee,51ef1dc9-9,Chicken Tikka Sandwich,149,148.94204847455933,high,manual_review
+healthybee,51ef1dc9-10,Only Peri Peri Grilled Chicken [200 gm],254,253.55245421637443,high,manual_review
+healthybee,51ef1dc9-11,Purple Rice,167,167.14108795095393,high,manual_review
+healthybee,51ef1dc9-12,Quinoa Chicken Tabbouleh Salad,204,203.7442753732924,high,manual_review
+healthybee,51ef1dc9-13,Quinoa Paneer Tabbouleh Salad,259,259.2241063004478,high,manual_review
+healthybee,51ef1dc9-14,Paneer Burrito Bowl,249,249.2240597727543,high,manual_review
+healthybee,51ef1dc9-15,Chicken Grilled Sandwich,198,198.47130501279185,high,manual_review
+healthybee,51ef1dc9-16,Paneer Tikka Grilled Sandwich,226,226.24802560289905,high,manual_review
+healthybee,51ef1dc9-17,Veg Grilled Sandwich,224,223.6415823631425,high,manual_review
+healthybee,51ef1dc9-18,Punjabi Club Grilled Sandwich,213,213.30159263123895,high,manual_review
+healthybee,51ef1dc9-19,Chicken Coleslaw Sandwich,159,159.32754482699448,high,manual_review
+healthybee,51ef1dc9-20,Omelette Chicken Decker Sandwich,156,155.66971291968687,high,manual_review
+healthybee,51ef1dc9-21,Veg Sandwich,196,195.59119032481533,high,manual_review
+healthybee,51ef1dc9-22,Chicken Mayo Grilled Sandwich,198,198.47130501279185,high,manual_review
+healthybee,51ef1dc9-23,Bite into the goodness of chicken and mayonnaise enveloped in multi-grain grilled sandwich.,198,198.47130501279185,high,manual_review
+healthybee,51ef1dc9-24,Boiled Egg Sandwich,144,143.74070405982,high,manual_review
+healthybee,51ef1dc9-25,Veg Coleslaw Sandwich,196,195.59119032481533,high,manual_review
+healthybee,51ef1dc9-26,Cheese Chilli Grilled Sandwich,213,213.30159263123895,high,manual_review
+healthybee,51ef1dc9-27,Paneer Peri Peri Salad,258,258.01999321236207,high,manual_review
+healthybee,51ef1dc9-28,Peri - Peri Chicken Salad,211,210.69991239975803,high,manual_review
+healthybee,51ef1dc9-29,Jamaican Jerk Chicken Salad,120,119.7039219703512,high,manual_review
+healthybee,51ef1dc9-30,Basil Pesto Chicken Salad,120,119.7039219703512,high,manual_review
+healthybee,51ef1dc9-31,Creamy Garlic Chicken Salad,120,119.7039219703512,high,manual_review
+healthybee,51ef1dc9-32,Steamed Chicken Salad - Lean Protein,156,156.06749584246722,high,manual_review
+healthybee,51ef1dc9-33,Zesty Herbs Grilled Paneer Salad,260,259.5166711051805,high,manual_review
+healthybee,51ef1dc9-34,Classic Grill Chicken Salad,120,119.7039219703512,high,manual_review
+healthybee,51ef1dc9-35,Sprouts Salad,49,48.92196680725704,high,manual_review
+healthybee,51ef1dc9-36,Fruit Sprouts Salad,40,40.36885037411554,high,manual_review
+healthybee,51ef1dc9-37,Paneer Salad,211,210.5113496937364,high,manual_review
+healthybee,51ef1dc9-38,Boiled Eggs Salad,136,135.63816977001315,high,manual_review
+healthybee,51ef1dc9-39,Chickpea Beetroot Salad,183,183.457320509629,high,manual_review
+healthybee,51ef1dc9-40,Corn Sprouts Salad,40,40.36885037411554,high,manual_review
+healthybee,51ef1dc9-41,Corn Salad,115,114.7699831377132,high,manual_review
+healthybee,51ef1dc9-42,Chicken Curry Brown Rice Meal Box,172,172.49072757602647,high,manual_review
+healthybee,51ef1dc9-43,Palak Paneer Chapati Meal Box,302,302.1933309390877,high,manual_review
+healthybee,51ef1dc9-44,Protein Rich Chickpea Curry Chapati Meal Box,292,292.04947755309814,high,manual_review
+healthybee,51ef1dc9-45,Chicken Curry Chapati Meal Box,282,282.0738242087336,high,manual_review
+healthybee,51ef1dc9-46,Palak Paneer Brown Rice Meal Box,251,251.24301526399609,high,manual_review
+healthybee,51ef1dc9-47,Rajma Masala Chapati Meal Box,222,222.1645603191496,high,manual_review
+healthybee,51ef1dc9-48,Paneer Wrap,259,258.6822317672699,high,manual_review
+healthybee,51ef1dc9-49,Chicken Egg Wrap,160,159.75791039092562,high,manual_review
+healthybee,51ef1dc9-50,"Packed with eggs, chicken, and vegetables, this wheat paratha wrap is prepared in olive oil.",166,165.61171660741994,high,manual_review
+healthybee,51ef1dc9-51,Corn Veggie Wrap,167,166.5792053383477,high,manual_review
+healthybee,51ef1dc9-52,Chicken Wrap,180,180.16270429281553,high,manual_review
+healthybee,51ef1dc9-53,Egg Wrap,174,174.04490179763636,high,manual_review
+healthybee,51ef1dc9-54,Spinach Egg White Omelette (Protein &amp; Iron Rich),157,157.46717680540857,high,manual_review
+healthybee,51ef1dc9-55,Chicken Omelette ( Lean Protein Source ),156,156.17305937650792,high,manual_review
+healthybee,51ef1dc9-56,Double Deck Chicken Omelette,156,155.7582602832888,high,manual_review
+healthybee,51ef1dc9-57,Spinach Egg White Bhurji (Protein &amp; Iron Rich),170,170.1476790198509,high,manual_review
+healthybee,51ef1dc9-58,Boiled Eggs (3 Pcs),166,165.69510578291667,high,manual_review
+healthybee,51ef1dc9-59,"Masala Omelette (Healthy Bhi, Desi Bhi)",182,181.9101029692392,high,manual_review
+healthybee,51ef1dc9-60,Chicken Brown Rice Bowl,186,186.10511245377091,high,manual_review
+healthybee,51ef1dc9-61,Paneer Brown Rice Bowl,244,243.7646228482736,high,manual_review
+healthybee,51ef1dc9-62,Veg Brown Rice Bowl,209,208.613466441624,high,manual_review
+healthybee,51ef1dc9-63,Egg Brown Rice Bowl,182,181.5141111495551,high,manual_review
+healthybee,51ef1dc9-64,Banana Date Smoothie,96,95.85381794090912,high,manual_review
+healthybee,51ef1dc9-65,Banana Milkshake,92,91.6185582146488,high,manual_review
+healthybee,51ef1dc9-66,Apple Banana Milkshake,89,89.13717120907903,high,manual_review
+healthybee,51ef1dc9-67,"Healthy and flavorful shake prepared with milk, apple, and banana.",129,129.25225762380347,high,manual_review
+healthybee,51ef1dc9-68,Apple Milkshake,64,63.88993403417882,high,manual_review
+healthybee,51ef1dc9-69,Pomegranate Juice [sugar-free],167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-70,Basil Papaya Juice [sugar-free],167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-71,Carrot Beetroot Juice [sugar-free],209,209.24520489992327,high,manual_review
+healthybee,51ef1dc9-72,Basil Watermelon Juice [sugar-free],167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-73,Balance Fruit Bowl,196,195.69552879636527,high,manual_review
+healthybee,51ef1dc9-74,Fruit Custard Bowl,196,195.69552879636527,high,manual_review
+healthybee,51ef1dc9-75,Quinoa Chickpea Tabbouleh Salad,223,222.69419568229029,high,manual_review
+healthybee,51ef1dc9-76,Peanut Butter Fruits Oatmeal,205,205.49110552052156,high,manual_review
+healthybee,51ef1dc9-77,Fruit Milk Oats,138,138.3752334869614,high,manual_review
+healthybee,51ef1dc9-78,Milk Oats,167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-79,Brown Rice (200 gm),156,156.47240537687125,high,manual_review
+healthybee,51ef1dc9-80,Beetroot Chapati (1 Pc),292,291.9126253421801,high,manual_review
+healthybee,51ef1dc9-81,Parsley Dip,167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-82,Spinach Chapati (1 Pc),292,292.2595169618141,high,manual_review
+healthybee,51ef1dc9-83,Chicken Burrito Bowl,209,208.70793490661976,high,manual_review
+healthybee,51ef1dc9-84,Cucumber Mint Lemonade,167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-85,Honey Ginger Lemonade,167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-86,Classic Lemonade,167,167.28626289329247,high,manual_review
+healthybee,51ef1dc9-87,P P L Detox [sugar-free],167,167.28626289329247,high,manual_review
+swad gomantak,3264c85c-88,Surmai Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-89,Pomfret Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-90,Chicken Malvani Thali,239,238.9530793112242,high,manual_review
+swad gomantak,3264c85c-91,Gomanntak Special Seafood Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-92,Gomanntak Konkan Special Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-93,Prawns Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-94,Crab Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-95,Bangda Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-96,Bombil Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-97,Mandeli Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-98,Veg Thali,268,268.43352559587225,high,manual_review
+swad gomantak,3264c85c-99,Egg Thali,229,228.9557145988802,high,manual_review
+swad gomantak,3264c85c-100,Mutton Malvani Thali,264,263.9483539963847,high,manual_review
+swad gomantak,3264c85c-101,Surmai Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-102,Surmai Konkan Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-103,Surmai Tawa Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-104,Surmai Tikhale,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-105,Prawns Konkan Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-106,Prawns Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-107,Prawns Sukka,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-108,Prawns Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-109,Chicken Kombdi Vade,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-110,Chicken Malwani Handi,212,212.29074587833185,high,manual_review
+swad gomantak,3264c85c-111,Chicken Curry,173,173.25154232735164,high,manual_review
+swad gomantak,3264c85c-112,Chicken Sukka,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-113,Chicken Maratha Curry,174,174.03941258300088,high,manual_review
+swad gomantak,3264c85c-114,Chicken Masala,199,198.61939472678768,high,manual_review
+swad gomantak,3264c85c-115,Chicken Kadai,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-116,Chicken Handi,212,212.29074587833185,high,manual_review
+swad gomantak,3264c85c-117,Chicken Keema,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-118,Chicken Maratha Handi,212,212.29074587833185,high,manual_review
+swad gomantak,3264c85c-119,Chicken Tawa Masala,199,198.61939472678768,high,manual_review
+swad gomantak,3264c85c-120,Tisrya Sukka,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-121,Tisrya Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-122,Tisrya Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-123,Pomfret Tikhale,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-124,Pomfret Tawa Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-125,Pomfret Konkan Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-126,Pomfret Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-127,Bangda Tawa Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-128,Bangda Tikhale,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-129,Bangda Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-130,Bangda Konkan Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-131,Mutton Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-132,Mutton Sukka Dry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-133,Mutton Vade,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-134,Mutton Handi,230,229.50753370105,high,manual_review
+swad gomantak,3264c85c-135,Mutton Maratha Handi,230,229.50753370105,high,manual_review
+swad gomantak,3264c85c-136,Mutton Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-137,Mutton Tawa Dry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-138,Veg Malwani Handi,239,238.7045453701732,high,manual_review
+swad gomantak,3264c85c-139,Mix Veg,241,241.4495071229792,high,manual_review
+swad gomantak,3264c85c-140,Paneer Handi,263,262.58380835659244,high,manual_review
+swad gomantak,3264c85c-141,Paneer Bhurji,257,257.46609378107973,high,manual_review
+swad gomantak,3264c85c-142,Matar Paneer,263,262.58380835659244,high,manual_review
+swad gomantak,3264c85c-143,Veg Handi,239,238.7045453701732,high,manual_review
+swad gomantak,3264c85c-144,Veg Kadai,241,241.4495071229792,high,manual_review
+swad gomantak,3264c85c-145,Dal Fry,189,189.03281738422348,high,manual_review
+swad gomantak,3264c85c-146,Dal Tadka,192,192.39131480365924,high,manual_review
+swad gomantak,3264c85c-147,Veg Saguti,241,241.4495071229792,high,manual_review
+swad gomantak,3264c85c-148,Veg Tawa,241,241.4495071229792,high,manual_review
+swad gomantak,3264c85c-149,Paneer Butter Masala,261,260.5765731664588,high,manual_review
+swad gomantak,3264c85c-150,Lasooni Dal,189,189.03281738422348,high,manual_review
+swad gomantak,3264c85c-151,Paneer Kadhai,263,262.58380835659244,high,manual_review
+swad gomantak,3264c85c-152,Green Peas Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-153,Shev Bhaji,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-154,Egg Curry,169,168.8506526529013,high,manual_review
+swad gomantak,3264c85c-155,Egg Masala,192,192.1321394254004,high,manual_review
+swad gomantak,3264c85c-156,Egg Bhurji,198,197.98728155366535,high,manual_review
+swad gomantak,3264c85c-157,Egg Omelette,158,158.1694180921944,high,manual_review
+swad gomantak,3264c85c-158,Boiled Egg,160,159.83892741332048,high,manual_review
+swad gomantak,3264c85c-159,Prawns 65,229,229.21689745534633,high,manual_review
+swad gomantak,3264c85c-160,Tossed Prawns [8 Pieces],232,232.1562205024661,high,manual_review
+swad gomantak,3264c85c-161,Prawns Koliwada [8 Pieces],232,232.1562205024661,high,manual_review
+swad gomantak,3264c85c-162,Prawn Golden Fried,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-163,Tossed Crab,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-164,Crab Lollipop [6 Pieces],232,232.1562205024661,high,manual_review
+swad gomantak,3264c85c-165,Fish Fingers [6 Pieces],257,257.2487734920038,high,manual_review
+swad gomantak,3264c85c-166,Chicken Lollipop [6 Pieces],215,214.7641847063396,high,manual_review
+swad gomantak,3264c85c-167,Chicken Tava Fry,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-168,Crab Lasooni Tadka,215,214.57560914944168,high,manual_review
+swad gomantak,3264c85c-169,Prawns Chilli,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-170,Prawns Lasooni Tadka [6 Pieces],227,226.98093275823192,high,manual_review
+swad gomantak,3264c85c-171,Chicken Lasuni Tadka,198,198.3467786478218,high,manual_review
+swad gomantak,3264c85c-172,Tossed Prawns,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-173,Prawns Tawa Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-174,Surmai Tawa Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-175,Pomfret Tawa Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-176,Bangada Tawa Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-177,Surmai Rava Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-178,Pomfret Rava Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-179,Prawns Rava Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-180,Bombil Rava Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-181,Mandeli Rava Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-182,Bangda Rava Fry,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-183,Crab Masala,216,216.15593958455543,high,manual_review
+swad gomantak,3264c85c-184,Crab Sukka,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-185,Crab Konkan Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-186,Crab Curry,190,189.56055133016685,high,manual_review
+swad gomantak,3264c85c-187,Solkadi,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-188,Kokum Sharbat,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-189,Mirgund Papad,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-190,Roasted Papad,252,251.78360965739108,high,manual_review
+swad gomantak,3264c85c-191,Paneer 65 [8 Piece],262,261.9464504814424,high,manual_review
+swad gomantak,3264c85c-192,Paneer Chilly [8 Piece],245,245.39464660877871,high,manual_review
+swad gomantak,3264c85c-193,Surmai Fry [1 Pieces] With Prawns Curry & Steamed Rice,216,215.7126828873808,high,manual_review
+swad gomantak,3264c85c-194,Chicken Thali With Prawns Fry,239,238.9530793112242,high,manual_review
+swad gomantak,3264c85c-195,Chicken Thali With Surmai Fry,239,238.9530793112242,high,manual_review
+swad gomantak,3264c85c-196,Pomfret Fry With Prawns Curry & Steamed Rice,210,209.74025726967608,high,manual_review
+swad gomantak,3264c85c-197,Prawns Fry With Prawns Curry & Steamed Rice,210,209.74025726967608,high,manual_review
+swad gomantak,3264c85c-198,Bangda Fry With Prawns Curry & Steamed Rice,210,209.74025726967608,high,manual_review
+swad gomantak,3264c85c-199,Bombil Fry With Prawns Curry & Steamed Rice,210,209.74025726967608,high,manual_review
+swad gomantak,3264c85c-200,Chicken Thali With Bangda Fry,239,238.9530793112242,high,manual_review
+swad gomantak,3264c85c-201,Chicken Thali With Bombil Fry,239,238.9530793112242,high,manual_review
+swad gomantak,3264c85c-202,Kolambi Bhaat,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-203,Prawns Biryani,207,206.7983617084244,high,manual_review
+swad gomantak,3264c85c-204,Mutton Biryani,207,206.7983617084244,high,manual_review
+swad gomantak,3264c85c-205,Fish Biryani,237,237.00106738505528,high,manual_review
+swad gomantak,3264c85c-206,Chicken Biryani,187,186.62890785880268,high,manual_review
+swad gomantak,3264c85c-207,Egg Biryani,184,184.02625647483077,high,manual_review
+swad gomantak,3264c85c-208,Veg Biryani,219,219.081628038072,high,manual_review
+swad gomantak,3264c85c-209,Dal Khichdi,129,129.2481151929424,high,manual_review
+swad gomantak,3264c85c-210,Jeera Rice,209,208.6301268408624,high,manual_review
+swad gomantak,3264c85c-211,Plain Rice,209,208.6301268408624,high,manual_review
+swad gomantak,3264c85c-212,Paneer Biryani,239,238.89055290636676,high,manual_review
+swad gomantak,3264c85c-213,Surmai Chatpata Biryani,207,206.7983617084244,high,manual_review
+swad gomantak,3264c85c-214,Crab Lahsuni Biryani,207,206.7983617084244,high,manual_review
+swad gomantak,3264c85c-215,Pomfret Fry Biryani,207,206.7983617084244,high,manual_review
+swad gomantak,3264c85c-216,Mutton Kolhapuri Biryani,207,206.7983617084244,high,manual_review
+swad gomantak,3264c85c-217,Chicken Kolhapuri Biryani,190,190.04031986127225,high,manual_review
+swad gomantak,3264c85c-218,Bangda Fry Masala Biryani,195,194.88511362487617,high,manual_review
+swad gomantak,3264c85c-219,Veg Kolhapuri Biryani,219,219.081628038072,high,manual_review
+swad gomantak,3264c85c-220,Crab Lasuni Biryani,207,206.7983617084244,high,manual_review
+swad gomantak,3264c85c-221,Chicken Lasooni Tadka [6 Pieces](soup),207,206.55548167708068,high,manual_review
+swad gomantak,3264c85c-222,Chicken Chilli,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-223,Crab Soup,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-224,Chicken Soup,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-225,Prawns Soup,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-226,Chicken Clear Soup,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-227,Potato Bhaji,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-228,Veg Soup,241,241.4495071229792,high,manual_review
+swad gomantak,3264c85c-229,Mutton Soup,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-230,Mutton Clear Soup,232,231.9229926582528,high,manual_review
+swad gomantak,3264c85c-231,Chicken Tawa Fry,199,199.4532884713104,high,manual_review
+swad gomantak,3264c85c-232,Chicken Oil Fry [8 Pieces],215,214.7641847063396,high,manual_review
+swad gomantak,3264c85c-233,Rice Bhakri,209,208.6301268408624,high,manual_review
+swad gomantak,3264c85c-234,Chapati,291,291.0084834805142,high,manual_review
+swad gomantak,3264c85c-235,Vada [2 Pieces],237,236.8813954790629,high,manual_review
+shree krishna veg es,ac4ec427-236,Kaju Paneer Masala,209,208.59596809128143,high,manual_review
+shree krishna veg es,ac4ec427-237,Paneer Tikka Masala,199,199.45859524420644,high,manual_review
+shree krishna veg es,ac4ec427-238,Palak Paneer,234,233.9851659676474,high,manual_review
+shree krishna veg es,ac4ec427-239,Paneer Tawa Masala..,209,208.59596809128143,high,manual_review
+shree krishna veg es,ac4ec427-240,Kofta Zaikedar,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-241,Nargis Kofta Curry.,191,191.11333107459507,high,manual_review
+shree krishna veg es,ac4ec427-242,Paneer Rajwadi,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-243,Paneer Lazeez.,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-244,Maharaja Veg,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-245,Paneer Butter Masala..,226,225.627139237863,high,manual_review
+shree krishna veg es,ac4ec427-246,Paneer Bhurji,223,223.10196694412377,high,manual_review
+shree krishna veg es,ac4ec427-247,Subz Maratha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-248,Paneer Amritsari,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-249,Subz Patiala,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-250,Krishna Special Veg Curry,197,196.84569396000643,high,manual_review
+shree krishna veg es,ac4ec427-251,Paneer Musallam,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-252,Paneer Kolhapuri,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-253,Paneer Golati,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-254,Paneer Chatpata..,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-255,Subz Bhuna,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-256,Subz Diwani Handi,195,194.56416136607763,high,manual_review
+shree krishna veg es,ac4ec427-257,Kaju Tawa Paneer,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-258,Mirch Paneer,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-259,Malai Kofta Curry,191,191.11333107459507,high,manual_review
+shree krishna veg es,ac4ec427-260,Chole Bhatura,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-261,Paneer Kofta,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-262,Subz Jalfrezi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-263,Subz Kolhapuri.,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-264,Methi Mutter Malai,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-265,Paneer Do Pyaza,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-266,Sam Savera,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-267,Subz Peshawari,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-268,Dum Alu Kashmiri,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-269,Subz Chilly Milly,189,189.43571200709312,high,manual_review
+shree krishna veg es,ac4ec427-270,Mashroom Baby,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-271,Navaratna Kurma,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-272,Mushroom Tawa Masala :,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-273,Corn Masala,162,161.8425236690598,high,manual_review
+shree krishna veg es,ac4ec427-274,Cheese Peas Curry,191,191.11333107459507,high,manual_review
+shree krishna veg es,ac4ec427-275,Mushroom Masala,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-276,Chana Masala,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-277,Plain Palak,200,199.71412275785613,high,manual_review
+shree krishna veg es,ac4ec427-278,Lasuni Methi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-279,Green Peas Masala....,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-280,Alu Jeera,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-281,Alu Muttar,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-282,Alu Gobi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-283,Alu Methi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-284,Alu Palak,200,199.71412275785613,high,manual_review
+shree krishna veg es,ac4ec427-285,Hyderabadi Biryani,186,186.36388550844148,high,manual_review
+shree krishna veg es,ac4ec427-286,Veg Biryani,196,196.44814196645152,high,manual_review
+shree krishna veg es,ac4ec427-287,Dal Khichadi,173,172.74079288325603,high,manual_review
+shree krishna veg es,ac4ec427-288,Palak Khichadi,200,199.71412275785613,high,manual_review
+shree krishna veg es,ac4ec427-289,Khichadi Kadhi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-290,Peas Pulao,190,190.0019698106006,high,manual_review
+shree krishna veg es,ac4ec427-291,Dum Biryani,186,186.36388550844148,high,manual_review
+shree krishna veg es,ac4ec427-292,Paneer Tikka Biryani.,204,203.6810337909876,high,manual_review
+shree krishna veg es,ac4ec427-293,Paneer Pulao,216,216.4036885085557,high,manual_review
+shree krishna veg es,ac4ec427-294,Kashmiri Pulao,190,190.0019698106006,high,manual_review
+shree krishna veg es,ac4ec427-295,Cheese Pulao.,190,190.0019698106006,high,manual_review
+shree krishna veg es,ac4ec427-296,Dahi Khichadi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-297,Subz Pulao,190,190.0019698106006,high,manual_review
+shree krishna veg es,ac4ec427-298,Jeera Rice,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-299,Curd Rice,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-300,Steam Rice,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-301,Veg Item. Vegetable Manchurian,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-302,Chilli Paneer,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-303,Spring Rolls,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-304,Paneer Satay,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-305,Crispy Paneer.,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-306,Kungpao Paneer,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-307,Crispy Vegetables,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-308,Honey Corn Chilli Paneer.,195,194.540866445342,high,manual_review
+shree krishna veg es,ac4ec427-309,Shanghai Paneer.,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-310,Noodle Crispy Paneer,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-311,Vegetable Lollipop,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-312,Shezwan Tikka Paneer.,208,207.66293638986184,high,manual_review
+shree krishna veg es,ac4ec427-313,Paneer Hot Pan,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-314,Black Pepper Paneer.,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-315,Baby Corn Golden Fried,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-316,Plain Pav Bhaji,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-317,Butter Pav,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-318,Tawa Pulav,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-319,Paneer Pav Bhaji,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-320,Paneer Tawa Pulav,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-321,Jain Pav Bhaji,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-322,Cheese Tawa Pulav,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-323,Masala Pav,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-324,Cheese Pav Bhaji,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-325,Only Bhaji,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-326,Khada Pav Bhaji,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-327,Khada Bhaji,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-328,Jain Paneer Kofta,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-329,Jain Paneer Masala,209,208.59596809128143,high,manual_review
+shree krishna veg es,ac4ec427-330,Jain Kaju Masala,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-331,Jain Kaju Curry,191,191.11333107459507,high,manual_review
+shree krishna veg es,ac4ec427-332,Jain Paneer Pulao,216,216.4036885085557,high,manual_review
+shree krishna veg es,ac4ec427-333,Jain Palak Paneer,234,233.9851659676474,high,manual_review
+shree krishna veg es,ac4ec427-334,Jain Green Peas Pulao,190,190.0019698106006,high,manual_review
+shree krishna veg es,ac4ec427-335,Jain Cheese Pulao,190,190.0019698106006,high,manual_review
+shree krishna veg es,ac4ec427-336,Jain Chana Masala,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-337,Jain Green Peas Masala,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-338,Jain Dal Fry,173,172.74079288325603,high,manual_review
+shree krishna veg es,ac4ec427-339,Naan Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-340,Roti Plain,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-341,Paneer Paratha,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-342,Cheese Paratha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-343,Roti Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-344,Methi Roti,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-345,Alu Paratha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-346,Methi Paratha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-347,Garlic Naan,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-348,Cheese Naan,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-349,Stuffed Kulcha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-350,Onion Kulcha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-351,Cheese Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-352,Bhatura,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-353,Kulcha Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-354,Paratha Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-355,Naan Plain,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-356,Pudina Roti,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-357,Missi Roti,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-358,Paratha Plain,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-359,Veg Item. Schezwan Noodles,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-360,Hakka Noodles,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-361,Veg Manchurian,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-362,Paneer Manchurian,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-363,Vegetable Chow Mein,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-364,American Chopsuey,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-365,Singapori Chilli Noodles,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-366,Mushroom Manchurian.,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-367,Veg Schezwan,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-368,Veg Hot Garlic Sauce,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-369,Paneer Schezwan,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-370,Cream Of Tomato Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-371,Veg Item. Cream Of Brocolli,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-372,Manchow Soup.,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-373,Manchow Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-374,Tomyum Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-375,Wonton Noodle Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-376,Sweet Corn Soup,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-377,Spinach Soup,197,197.0051678636547,high,manual_review
+shree krishna veg es,ac4ec427-378,Wonton Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-379,Cream Of Mashroom Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-380,Cream Of Veg Soup,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-381,Lemon Coriander Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-382,Vegetable Clear Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-383,Hot & Sour Soup,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-384,Multani Mushroom,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-385,Peri Peri Tikka Paneer,242,242.3113252808064,high,manual_review
+shree krishna veg es,ac4ec427-386,Reshmi Tikka,180,180.4022024350751,high,manual_review
+shree krishna veg es,ac4ec427-387,Paneer Angara........,218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-388,Hara Bhara Kebab,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-389,"Paneer Akbari, Malai Kebab (Sweet)",218,217.7053222501472,high,manual_review
+shree krishna veg es,ac4ec427-390,Veg Seekh Kabab,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-391,Baby Corn Tandoor,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-392,Gadbad,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-393,Dry Fruit Falooda,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-394,Sp. Falooda Kesar Kulfi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-395,Special Fruit Salad,158,158.29127170346692,high,manual_review
+shree krishna veg es,ac4ec427-396,Fruit Plate With Cream,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-397,Special Fruit Salad With Icecream,158,158.29127170346692,high,manual_review
+shree krishna veg es,ac4ec427-398,Mango Mastani,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-399,Jelly With Ice Cream,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-400,Fruit Salad,158,158.29127170346692,high,manual_review
+shree krishna veg es,ac4ec427-401,Gulab Jamun (2 Pcs),189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-402,Sizzling Brownie,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-403,Fruit Jelly,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-404,Banana Boat,170,170.02089129614987,high,manual_review
+shree krishna veg es,ac4ec427-405,Spl. Mastani (Mango),189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-406,Spl. Mastani (Strawberry).,179,178.65926406475674,high,manual_review
+shree krishna veg es,ac4ec427-407,Schezwan Garlic Fried Rice,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-408,Triple Schezwan Rice...,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-409,Triple Manchurian Rice,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-410,Burnt Garlic Fried Rice.,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-411,Singapore Fried Rice...,182,182.40524485465272,high,manual_review
+shree krishna veg es,ac4ec427-412,Dal Tadka,176,176.2319212523665,high,manual_review
+shree krishna veg es,ac4ec427-413,Dal Kolhapuri Tadka,175,174.6910808060491,high,manual_review
+shree krishna veg es,ac4ec427-414,Dal Makkhani,173,172.74079288325603,high,manual_review
+shree krishna veg es,ac4ec427-415,Dhabewali Dal,173,172.74079288325603,high,manual_review
+shree krishna veg es,ac4ec427-416,Dal Palak,184,184.1669834182779,high,manual_review
+shree krishna veg es,ac4ec427-417,Dal Fry,173,172.74079288325603,high,manual_review
+shree krishna veg es,ac4ec427-418,Paneer Chilly Grilled S/W,234,233.52088175011804,high,manual_review
+shree krishna veg es,ac4ec427-419,Bombay Grill S/W,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-420,Veg Sandwich,196,196.1209971134754,high,manual_review
+shree krishna veg es,ac4ec427-421,Veg Grill S/W,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-422,Cheese Grill S/W,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-423,Tomato Omelette Toast S/W,178,177.8189192854113,high,manual_review
+shree krishna veg es,ac4ec427-424,Jam Toast,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-425,Toast Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-426,Bread Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-427,Jam Butter,197,197.31808783195584,high,manual_review
+shree krishna veg es,ac4ec427-428,Bread Slice 2 Pcs,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-429,Cheese Corn Grill S/W,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-430,Mashroom Corn Grill S/W,168,167.7604752453036,high,manual_review
+shree krishna veg es,ac4ec427-431,Veg Fingers,199,199.0912970828267,high,manual_review
+shree krishna veg es,ac4ec427-432,Masala Fries,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-433,Potato Cheese Pops,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-434,Cheese Garlic Bread,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-435,Aloo Tikki,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-436,Plain Fries,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-437,Chocolate,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-438,Strawberry,179,178.65926406475674,high,manual_review
+shree krishna veg es,ac4ec427-439,Butterscotch,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-440,Vanilla,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-441,Matka Kulfi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-442,Malai Kulfi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-443,Cassatta,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-444,Stick Kulfi,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-445,Kesar Pista,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-446,Pineapple Kaitha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-447,Boondi Kaitha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-448,Subz Raitha,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-449,Curd,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-450,Masala Papad,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-451,Cheese Masala Papad,181,181.1403033035112,high,manual_review
+shree krishna veg es,ac4ec427-452,Fry Papad.,189,188.69778242687508,high,manual_review
+shree krishna veg es,ac4ec427-453,Roasted Papad,207,207.15934848547852,high,manual_review
+shree krishna veg es,ac4ec427-454,Green Salad,178,177.6162903955153,high,manual_review
