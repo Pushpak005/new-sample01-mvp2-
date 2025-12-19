@@ -1,0 +1,5 @@
+index,vendor_id,vendor_name,item_count,items_with_nutrition_count,percent_with_nutrition,avg_calories,median_calories,min_calories,max_calories,sum_protein,avg_protein,price_avg,price_median,price_stddev,cheap_pct,medium_pct,expensive_pct,missing_nutrition_flag,duplicated_vendor_flag
+0,3264c85c,swad gomantak,150,2,1.33,320.0,320.0,260.0,380.0,38.0,19.0,410.7133333333333,425.0,204.89212537944348,6.67,24.67,68.67,False,False
+1,51ef1dc9,healthybee,90,2,2.22,250.0,250.0,180.0,320.0,21.0,10.5,225.17777777777778,220.0,73.61768500549334,5.56,82.22,12.22,False,False
+2,991883c1,shree krishna veg,1,1,100.0,160.0,160.0,160.0,160.0,11.0,11.0,120.0,120.0,,0.0,100.0,0.0,False,False
+3,ac4ec427,shree krishna veg es,219,0,0.0,,,,,0.0,,252.3744292237443,280.0,91.3033882226404,9.59,45.21,45.21,True,False

@@ -1,0 +1,2 @@
+::ffff:127.0.0.1 - - [15/Dec/2025 14:00:48] "GET /data/vendor_menus.json HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [15/Dec/2025 14:00:55] "GET /data/wearable_stream.json HTTP/1.1" 200 -

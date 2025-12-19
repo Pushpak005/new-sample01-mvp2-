@@ -1,6 +1,60 @@
-backend.log
-demo/fast-start/backend.bak
-demo/fast-start/backend/pom.xml.bak
-demo/fast-start/backend/pom.xml.bak2
-demo/fast-start/backend/pom.xmly
+# Python / dev
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+
+# Logs / temp
+*.log
+tmp_*
+*.bak
+
+# Env files
+.env
+.env.* 
+
+# Build/test
+.coverage
+pytest_cache/
+
+# Data and model artifacts (don't commit large binaries)
+data/*.parquet
+data/*.parquet.*
+models/*.joblib
+data/backups/
+
+# Editor
+.vscode/
+.idea/
+# project safe ignores
+data/backups/
+models/*.joblib
+data/*.parquet
+tmp_*
+
+# dev / env
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# logs / temp
+*.log
+tmp/
+docs/old_md/duplicates/
+.venv/
+node_modules/
 demo/fast-start/backend/target/
+tmp/
+data/backups/

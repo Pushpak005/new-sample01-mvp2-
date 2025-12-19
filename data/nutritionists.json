@@ -1,0 +1,16 @@
+[
+  {
+    "id": "n1",
+    "name": "Dr. Asha Rao",
+    "title": "Clinical Nutritionist",
+    "contact": "asha.rao@example.com",
+    "available": true
+  },
+  {
+    "id": "n2",
+    "name": "Mr. Rohit Sharma",
+    "title": "Dietitian",
+    "contact": "rohit.sharma@example.com",
+    "available": false
+  }
+]
