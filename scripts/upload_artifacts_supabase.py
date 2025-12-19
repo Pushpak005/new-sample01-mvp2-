@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 """
+Upload selected artifacts (models, CSV reports) to a Supabase storage bucket.
+Requires: pip install supabase
+Environment variables:
+  SUPABASE_URL
+  SUPABASE_SERVICE_KEY   (use service role key on server side)
+Bucket name: 'artifacts' (create this in Supabase first)
+"""
+from pathlib import Path
 Upload artifacts with timestamped filenames to Supabase storage (keeps history).
 Requires: pip install supabase
 Env:
@@ -14,6 +22,7 @@ import os, sys
 try:
     from supabase import create_client
 except Exception:
+    print("supabase package not installed. Run: pip install supabase")
     print("Install supabase: pip install supabase")
     sys.exit(1)
 
@@ -23,6 +32,16 @@ if not SUPABASE_URL or not SUPABASE_KEY:
     print("Set SUPABASE_URL and SUPABASE_SERVICE_KEY environment variables")
     sys.exit(1)
 
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+bucket = "artifacts"
+
+def upload_file(p: Path, dest_name: str):
+    print(f"Uploading {p} -> {dest_name}")
+    with p.open("rb") as fh:
+        res = supabase.storage.from_(bucket).upload(dest_name, fh)
+    print("Upload result:", res)
+
+# Files to upload (adjust as needed)
 # normalize trailing slash
 if not SUPABASE_URL.endswith("/"):
     SUPABASE_URL = SUPABASE_URL + "/"
@@ -45,6 +64,7 @@ candidates = [
 
 for p in candidates:
     if p.exists():
+        upload_file(p, p.name)
         dest = ts_name(p)
         print(f"Uploading {p} -> {dest}")
         with p.open("rb") as fh:
