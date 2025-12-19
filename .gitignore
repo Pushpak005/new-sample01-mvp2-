@@ -53,3 +53,8 @@ venv/
 *.log
 tmp/
 docs/old_md/duplicates/
+.venv/
+node_modules/
+demo/fast-start/backend/target/
+tmp/
+data/backups/
