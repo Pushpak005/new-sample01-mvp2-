@@ -12,6 +12,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Log in to GHCR
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GHCR_PAT }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v4
+        with:
+          context: demo/fast-start/backend
+          file: demo/fast-start/backend/Dockerfile
+          push: true
+          tags: ghcr.io/pushpak005/new-sample-backend:latest
+
+      - uses: actions/checkout@v4
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
 
